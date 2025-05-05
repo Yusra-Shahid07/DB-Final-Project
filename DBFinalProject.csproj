@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{82F1B839-30AD-44F1-B84A-ADCE94ABE596}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DBFinalProject</RootNamespace>
+    <AssemblyName>DBFinalProject</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Addcampaign.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Addcampaign.Designer.cs">
+      <DependentUpon>Addcampaign.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddDonar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddDonar.Designer.cs">
+      <DependentUpon>AddDonar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addDonation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addDonation.Designer.cs">
+      <DependentUpon>addDonation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddEvent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddEvent.Designer.cs">
+      <DependentUpon>AddEvent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="campaignNames.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="campaignNames.Designer.cs">
+      <DependentUpon>campaignNames.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Campaigns.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Campaigns.Designer.cs">
+      <DependentUpon>Campaigns.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Donars.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Donars.Designer.cs">
+      <DependentUpon>Donars.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Donations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Donations.Designer.cs">
+      <DependentUpon>Donations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Events.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Events.Designer.cs">
+      <DependentUpon>Events.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LeadDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LeadDashboard.Designer.cs">
+      <DependentUpon>LeadDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="signin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="signin.Designer.cs">
+      <DependentUpon>signin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="signup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="signup.Designer.cs">
+      <DependentUpon>signup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VolunteerDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VolunteerDashboard.Designer.cs">
+      <DependentUpon>VolunteerDashboard.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Addcampaign.resx">
+      <DependentUpon>Addcampaign.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddDonar.resx">
+      <DependentUpon>AddDonar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addDonation.resx">
+      <DependentUpon>addDonation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddEvent.resx">
+      <DependentUpon>AddEvent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="campaignNames.resx">
+      <DependentUpon>campaignNames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Campaigns.resx">
+      <DependentUpon>Campaigns.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Donars.resx">
+      <DependentUpon>Donars.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Donations.resx">
+      <DependentUpon>Donations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Events.resx">
+      <DependentUpon>Events.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LeadDashboard.resx">
+      <DependentUpon>LeadDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="signin.resx">
+      <DependentUpon>signin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="signup.resx">
+      <DependentUpon>signup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VolunteerDashboard.resx">
+      <DependentUpon>VolunteerDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
