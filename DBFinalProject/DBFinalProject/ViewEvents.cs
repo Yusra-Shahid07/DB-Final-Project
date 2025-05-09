@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace DBFinalProject
 {
-    public partial class LeadDashboard : Form
+    public partial class ViewEvents : Form
     {
-        public LeadDashboard()
+        public ViewEvents()
         {
             InitializeComponent();
-        }
-
-        private void button12_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

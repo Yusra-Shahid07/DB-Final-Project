@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace DBFinalProject
 {
-    public partial class VolunteerDashboard : Form
+    public partial class MemberTasks : Form
     {
-        public VolunteerDashboard()
+        public MemberTasks()
         {
             InitializeComponent();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void MemberTasks_Load(object sender, EventArgs e)
         {
 
         }

@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(signup));
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.FullName = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -38,12 +38,12 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.Email = new System.Windows.Forms.TextBox();
+            this.Phone = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.Username = new System.Windows.Forms.TextBox();
+            this.Password = new System.Windows.Forms.TextBox();
+            this.Role = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -61,14 +61,14 @@
             this.button1.Text = "SIGN UP";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // FullName
             // 
-            this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox1.Location = new System.Drawing.Point(145, 310);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(307, 23);
-            this.textBox1.TabIndex = 18;
+            this.FullName.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.FullName.Location = new System.Drawing.Point(145, 310);
+            this.FullName.Multiline = true;
+            this.FullName.Name = "FullName";
+            this.FullName.Size = new System.Drawing.Size(307, 23);
+            this.FullName.TabIndex = 18;
             // 
             // label4
             // 
@@ -157,23 +157,23 @@
             this.label8.TabIndex = 35;
             this.label8.Text = "✉️Email";
             // 
-            // textBox2
+            // Email
             // 
-            this.textBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox2.Location = new System.Drawing.Point(144, 356);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(308, 23);
-            this.textBox2.TabIndex = 36;
+            this.Email.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Email.Location = new System.Drawing.Point(144, 356);
+            this.Email.Multiline = true;
+            this.Email.Name = "Email";
+            this.Email.Size = new System.Drawing.Size(308, 23);
+            this.Email.TabIndex = 36;
             // 
-            // textBox3
+            // Phone
             // 
-            this.textBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox3.Location = new System.Drawing.Point(144, 406);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(308, 23);
-            this.textBox3.TabIndex = 37;
+            this.Phone.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Phone.Location = new System.Drawing.Point(144, 406);
+            this.Phone.Multiline = true;
+            this.Phone.Name = "Phone";
+            this.Phone.Size = new System.Drawing.Size(308, 23);
+            this.Phone.TabIndex = 37;
             // 
             // label9
             // 
@@ -187,31 +187,31 @@
             this.label9.TabIndex = 38;
             this.label9.Text = "👤Username";
             // 
-            // textBox4
+            // Username
             // 
-            this.textBox4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox4.Location = new System.Drawing.Point(144, 448);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(308, 23);
-            this.textBox4.TabIndex = 39;
+            this.Username.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Username.Location = new System.Drawing.Point(144, 448);
+            this.Username.Multiline = true;
+            this.Username.Name = "Username";
+            this.Username.Size = new System.Drawing.Size(308, 23);
+            this.Username.TabIndex = 39;
             // 
-            // textBox5
+            // Password
             // 
-            this.textBox5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox5.Location = new System.Drawing.Point(144, 494);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(308, 23);
-            this.textBox5.TabIndex = 40;
+            this.Password.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Password.Location = new System.Drawing.Point(144, 494);
+            this.Password.Multiline = true;
+            this.Password.Name = "Password";
+            this.Password.Size = new System.Drawing.Size(308, 23);
+            this.Password.TabIndex = 40;
             // 
-            // comboBox1
+            // Role
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(146, 540);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(306, 24);
-            this.comboBox1.TabIndex = 41;
+            this.Role.FormattingEnabled = true;
+            this.Role.Location = new System.Drawing.Point(146, 540);
+            this.Role.Name = "Role";
+            this.Role.Size = new System.Drawing.Size(306, 24);
+            this.Role.TabIndex = 41;
             // 
             // label5
             // 
@@ -240,16 +240,16 @@
             this.ClientSize = new System.Drawing.Size(587, 781);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.Role);
+            this.Controls.Add(this.Password);
+            this.Controls.Add(this.Username);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.Phone);
+            this.Controls.Add(this.Email);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.FullName);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label3);
@@ -265,7 +265,7 @@
 
         #endregion
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox FullName;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
@@ -273,12 +273,12 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox Email;
+        private System.Windows.Forms.TextBox Phone;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox Username;
+        private System.Windows.Forms.TextBox Password;
+        private System.Windows.Forms.ComboBox Role;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }

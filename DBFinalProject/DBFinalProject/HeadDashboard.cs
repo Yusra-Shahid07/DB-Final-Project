@@ -10,14 +10,19 @@ using System.Windows.Forms;
 
 namespace DBFinalProject
 {
-    public partial class LeadDashboard : Form
+    public partial class HeadDashboard : Form
     {
-        public LeadDashboard()
+        public HeadDashboard()
         {
             InitializeComponent();
         }
 
-        private void button12_Click(object sender, EventArgs e)
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
         {
 
         }

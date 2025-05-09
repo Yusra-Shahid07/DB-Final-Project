@@ -76,6 +76,12 @@
     <Compile Include="campaignNames.Designer.cs">
       <DependentUpon>campaignNames.cs</DependentUpon>
     </Compile>
+    <Compile Include="CampaignRequest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CampaignRequest.Designer.cs">
+      <DependentUpon>CampaignRequest.cs</DependentUpon>
+    </Compile>
     <Compile Include="Campaigns.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,11 +106,41 @@
     <Compile Include="Events.Designer.cs">
       <DependentUpon>Events.cs</DependentUpon>
     </Compile>
+    <Compile Include="GiveFeedback.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GiveFeedback.Designer.cs">
+      <DependentUpon>GiveFeedback.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JoinCampaign.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JoinCampaign.Designer.cs">
+      <DependentUpon>JoinCampaign.cs</DependentUpon>
+    </Compile>
     <Compile Include="LeadDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="LeadDashboard.Designer.cs">
       <DependentUpon>LeadDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Member Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Member Dashboard.Designer.cs">
+      <DependentUpon>Member Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemberTasks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemberTasks.Designer.cs">
+      <DependentUpon>MemberTasks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegisterMember.Designer.cs">
+      <DependentUpon>RegisterMember.cs</DependentUpon>
     </Compile>
     <Compile Include="signin.cs">
       <SubType>Form</SubType>
@@ -120,11 +156,17 @@
     <Compile Include="signup.Designer.cs">
       <DependentUpon>signup.cs</DependentUpon>
     </Compile>
-    <Compile Include="VolunteerDashboard.cs">
+    <Compile Include="HeadDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="VolunteerDashboard.Designer.cs">
-      <DependentUpon>VolunteerDashboard.cs</DependentUpon>
+    <Compile Include="HeadDashboard.Designer.cs">
+      <DependentUpon>HeadDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewEvents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewEvents.Designer.cs">
+      <DependentUpon>ViewEvents.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Addcampaign.resx">
       <DependentUpon>Addcampaign.cs</DependentUpon>
@@ -141,6 +183,9 @@
     <EmbeddedResource Include="campaignNames.resx">
       <DependentUpon>campaignNames.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CampaignRequest.resx">
+      <DependentUpon>CampaignRequest.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Campaigns.resx">
       <DependentUpon>Campaigns.cs</DependentUpon>
     </EmbeddedResource>
@@ -153,8 +198,23 @@
     <EmbeddedResource Include="Events.resx">
       <DependentUpon>Events.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GiveFeedback.resx">
+      <DependentUpon>GiveFeedback.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JoinCampaign.resx">
+      <DependentUpon>JoinCampaign.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LeadDashboard.resx">
       <DependentUpon>LeadDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Member Dashboard.resx">
+      <DependentUpon>Member Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemberTasks.resx">
+      <DependentUpon>MemberTasks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegisterMember.resx">
+      <DependentUpon>RegisterMember.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="signin.resx">
       <DependentUpon>signin.cs</DependentUpon>
@@ -171,8 +231,11 @@
     <EmbeddedResource Include="signup.resx">
       <DependentUpon>signup.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="VolunteerDashboard.resx">
-      <DependentUpon>VolunteerDashboard.cs</DependentUpon>
+    <EmbeddedResource Include="HeadDashboard.resx">
+      <DependentUpon>HeadDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewEvents.resx">
+      <DependentUpon>ViewEvents.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
