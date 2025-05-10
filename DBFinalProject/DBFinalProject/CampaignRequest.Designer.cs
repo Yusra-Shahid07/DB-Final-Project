@@ -32,24 +32,18 @@
             this.button8 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.CampaignCycle = new System.Windows.Forms.ComboBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.UserID = new System.Windows.Forms.ComboBox();
+            this.VolunteerID = new System.Windows.Forms.ComboBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.SubmittedID = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.RequestStatus = new System.Windows.Forms.ComboBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -58,24 +52,26 @@
             this.button8.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button8.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.button8.Location = new System.Drawing.Point(597, 565);
+            this.button8.Location = new System.Drawing.Point(582, 469);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(98, 39);
             this.button8.TabIndex = 238;
             this.button8.Text = "Submit";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button7
             // 
             this.button7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button7.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.button7.Location = new System.Drawing.Point(701, 565);
+            this.button7.Location = new System.Drawing.Point(686, 469);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(97, 39);
             this.button7.TabIndex = 237;
             this.button7.Text = "Cancel";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // label3
             // 
@@ -88,80 +84,6 @@
             this.label3.Size = new System.Drawing.Size(158, 23);
             this.label3.TabIndex = 236;
             this.label3.Text = "Join Campaign";
-            // 
-            // button6
-            // 
-            this.button6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button6.BackColor = System.Drawing.Color.Thistle;
-            this.button6.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.button6.Location = new System.Drawing.Point(53, 459);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(198, 56);
-            this.button6.TabIndex = 235;
-            this.button6.Text = "Join Campaigns";
-            this.button6.UseVisualStyleBackColor = false;
-            // 
-            // button5
-            // 
-            this.button5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button5.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.button5.Location = new System.Drawing.Point(53, 583);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(198, 56);
-            this.button5.TabIndex = 234;
-            this.button5.Text = "Logout";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button3.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.button3.Location = new System.Drawing.Point(53, 335);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(198, 56);
-            this.button3.TabIndex = 233;
-            this.button3.Text = "Tasks";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button2.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.button2.Location = new System.Drawing.Point(53, 397);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(198, 56);
-            this.button2.TabIndex = 232;
-            this.button2.Text = "View Events";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button4.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.button4.Location = new System.Drawing.Point(53, 521);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(198, 56);
-            this.button4.TabIndex = 231;
-            this.button4.Text = "GIve FeedBack";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.button1.Location = new System.Drawing.Point(53, 273);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(198, 56);
-            this.button1.TabIndex = 230;
-            this.button1.Text = "Register";
-            this.button1.UseVisualStyleBackColor = false;
             // 
             // label1
             // 
@@ -183,7 +105,7 @@
             this.pictureBox1.ImageLocation = "\"C:\\Users\\Imran Shaikh\\Downloads\\WhatsApp_Image_2023-10-16_at_4.43.13_PM-removebg" +
     "-preview (1).png\"";
             this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(53, 36);
+            this.pictureBox1.Location = new System.Drawing.Point(28, 37);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(213, 176);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -193,25 +115,20 @@
             // CampaignCycle
             // 
             this.CampaignCycle.FormattingEnabled = true;
-            this.CampaignCycle.Location = new System.Drawing.Point(549, 427);
+            this.CampaignCycle.Location = new System.Drawing.Point(527, 377);
             this.CampaignCycle.Name = "CampaignCycle";
             this.CampaignCycle.Size = new System.Drawing.Size(306, 24);
             this.CampaignCycle.TabIndex = 266;
+            this.CampaignCycle.SelectedIndexChanged += new System.EventHandler(this.CampaignCycle_SelectedIndexChanged);
             // 
-            // dateTimePicker1
+            // VolunteerID
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(551, 380);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(304, 22);
-            this.dateTimePicker1.TabIndex = 264;
-            // 
-            // UserID
-            // 
-            this.UserID.FormattingEnabled = true;
-            this.UserID.Location = new System.Drawing.Point(549, 474);
-            this.UserID.Name = "UserID";
-            this.UserID.Size = new System.Drawing.Size(306, 24);
-            this.UserID.TabIndex = 262;
+            this.VolunteerID.FormattingEnabled = true;
+            this.VolunteerID.Location = new System.Drawing.Point(526, 424);
+            this.VolunteerID.Name = "VolunteerID";
+            this.VolunteerID.Size = new System.Drawing.Size(306, 24);
+            this.VolunteerID.TabIndex = 262;
+            this.VolunteerID.SelectedIndexChanged += new System.EventHandler(this.UserID_SelectedIndexChanged);
             // 
             // label9
             // 
@@ -219,44 +136,12 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label9.Location = new System.Drawing.Point(548, 408);
+            this.label9.Location = new System.Drawing.Point(526, 358);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(119, 17);
+            this.label9.Size = new System.Drawing.Size(141, 17);
             this.label9.TabIndex = 260;
-            this.label9.Text = "Campaign Cycle";
-            // 
-            // SubmittedID
-            // 
-            this.SubmittedID.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.SubmittedID.Location = new System.Drawing.Point(551, 336);
-            this.SubmittedID.Multiline = true;
-            this.SubmittedID.Name = "SubmittedID";
-            this.SubmittedID.Size = new System.Drawing.Size(308, 23);
-            this.SubmittedID.TabIndex = 259;
-            // 
-            // label6
-            // 
-            this.label6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label6.Location = new System.Drawing.Point(548, 316);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(72, 17);
-            this.label6.TabIndex = 257;
-            this.label6.Text = "Full Name";
-            // 
-            // label4
-            // 
-            this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label4.Location = new System.Drawing.Point(548, 360);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(70, 17);
-            this.label4.TabIndex = 255;
-            this.label4.Text = "Join Date";
+            this.label9.Text = "📢Campaign Name";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // label2
             // 
@@ -264,34 +149,86 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(548, 454);
+            this.label2.Location = new System.Drawing.Point(526, 404);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 17);
+            this.label2.Size = new System.Drawing.Size(105, 17);
             this.label2.TabIndex = 254;
-            this.label2.Text = "UserID";
+            this.label2.Text = "👤Volunteer ID";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // label5
+            // button1
             // 
-            this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label5.Location = new System.Drawing.Point(546, 501);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(101, 17);
-            this.label5.TabIndex = 267;
-            this.label5.Text = "Request Status";
+            this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.button1.Location = new System.Drawing.Point(28, 274);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(198, 56);
+            this.button1.TabIndex = 230;
+            this.button1.Text = "My Profile";
+            this.button1.UseVisualStyleBackColor = false;
             // 
-            // RequestStatus
+            // button4
             // 
-            this.RequestStatus.FormattingEnabled = true;
-            this.RequestStatus.Items.AddRange(new object[] {
-            "Pending ",
-            "Accepted"});
-            this.RequestStatus.Location = new System.Drawing.Point(549, 521);
-            this.RequestStatus.Name = "RequestStatus";
-            this.RequestStatus.Size = new System.Drawing.Size(306, 24);
-            this.RequestStatus.TabIndex = 268;
+            this.button4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button4.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.button4.Location = new System.Drawing.Point(28, 522);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(198, 56);
+            this.button4.TabIndex = 231;
+            this.button4.Text = "GIve FeedBack";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button2.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.button2.Location = new System.Drawing.Point(28, 398);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(198, 56);
+            this.button2.TabIndex = 232;
+            this.button2.Text = "View Events";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button3.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.button3.Location = new System.Drawing.Point(28, 336);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(198, 56);
+            this.button3.TabIndex = 233;
+            this.button3.Text = "Tasks";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button5.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.button5.Location = new System.Drawing.Point(28, 584);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(198, 56);
+            this.button5.TabIndex = 234;
+            this.button5.Text = "Logout";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button6.BackColor = System.Drawing.Color.Thistle;
+            this.button6.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.button6.Location = new System.Drawing.Point(28, 460);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(198, 56);
+            this.button6.TabIndex = 235;
+            this.button6.Text = "Join Campaigns";
+            this.button6.UseVisualStyleBackColor = false;
             // 
             // CampaignRequest
             // 
@@ -299,15 +236,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(1109, 706);
-            this.Controls.Add(this.RequestStatus);
-            this.Controls.Add(this.label5);
             this.Controls.Add(this.CampaignCycle);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.UserID);
+            this.Controls.Add(this.VolunteerID);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.SubmittedID);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
@@ -332,23 +263,17 @@
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.ComboBox CampaignCycle;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.ComboBox UserID;
+        private System.Windows.Forms.ComboBox VolunteerID;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox SubmittedID;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.ComboBox RequestStatus;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
     }
 }

@@ -127,7 +127,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(198, 56);
             this.button1.TabIndex = 207;
-            this.button1.Text = "Register";
+            this.button1.Text = "My Profile";
             this.button1.UseVisualStyleBackColor = false;
             // 
             // label1
@@ -160,11 +160,11 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(275, 281);
+            this.dataGridView1.Location = new System.Drawing.Point(275, 264);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(797, 366);
+            this.dataGridView1.Size = new System.Drawing.Size(797, 383);
             this.dataGridView1.TabIndex = 214;
             // 
             // button7

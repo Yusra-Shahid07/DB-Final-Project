@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace DBFinalProject
 {
-    public partial class Addcampaign : Form
+    public partial class ManageBeneficiaries : Form
     {
-        public Addcampaign()
+        public ManageBeneficiaries()
         {
             InitializeComponent();
-        }
-
-        private void Addcampaign_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

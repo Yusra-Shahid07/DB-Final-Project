@@ -46,11 +46,89 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Addcampaign.cs">
+    <Compile Include="AddDonationBeneficiary.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Addcampaign.Designer.cs">
-      <DependentUpon>Addcampaign.cs</DependentUpon>
+    <Compile Include="AddDonationBeneficiary.Designer.cs">
+      <DependentUpon>AddDonationBeneficiary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddEventCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddEventCategory.Designer.cs">
+      <DependentUpon>AddEventCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AidDistribution.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AidDistribution.Designer.cs">
+      <DependentUpon>AidDistribution.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AssignTasks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssignTasks.Designer.cs">
+      <DependentUpon>AssignTasks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Benefiaries.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Benefiaries.Designer.cs">
+      <DependentUpon>Benefiaries.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DonationBenefiaries.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DonationBenefiaries.Designer.cs">
+      <DependentUpon>DonationBenefiaries.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Edition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edition.Designer.cs">
+      <DependentUpon>Edition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExpenseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExpenseForm.Designer.cs">
+      <DependentUpon>ExpenseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddExpenses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddExpenses.Designer.cs">
+      <DependentUpon>AddExpenses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddCampaignBeneficiaries.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCampaignBeneficiaries.Designer.cs">
+      <DependentUpon>AddCampaignBeneficiaries.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForgotPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForgotPassword.Designer.cs">
+      <DependentUpon>ForgotPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForogtPassword2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForogtPassword2.Designer.cs">
+      <DependentUpon>ForogtPassword2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HeadEdition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HeadEdition.Designer.cs">
+      <DependentUpon>HeadEdition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LaunchCampaign.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LaunchCampaign.Designer.cs">
+      <DependentUpon>LaunchCampaign.cs</DependentUpon>
     </Compile>
     <Compile Include="AddDonar.cs">
       <SubType>Form</SubType>
@@ -69,6 +147,12 @@
     </Compile>
     <Compile Include="AddEvent.Designer.cs">
       <DependentUpon>AddEvent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ApproveVolunteer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApproveVolunteer.Designer.cs">
+      <DependentUpon>ApproveVolunteer.cs</DependentUpon>
     </Compile>
     <Compile Include="campaignNames.cs">
       <SubType>Form</SubType>
@@ -124,6 +208,18 @@
     <Compile Include="LeadDashboard.Designer.cs">
       <DependentUpon>LeadDashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="ManageBeneficiaries.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageBeneficiaries.Designer.cs">
+      <DependentUpon>ManageBeneficiaries.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageEventCategories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageEventCategories.Designer.cs">
+      <DependentUpon>ManageEventCategories.cs</DependentUpon>
+    </Compile>
     <Compile Include="Member Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -162,14 +258,89 @@
     <Compile Include="HeadDashboard.Designer.cs">
       <DependentUpon>HeadDashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="UpdateCampaign.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateCampaign.Designer.cs">
+      <DependentUpon>UpdateCampaign.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateCampaignBeneficiaries.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateCampaignBeneficiaries.Designer.cs">
+      <DependentUpon>UpdateCampaignBeneficiaries.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateDonationBeneficiaries.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateDonationBeneficiaries.Designer.cs">
+      <DependentUpon>UpdateDonationBeneficiaries.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateExpense.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateExpense.Designer.cs">
+      <DependentUpon>UpdateExpense.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VerifyDonations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VerifyDonations.Designer.cs">
+      <DependentUpon>VerifyDonations.cs</DependentUpon>
+    </Compile>
     <Compile Include="ViewEvents.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ViewEvents.Designer.cs">
       <DependentUpon>ViewEvents.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Addcampaign.resx">
-      <DependentUpon>Addcampaign.cs</DependentUpon>
+    <Compile Include="ViewFeedBack.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewFeedBack.Designer.cs">
+      <DependentUpon>ViewFeedBack.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddCampaignBeneficiaries.resx">
+      <DependentUpon>AddCampaignBeneficiaries.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddDonationBeneficiary.resx">
+      <DependentUpon>AddDonationBeneficiary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddEventCategory.resx">
+      <DependentUpon>AddEventCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AidDistribution.resx">
+      <DependentUpon>AidDistribution.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AssignTasks.resx">
+      <DependentUpon>AssignTasks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Benefiaries.resx">
+      <DependentUpon>Benefiaries.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DonationBenefiaries.resx">
+      <DependentUpon>DonationBenefiaries.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edition.resx">
+      <DependentUpon>Edition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExpenseForm.resx">
+      <DependentUpon>ExpenseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddExpenses.resx">
+      <DependentUpon>AddExpenses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForgotPassword.resx">
+      <DependentUpon>ForgotPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForogtPassword2.resx">
+      <DependentUpon>ForogtPassword2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeadEdition.resx">
+      <DependentUpon>HeadEdition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LaunchCampaign.resx">
+      <DependentUpon>LaunchCampaign.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AddDonar.resx">
       <DependentUpon>AddDonar.cs</DependentUpon>
@@ -179,6 +350,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AddEvent.resx">
       <DependentUpon>AddEvent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApproveVolunteer.resx">
+      <DependentUpon>ApproveVolunteer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="campaignNames.resx">
       <DependentUpon>campaignNames.cs</DependentUpon>
@@ -207,6 +381,12 @@
     <EmbeddedResource Include="LeadDashboard.resx">
       <DependentUpon>LeadDashboard.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ManageBeneficiaries.resx">
+      <DependentUpon>ManageBeneficiaries.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageEventCategories.resx">
+      <DependentUpon>ManageEventCategories.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Member Dashboard.resx">
       <DependentUpon>Member Dashboard.cs</DependentUpon>
     </EmbeddedResource>
@@ -234,8 +414,26 @@
     <EmbeddedResource Include="HeadDashboard.resx">
       <DependentUpon>HeadDashboard.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UpdateCampaign.resx">
+      <DependentUpon>UpdateCampaign.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateCampaignBeneficiaries.resx">
+      <DependentUpon>UpdateCampaignBeneficiaries.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateDonationBeneficiaries.resx">
+      <DependentUpon>UpdateDonationBeneficiaries.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateExpense.resx">
+      <DependentUpon>UpdateExpense.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VerifyDonations.resx">
+      <DependentUpon>VerifyDonations.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ViewEvents.resx">
       <DependentUpon>ViewEvents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewFeedBack.resx">
+      <DependentUpon>ViewFeedBack.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

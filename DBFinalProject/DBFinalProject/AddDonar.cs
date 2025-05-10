@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DBFinalProject.bl;
+using System.Xml.Linq;
 
 namespace DBFinalProject
 {
@@ -15,6 +17,38 @@ namespace DBFinalProject
         public AddDonar()
         {
             InitializeComponent();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            string name = fullname.Text.Trim();
+            string email = Email.Text.Trim();
+            string phone = Phone.Text.Trim();
+            DateTime date = dateTimePicker1.Value;
+            if (string.IsNullOrEmpty(name) || string.IsNullOrEmpty(email) || string.IsNullOrEmpty(phone))
+            {
+                MessageBox.Show("Please fill all fields.");
+                return;
+            }
+            if (!email.Contains("@") || !email.Contains("."))
+            {
+                MessageBox.Show("Invalid email format.");
+                return;
+            }
+            if (!phone.All(char.IsDigit) || phone.Length != 11)
+            {
+                MessageBox.Show("Phone must be 11 digits and numeric.");
+                return;
+            }
+            bool isInserted = DonorDL.InsertDonor(name, email, phone, date);
+            if (isInserted)
+            {
+                MessageBox.Show("Donor added successfully!");
+            }
+            else
+            {
+                MessageBox.Show("Failed to add donor.");
+            }
         }
     }
 }

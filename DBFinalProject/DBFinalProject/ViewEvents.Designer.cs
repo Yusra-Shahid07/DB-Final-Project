@@ -150,7 +150,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(198, 56);
             this.button1.TabIndex = 219;
-            this.button1.Text = "Register";
+            this.button1.Text = "My Profile";
             this.button1.UseVisualStyleBackColor = false;
             // 
             // label1

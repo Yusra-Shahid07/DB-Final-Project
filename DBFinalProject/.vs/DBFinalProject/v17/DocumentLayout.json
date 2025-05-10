@@ -1,74 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Imran Shaikh\\OneDrive\\Desktop\\DBFinalProject\\",
+  "WorkspaceRootPath": "D:\\Programming Fundamentals\\DBS25P111\\DB-Final\\DBFinalProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|c:\\users\\imran shaikh\\onedrive\\desktop\\dbfinalproject\\dbfinalproject\\registermember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\registermember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|c:\\users\\imran shaikh\\onedrive\\desktop\\dbfinalproject\\dbfinalproject\\campaignrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\campaignrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|c:\\users\\imran shaikh\\onedrive\\desktop\\dbfinalproject\\dbfinalproject\\givefeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\givefeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|c:\\users\\imran shaikh\\onedrive\\desktop\\dbfinalproject\\dbfinalproject\\joincampaign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\joincampaign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|c:\\users\\imran shaikh\\onedrive\\desktop\\dbfinalproject\\dbfinalproject\\viewevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\viewevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|c:\\users\\imran shaikh\\onedrive\\desktop\\dbfinalproject\\dbfinalproject\\membertasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\membertasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\Imran Shaikh\\OneDrive\\Desktop\\DBFinalProject\\dbfinalproject\\member dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\member dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\Imran Shaikh\\OneDrive\\Desktop\\DBFinalProject\\dbfinalproject\\leaddashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\leaddashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|c:\\users\\imran shaikh\\onedrive\\desktop\\dbfinalproject\\dbfinalproject\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|d:\\programming fundamentals\\dbs25p111\\db-final\\dbfinalproject\\dbfinalproject\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\Imran Shaikh\\OneDrive\\Desktop\\DBFinalProject\\dbfinalproject\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|D:\\Programming Fundamentals\\DBS25P111\\DB-Final\\DBFinalProject\\dbfinalproject\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\Imran Shaikh\\OneDrive\\Desktop\\DBFinalProject\\dbfinalproject\\campaignnames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\campaignnames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\Imran Shaikh\\OneDrive\\Desktop\\DBFinalProject\\dbfinalproject\\headdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\headdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\Imran Shaikh\\OneDrive\\Desktop\\DBFinalProject\\dbfinalproject\\leaddashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\leaddashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|c:\\users\\imran shaikh\\onedrive\\desktop\\dbfinalproject\\dbfinalproject\\joincampaign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\joincampaign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\Imran Shaikh\\OneDrive\\Desktop\\DBFinalProject\\dbfinalproject\\events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|c:\\users\\imran shaikh\\onedrive\\desktop\\dbfinalproject\\dbfinalproject\\membertasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\membertasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\Imran Shaikh\\OneDrive\\Desktop\\DBFinalProject\\dbfinalproject\\headdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\headdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,195 +30,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CampaignRequest.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Imran Shaikh\\OneDrive\\Desktop\\DBFinalProject\\DBFinalProject\\CampaignRequest.cs",
-              "RelativeDocumentMoniker": "DBFinalProject\\CampaignRequest.cs",
-              "ToolTip": "C:\\Users\\Imran Shaikh\\OneDrive\\Desktop\\DBFinalProject\\DBFinalProject\\CampaignRequest.cs [Design]",
-              "RelativeToolTip": "DBFinalProject\\CampaignRequest.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T15:03:23.258Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GiveFeedback.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Imran Shaikh\\OneDrive\\Desktop\\DBFinalProject\\DBFinalProject\\GiveFeedback.cs",
-              "RelativeDocumentMoniker": "DBFinalProject\\GiveFeedback.cs",
-              "ToolTip": "C:\\Users\\Imran Shaikh\\OneDrive\\Desktop\\DBFinalProject\\DBFinalProject\\GiveFeedback.cs [Design]",
-              "RelativeToolTip": "DBFinalProject\\GiveFeedback.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T13:46:04.2Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "JoinCampaign.cs",
-              "DocumentMoniker": "C:\\Users\\Imran Shaikh\\OneDrive\\Desktop\\DBFinalProject\\DBFinalProject\\JoinCampaign.cs",
-              "RelativeDocumentMoniker": "DBFinalProject\\JoinCampaign.cs",
-              "ToolTip": "C:\\Users\\Imran Shaikh\\OneDrive\\Desktop\\DBFinalProject\\DBFinalProject\\JoinCampaign.cs",
-              "RelativeToolTip": "DBFinalProject\\JoinCampaign.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T12:44:45.886Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "JoinCampaign.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Imran Shaikh\\OneDrive\\Desktop\\DBFinalProject\\DBFinalProject\\JoinCampaign.cs",
-              "RelativeDocumentMoniker": "DBFinalProject\\JoinCampaign.cs",
-              "ToolTip": "C:\\Users\\Imran Shaikh\\OneDrive\\Desktop\\DBFinalProject\\DBFinalProject\\JoinCampaign.cs [Design]",
-              "RelativeToolTip": "DBFinalProject\\JoinCampaign.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T12:32:40.723Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ViewEvents.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Imran Shaikh\\OneDrive\\Desktop\\DBFinalProject\\DBFinalProject\\ViewEvents.cs",
-              "RelativeDocumentMoniker": "DBFinalProject\\ViewEvents.cs",
-              "ToolTip": "C:\\Users\\Imran Shaikh\\OneDrive\\Desktop\\DBFinalProject\\DBFinalProject\\ViewEvents.cs [Design]",
-              "RelativeToolTip": "DBFinalProject\\ViewEvents.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T12:28:55.914Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "MemberTasks.cs",
-              "DocumentMoniker": "C:\\Users\\Imran Shaikh\\OneDrive\\Desktop\\DBFinalProject\\DBFinalProject\\MemberTasks.cs",
-              "RelativeDocumentMoniker": "DBFinalProject\\MemberTasks.cs",
-              "ToolTip": "C:\\Users\\Imran Shaikh\\OneDrive\\Desktop\\DBFinalProject\\DBFinalProject\\MemberTasks.cs",
-              "RelativeToolTip": "DBFinalProject\\MemberTasks.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T12:24:52.546Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MemberTasks.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Imran Shaikh\\OneDrive\\Desktop\\DBFinalProject\\DBFinalProject\\MemberTasks.cs",
-              "RelativeDocumentMoniker": "DBFinalProject\\MemberTasks.cs",
-              "ToolTip": "C:\\Users\\Imran Shaikh\\OneDrive\\Desktop\\DBFinalProject\\DBFinalProject\\MemberTasks.cs [Design]",
-              "RelativeToolTip": "DBFinalProject\\MemberTasks.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T12:23:22.335Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RegisterMember.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Imran Shaikh\\OneDrive\\Desktop\\DBFinalProject\\DBFinalProject\\RegisterMember.cs",
-              "RelativeDocumentMoniker": "DBFinalProject\\RegisterMember.cs",
-              "ToolTip": "C:\\Users\\Imran Shaikh\\OneDrive\\Desktop\\DBFinalProject\\DBFinalProject\\RegisterMember.cs [Design]",
-              "RelativeToolTip": "DBFinalProject\\RegisterMember.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T12:07:45.95Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "HeadDashboard.cs",
-              "DocumentMoniker": "C:\\Users\\Imran Shaikh\\OneDrive\\Desktop\\DBFinalProject\\DBFinalProject\\HeadDashboard.cs",
-              "RelativeDocumentMoniker": "DBFinalProject\\HeadDashboard.cs",
-              "ToolTip": "C:\\Users\\Imran Shaikh\\OneDrive\\Desktop\\DBFinalProject\\DBFinalProject\\HeadDashboard.cs",
-              "RelativeToolTip": "DBFinalProject\\HeadDashboard.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAADgvxoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T16:04:11.177Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LeadDashboard.cs",
-              "DocumentMoniker": "C:\\Users\\Imran Shaikh\\OneDrive\\Desktop\\DBFinalProject\\DBFinalProject\\LeadDashboard.cs",
-              "RelativeDocumentMoniker": "DBFinalProject\\LeadDashboard.cs",
-              "ToolTip": "C:\\Users\\Imran Shaikh\\OneDrive\\Desktop\\DBFinalProject\\DBFinalProject\\LeadDashboard.cs",
-              "RelativeToolTip": "DBFinalProject\\LeadDashboard.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T15:57:43.755Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Member Dashboard.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Imran Shaikh\\OneDrive\\Desktop\\DBFinalProject\\DBFinalProject\\Member Dashboard.cs",
-              "RelativeDocumentMoniker": "DBFinalProject\\Member Dashboard.cs",
-              "ToolTip": "C:\\Users\\Imran Shaikh\\OneDrive\\Desktop\\DBFinalProject\\DBFinalProject\\Member Dashboard.cs [Design]",
-              "RelativeToolTip": "DBFinalProject\\Member Dashboard.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T10:31:22.988Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "LeadDashboard.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Imran Shaikh\\OneDrive\\Desktop\\DBFinalProject\\DBFinalProject\\LeadDashboard.cs",
-              "RelativeDocumentMoniker": "DBFinalProject\\LeadDashboard.cs",
-              "ToolTip": "C:\\Users\\Imran Shaikh\\OneDrive\\Desktop\\DBFinalProject\\DBFinalProject\\LeadDashboard.cs [Design]",
-              "RelativeToolTip": "DBFinalProject\\LeadDashboard.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T15:35:13.043Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "HeadDashboard.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Imran Shaikh\\OneDrive\\Desktop\\DBFinalProject\\DBFinalProject\\HeadDashboard.cs",
-              "RelativeDocumentMoniker": "DBFinalProject\\HeadDashboard.cs",
-              "ToolTip": "C:\\Users\\Imran Shaikh\\OneDrive\\Desktop\\DBFinalProject\\DBFinalProject\\HeadDashboard.cs [Design]",
-              "RelativeToolTip": "DBFinalProject\\HeadDashboard.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T15:34:26.618Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Events.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Imran Shaikh\\OneDrive\\Desktop\\DBFinalProject\\DBFinalProject\\Events.cs",
-              "RelativeDocumentMoniker": "DBFinalProject\\Events.cs",
-              "ToolTip": "C:\\Users\\Imran Shaikh\\OneDrive\\Desktop\\DBFinalProject\\DBFinalProject\\Events.cs [Design]",
-              "RelativeToolTip": "DBFinalProject\\Events.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T15:22:57.902Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "campaignNames.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Imran Shaikh\\OneDrive\\Desktop\\DBFinalProject\\DBFinalProject\\campaignNames.cs",
-              "RelativeDocumentMoniker": "DBFinalProject\\campaignNames.cs",
-              "ToolTip": "C:\\Users\\Imran Shaikh\\OneDrive\\Desktop\\DBFinalProject\\DBFinalProject\\campaignNames.cs [Design]",
-              "RelativeToolTip": "DBFinalProject\\campaignNames.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T14:58:54.24Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "signup.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Imran Shaikh\\OneDrive\\Desktop\\DBFinalProject\\DBFinalProject\\signup.cs",
+              "DocumentMoniker": "D:\\Programming Fundamentals\\DBS25P111\\DB-Final\\DBFinalProject\\DBFinalProject\\signup.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\signup.cs",
-              "ToolTip": "C:\\Users\\Imran Shaikh\\OneDrive\\Desktop\\DBFinalProject\\DBFinalProject\\signup.cs [Design]",
+              "ToolTip": "D:\\Programming Fundamentals\\DBS25P111\\DB-Final\\DBFinalProject\\DBFinalProject\\signup.cs [Design]",
               "RelativeToolTip": "DBFinalProject\\signup.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-28T18:58:26.142Z",
@@ -286,15 +42,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "signin.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Imran Shaikh\\OneDrive\\Desktop\\DBFinalProject\\DBFinalProject\\signin.cs",
+              "DocumentMoniker": "D:\\Programming Fundamentals\\DBS25P111\\DB-Final\\DBFinalProject\\DBFinalProject\\signin.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\signin.cs",
               "ToolTip": "C:\\Users\\Imran Shaikh\\OneDrive\\Desktop\\DBFinalProject\\DBFinalProject\\signin.cs [Design]",
-              "RelativeToolTip": "DBFinalProject\\signin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T17:05:58.032Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-04-23T17:05:58.032Z"
             }
           ]
         }
