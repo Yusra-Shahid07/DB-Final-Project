@@ -30,7 +30,9 @@ namespace DBFinalProject
 
         private void button9_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            LeadDashboard leadDashboard = new LeadDashboard();
+            leadDashboard.Show();
         }
 
         private void AidDistribution_Load(object sender, EventArgs e)

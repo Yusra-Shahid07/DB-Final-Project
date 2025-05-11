@@ -10,6 +10,18 @@ namespace DBFinalProject.DL
 {
     public class EventDL
     {
+        public static int GetEventIdByName(string eventName)
+        {
+            string query = $"SELECT EventID FROM Event WHERE EventName = '{eventName}'";
+            object result = SQL_Helper.ExecuteScalor(query);
+
+            if (result != null && int.TryParse(result.ToString(), out int eventId))
+            {
+                return eventId;
+            }
+            return -1;
+        }
+
         public static void AddEvent(EventBL events)
         {
             string query = $"Insert into Event (EventName, EventDate, EditionID, Location, CategoryID) Values('{events.EventName}','{events.EventDate}','{events.EditionID}','{events.Location}','{events.CategoryID}') ;";

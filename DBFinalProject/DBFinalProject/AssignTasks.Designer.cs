@@ -179,6 +179,7 @@
             this.button9.TabIndex = 204;
             this.button9.Text = "Cancel";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // label4
             // 

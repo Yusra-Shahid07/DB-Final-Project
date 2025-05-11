@@ -26,5 +26,18 @@ namespace DBFinalProject
         {
 
         }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            AddEvent addEvent = new AddEvent();
+           
+            addEvent.Show();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

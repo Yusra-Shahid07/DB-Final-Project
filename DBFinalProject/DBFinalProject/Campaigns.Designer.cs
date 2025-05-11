@@ -142,6 +142,7 @@
             this.button10.TabIndex = 82;
             this.button10.Text = "Add";
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // button7
             // 
@@ -155,6 +156,7 @@
             this.button7.TabIndex = 83;
             this.button7.Text = "Back";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button8
             // 
@@ -181,6 +183,7 @@
             this.button9.TabIndex = 85;
             this.button9.Text = "Update";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button12
             // 

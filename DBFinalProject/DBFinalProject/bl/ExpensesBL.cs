@@ -14,23 +14,26 @@ namespace DBFinalProject.bl
         public string PaidTo { get; set; }
         public DateTime PaymentDate { get; set; }
         public string Description { get; set; }
+        public int EventID {  get; set; }
 
-        public ExpensesBL(int expenseID, string expenseCategory, decimal amount, string paidTo, DateTime paymentDate, string description)
+        //public ExpensesBL(int expenseID, string expenseCategory, decimal amount, string paidTo, DateTime paymentDate, string description)
+        //{
+        //    ExpenseID = expenseID;
+        //    ExpenseCategory = expenseCategory;
+        //    Amount = amount;
+        //    PaidTo = paidTo;
+        //    PaymentDate = paymentDate;
+        //    Description = description;
+        //}
+    
+        public ExpensesBL(string expenseCategory, decimal amount, string paidTo, DateTime paymentDate, string description,int eventid)
         {
-            ExpenseID = expenseID;
             ExpenseCategory = expenseCategory;
             Amount = amount;
             PaidTo = paidTo;
             PaymentDate = paymentDate;
             Description = description;
-        }
-        public ExpensesBL(string expenseCategory, decimal amount, string paidTo, DateTime paymentDate, string description)
-        {
-            ExpenseCategory = expenseCategory;
-            Amount = amount;
-            PaidTo = paidTo;
-            PaymentDate = paymentDate;
-            Description = description;
+            EventID = eventid;
         }
     }
 }

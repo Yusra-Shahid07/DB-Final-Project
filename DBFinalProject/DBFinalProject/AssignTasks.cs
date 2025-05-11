@@ -76,5 +76,12 @@ namespace DBFinalProject
             LoadVolunteerCombo();
             LoadAssignedByCombo();
         }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            LeadDashboard leadDashboard = new LeadDashboard();  
+            leadDashboard.Show();
+        }
     }
 }
