@@ -16,7 +16,7 @@ namespace DBFinalProject
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new signin());
+            Application.Run(new HeadDashboard());
         }
     }
 }

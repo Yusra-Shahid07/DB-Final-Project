@@ -60,9 +60,10 @@
             this.button8.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button8.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.button8.Location = new System.Drawing.Point(20, 526);
+            this.button8.Location = new System.Drawing.Point(22, 658);
+            this.button8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(192, 45);
+            this.button8.Size = new System.Drawing.Size(216, 56);
             this.button8.TabIndex = 232;
             this.button8.Text = "View Feedback";
             this.button8.UseVisualStyleBackColor = true;
@@ -72,9 +73,10 @@
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.button1.Location = new System.Drawing.Point(20, 458);
+            this.button1.Location = new System.Drawing.Point(22, 572);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(192, 62);
+            this.button1.Size = new System.Drawing.Size(216, 78);
             this.button1.TabIndex = 231;
             this.button1.Text = "Manage Event Categories";
             this.button1.UseVisualStyleBackColor = true;
@@ -84,9 +86,10 @@
             this.button6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button6.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.button6.Location = new System.Drawing.Point(20, 577);
+            this.button6.Location = new System.Drawing.Point(22, 721);
+            this.button6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(192, 42);
+            this.button6.Size = new System.Drawing.Size(216, 52);
             this.button6.TabIndex = 230;
             this.button6.Text = "View Reports";
             this.button6.UseVisualStyleBackColor = true;
@@ -96,9 +99,10 @@
             this.button5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button5.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.button5.Location = new System.Drawing.Point(20, 625);
+            this.button5.Location = new System.Drawing.Point(22, 781);
+            this.button5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(192, 44);
+            this.button5.Size = new System.Drawing.Size(216, 55);
             this.button5.TabIndex = 229;
             this.button5.Text = "Logout";
             this.button5.UseVisualStyleBackColor = true;
@@ -108,9 +112,10 @@
             this.button3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button3.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.button3.Location = new System.Drawing.Point(20, 289);
+            this.button3.Location = new System.Drawing.Point(22, 361);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(192, 56);
+            this.button3.Size = new System.Drawing.Size(216, 70);
             this.button3.TabIndex = 228;
             this.button3.Text = "Launch New Campaigns";
             this.button3.UseVisualStyleBackColor = true;
@@ -121,9 +126,10 @@
             this.button2.BackColor = System.Drawing.Color.Thistle;
             this.button2.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.button2.Location = new System.Drawing.Point(20, 402);
+            this.button2.Location = new System.Drawing.Point(22, 502);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(192, 50);
+            this.button2.Size = new System.Drawing.Size(216, 62);
             this.button2.TabIndex = 227;
             this.button2.Text = "Expenses";
             this.button2.UseVisualStyleBackColor = false;
@@ -134,9 +140,10 @@
             this.button4.BackColor = System.Drawing.Color.Transparent;
             this.button4.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.button4.Location = new System.Drawing.Point(20, 351);
+            this.button4.Location = new System.Drawing.Point(22, 439);
+            this.button4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(192, 45);
+            this.button4.Size = new System.Drawing.Size(216, 56);
             this.button4.TabIndex = 226;
             this.button4.Text = "Verify Donations";
             this.button4.UseVisualStyleBackColor = false;
@@ -147,9 +154,10 @@
             this.button9.BackColor = System.Drawing.Color.Transparent;
             this.button9.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.button9.Location = new System.Drawing.Point(20, 235);
+            this.button9.Location = new System.Drawing.Point(22, 294);
+            this.button9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(192, 48);
+            this.button9.Size = new System.Drawing.Size(216, 60);
             this.button9.TabIndex = 225;
             this.button9.Text = "Approve Volunteers";
             this.button9.UseVisualStyleBackColor = false;
@@ -162,9 +170,10 @@
             this.pictureBox1.ImageLocation = "\"C:\\Users\\Imran Shaikh\\Downloads\\WhatsApp_Image_2023-10-16_at_4.43.13_PM-removebg" +
     "-preview (1).png\"";
             this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(20, 18);
+            this.pictureBox1.Location = new System.Drawing.Point(22, 22);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(213, 176);
+            this.pictureBox1.Size = new System.Drawing.Size(240, 220);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 224;
             this.pictureBox1.TabStop = false;
@@ -175,9 +184,9 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label3.Location = new System.Drawing.Point(596, 123);
+            this.label3.Location = new System.Drawing.Point(670, 154);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(99, 23);
+            this.label3.Size = new System.Drawing.Size(119, 28);
             this.label3.TabIndex = 223;
             this.label3.Text = "Expenses";
             // 
@@ -187,17 +196,18 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(495, 69);
+            this.label1.Location = new System.Drawing.Point(557, 86);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(322, 44);
+            this.label1.Size = new System.Drawing.Size(398, 53);
             this.label1.TabIndex = 222;
             this.label1.Text = "Head Dashboard";
             // 
             // dateTimePicker2
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(518, 445);
+            this.dateTimePicker2.Location = new System.Drawing.Point(583, 556);
+            this.dateTimePicker2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(308, 22);
+            this.dateTimePicker2.Size = new System.Drawing.Size(346, 26);
             this.dateTimePicker2.TabIndex = 256;
             // 
             // label9
@@ -206,9 +216,9 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label9.Location = new System.Drawing.Point(516, 425);
+            this.label9.Location = new System.Drawing.Point(580, 531);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(119, 17);
+            this.label9.Size = new System.Drawing.Size(146, 21);
             this.label9.TabIndex = 255;
             this.label9.Text = "📅Payment Date";
             // 
@@ -218,9 +228,9 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(526, 379);
+            this.label2.Location = new System.Drawing.Point(592, 474);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(73, 17);
+            this.label2.Size = new System.Drawing.Size(88, 21);
             this.label2.TabIndex = 251;
             this.label2.Text = "💰Paid To";
             // 
@@ -229,21 +239,24 @@
             this.button7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button7.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.button7.Location = new System.Drawing.Point(569, 550);
+            this.button7.Location = new System.Drawing.Point(640, 688);
+            this.button7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(99, 33);
+            this.button7.Size = new System.Drawing.Size(111, 41);
             this.button7.TabIndex = 250;
             this.button7.Text = "Add";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button10
             // 
             this.button10.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button10.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.button10.Location = new System.Drawing.Point(684, 550);
+            this.button10.Location = new System.Drawing.Point(770, 688);
+            this.button10.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(99, 33);
+            this.button10.Size = new System.Drawing.Size(111, 41);
             this.button10.TabIndex = 249;
             this.button10.Text = "Cancel";
             this.button10.UseVisualStyleBackColor = true;
@@ -254,19 +267,20 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label4.Location = new System.Drawing.Point(516, 329);
+            this.label4.Location = new System.Drawing.Point(580, 411);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(78, 17);
+            this.label4.Size = new System.Drawing.Size(97, 21);
             this.label4.TabIndex = 248;
             this.label4.Text = "💰Amount";
             // 
             // expensecategory
             // 
             this.expensecategory.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.expensecategory.Location = new System.Drawing.Point(519, 303);
+            this.expensecategory.Location = new System.Drawing.Point(584, 379);
+            this.expensecategory.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.expensecategory.Multiline = true;
             this.expensecategory.Name = "expensecategory";
-            this.expensecategory.Size = new System.Drawing.Size(310, 23);
+            this.expensecategory.Size = new System.Drawing.Size(348, 28);
             this.expensecategory.TabIndex = 259;
             // 
             // label8
@@ -275,28 +289,30 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label8.Location = new System.Drawing.Point(516, 283);
+            this.label8.Location = new System.Drawing.Point(580, 354);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(142, 17);
+            this.label8.Size = new System.Drawing.Size(175, 21);
             this.label8.TabIndex = 258;
             this.label8.Text = "🔑Expense Category";
             // 
             // PaidTo
             // 
             this.PaidTo.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.PaidTo.Location = new System.Drawing.Point(519, 399);
+            this.PaidTo.Location = new System.Drawing.Point(584, 499);
+            this.PaidTo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.PaidTo.Multiline = true;
             this.PaidTo.Name = "PaidTo";
-            this.PaidTo.Size = new System.Drawing.Size(310, 23);
+            this.PaidTo.Size = new System.Drawing.Size(348, 28);
             this.PaidTo.TabIndex = 260;
             // 
             // Description
             // 
             this.Description.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Description.Location = new System.Drawing.Point(519, 497);
+            this.Description.Location = new System.Drawing.Point(584, 621);
+            this.Description.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Description.Multiline = true;
             this.Description.Name = "Description";
-            this.Description.Size = new System.Drawing.Size(310, 23);
+            this.Description.Size = new System.Drawing.Size(348, 28);
             this.Description.TabIndex = 262;
             // 
             // label5
@@ -305,27 +321,28 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label5.Location = new System.Drawing.Point(516, 477);
+            this.label5.Location = new System.Drawing.Point(580, 596);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(102, 17);
+            this.label5.Size = new System.Drawing.Size(123, 21);
             this.label5.TabIndex = 261;
             this.label5.Text = "📝Description ";
             // 
             // amount
             // 
             this.amount.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.amount.Location = new System.Drawing.Point(519, 349);
+            this.amount.Location = new System.Drawing.Point(584, 436);
+            this.amount.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.amount.Multiline = true;
             this.amount.Name = "amount";
-            this.amount.Size = new System.Drawing.Size(310, 23);
+            this.amount.Size = new System.Drawing.Size(348, 28);
             this.amount.TabIndex = 263;
             // 
             // AddExpenses
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(1081, 697);
+            this.ClientSize = new System.Drawing.Size(1216, 871);
             this.Controls.Add(this.amount);
             this.Controls.Add(this.Description);
             this.Controls.Add(this.label5);
@@ -349,6 +366,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "AddExpenses";
             this.Text = "AuthorizeExpenses";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

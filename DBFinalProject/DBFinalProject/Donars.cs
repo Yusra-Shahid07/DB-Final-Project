@@ -16,5 +16,10 @@ namespace DBFinalProject
         {
             InitializeComponent();
         }
+
+        private void Donars_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

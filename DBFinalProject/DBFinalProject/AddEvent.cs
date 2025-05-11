@@ -8,7 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using DBFinalProject.bl;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using DBFinalProject.DL;
+
+
 namespace DBFinalProject
 {
     public partial class AddEvent : Form
@@ -17,24 +19,24 @@ namespace DBFinalProject
         {
             InitializeComponent();
             LoadEditionIds();
-            LoadCompaignNames();
+            LoadCategories();
         }
         private void LoadEditionIds()
         {
-            DataTable sellers = EditionDL.GetAllSellerIds();
+            DataTable sellers = EditionsDL.GetAllSellerIds();
             EditionId.Items.Clear();
             foreach (DataRow row in sellers.Rows)
             {
                 EditionId.Items.Add(row["SellerId"].ToString());
             }
         }
-        private void LoadCompaignNames()
+        private void LoadCategories()
         {
-            DataTable sellers = CompaignDL.GetAllCompaignIds();
-            EditionId.Items.Clear();
-            foreach (DataRow row in sellers.Rows)
+            DataTable categories = EventCategoryDL.GetAllCategories(); 
+            CategoryID.Items.Clear();
+            foreach (DataRow row in categories.Rows)
             {
-                EditionId.Items.Add(row["SellerId"].ToString());
+                CategoryID.Items.Add(row["CategoryName"].ToString());
             }
         }
         private void button8_Click(object sender, EventArgs e)
@@ -43,9 +45,10 @@ namespace DBFinalProject
             string name = EventName.Text.Trim();
             string dateStr = dateTimePicker1.Text.Trim();
             string location = Location.Text.Trim();
-            string compaignname = CompaignName.Text.Trim();
+            string categoryName = CategoryID.Text.Trim();
+
             string editionIdStr = EditionId.Text.Trim();
-            if (string.IsNullOrEmpty(name) || string.IsNullOrEmpty(location) || string.IsNullOrEmpty(compaignname))
+            if (string.IsNullOrEmpty(name) || string.IsNullOrEmpty(location) || string.IsNullOrEmpty(categoryName))
             {
                 MessageBox.Show("Please fill all fields.");
                 return;
@@ -66,19 +69,25 @@ namespace DBFinalProject
                 MessageBox.Show("Invalid Edition ID.");
                 return;
             }
-            int compaignId = CompaignDL.GetCompaignIdByName(compaignname);
-            if (compaignId == -1)
+            int categoryId = EventCategoryDL.GetCategoryIdByName(categoryName); // You’ll define this function
+            if (categoryId == -1)
             {
-                MessageBox.Show("Campaign not found.");
+                MessageBox.Show("Category not found.");
                 return;
             }
-            if (editionId == -1 || compaignId == -1)
+            if (editionId == -1 || categoryId == -1)
             {
                 MessageBox.Show("Invalid Edition or Campaign ID.");
                 return;
             }
-            EventDL.InsertEvent(name, date, location, compaignId, editionId);
+            EventBL Event=new EventBL(name,date,editionId,location,categoryId);
+            EventDL.AddEvent(Event);
             MessageBox.Show("Event added successfully!");
+        }
+
+        private void AddEvent_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

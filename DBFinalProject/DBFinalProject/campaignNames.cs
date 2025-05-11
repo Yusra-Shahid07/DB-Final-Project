@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using DBFinalProject.bl;
+using DBFinalProject.DL;
 
 namespace DBFinalProject
 {
@@ -17,21 +18,19 @@ namespace DBFinalProject
         {
             InitializeComponent();
         }
-
         private void campaignNames_Load(object sender, EventArgs e)
         {
 
         }
-
         private void button8_Click(object sender, EventArgs e)
         {
             string campaignName = Campaignname.Text;
             string Description = description.Text;
-            bool check = CompaignBL.IsAllAlphabetsOrSpace(campaignName);
-            CompaignBL newCampaign = new CompaignBL(campaignName, Description);
+            bool check = CampaignBL.IsAllAlphabetsOrSpace(campaignName);
+            CampaignBL newCampaign = new CampaignBL(campaignName, Description);
             if (check)
             {
-                CompaignDL.Insert(newCampaign);
+                CampaignDL.AddCampaign(newCampaign);
             }
         }
     }

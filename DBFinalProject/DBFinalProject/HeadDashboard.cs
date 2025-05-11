@@ -26,5 +26,53 @@ namespace DBFinalProject
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ApproveVolunteer v=new ApproveVolunteer();
+            v.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            LaunchCampaign launchCampaign = new LaunchCampaign();
+
+            launchCampaign.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Donations d=new Donations();
+            d.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ExpenseForm expenseForm = new ExpenseForm();
+            expenseForm.Show();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ManageEventCategories manageEventCategories = new ManageEventCategories();
+            manageEventCategories.Show();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ViewFeedBack viewFeedBack = new ViewFeedBack();
+            viewFeedBack.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

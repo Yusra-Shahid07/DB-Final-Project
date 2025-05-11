@@ -15,8 +15,12 @@ namespace DBFinalProject
         public VerifyDonations()
         {
             InitializeComponent();
+            LoadGrid();
         }
-
+        public void LoadGrid()
+        {
+            dataGridView1.DataSource = DonationDL.ShowAllDonations();
+        }
         private void button5_Click(object sender, EventArgs e)
         {
 
@@ -58,6 +62,16 @@ namespace DBFinalProject
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void VerifyDonations_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }

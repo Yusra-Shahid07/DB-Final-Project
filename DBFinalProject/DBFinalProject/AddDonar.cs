@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using DBFinalProject.bl;
 using System.Xml.Linq;
+using DBFinalProject.DL;
 
 namespace DBFinalProject
 {
@@ -40,7 +41,8 @@ namespace DBFinalProject
                 MessageBox.Show("Phone must be 11 digits and numeric.");
                 return;
             }
-            bool isInserted = DonorDL.InsertDonor(name, email, phone, date);
+            DonorBL donor = new DonorBL(name,email,phone,date);
+            bool isInserted = DonorDL.AddDonor(donor);
             if (isInserted)
             {
                 MessageBox.Show("Donor added successfully!");
