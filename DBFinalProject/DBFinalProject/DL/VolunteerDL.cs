@@ -22,6 +22,7 @@ namespace DBFinalProject.DL
             DataTable dt = SQL_Helper.view(query);
             return dt;
         }
+       
         public static DataTable GetAllVolunteerIDs()
         {
             string query = "SELECT VolunteerID FROM Volunteer"; // replace Volunteer with your actual table name
@@ -29,7 +30,7 @@ namespace DBFinalProject.DL
         }
         public static void UpdateVolunteerStatus(int id, string newStatus)
         {
-            string query = $"UPDATE Volunteer SET Status = '{newStatus}' WHERE VolunteerID = {id}";
+            string query = $"UPDATE Volunteer SET RequestStatus = '{newStatus}' WHERE VolunteerID = {id}";
             SQL_Helper.ExecuteNonQuery(query);
         }
     }

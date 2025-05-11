@@ -16,5 +16,10 @@ namespace DBFinalProject
         {
             InitializeComponent();
         }
+
+        private void GiveFeedback_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

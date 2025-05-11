@@ -67,11 +67,10 @@ namespace DBFinalProject
                 return;
             }
 
-            // Convert to integers
+            
             int campaignCycleId = Convert.ToInt32(CampaignCycle.SelectedItem.ToString());
             int volunteerId = Convert.ToInt32(VolunteerID.SelectedItem.ToString());
 
-            // Just insert the two IDs into CampaignRequest table
             bool success = CampaignRequestDL.InsertRequest(campaignCycleId, volunteerId);
 
             if (success)

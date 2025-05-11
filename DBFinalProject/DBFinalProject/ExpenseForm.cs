@@ -23,5 +23,12 @@ namespace DBFinalProject
             AddExpenses addExpenses = new AddExpenses();
             addExpenses.Show();
         }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            HeadDashboard h = new HeadDashboard();
+            h.Show();
+        }
     }
 }

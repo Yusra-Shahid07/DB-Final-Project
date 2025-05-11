@@ -260,6 +260,7 @@
             this.button10.TabIndex = 249;
             this.button10.Text = "Cancel";
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // label4
             // 
@@ -369,6 +370,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "AddExpenses";
             this.Text = "AuthorizeExpenses";
+            this.Load += new System.EventHandler(this.AddExpenses_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

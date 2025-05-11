@@ -20,17 +20,17 @@ namespace DBFinalProject
         }
         private void LoadVolunteerCombo()
         {
-            DataTable dt = VolunteerTaskBL.GetVolunteerList();
+            DataTable dt = VolunteerDL.GetAllVolunteerIDs();
             VolunteerID.Items.Clear();
             foreach (DataRow row in dt.Rows)
             {
-                VolunteerID.Items.Add($"{row["UserID"]} - {row["Username"]}");
+                VolunteerID.Items.Add($"{row["VolunteerID"]} - {row["FullName"]}");
             }
         }
 
         private void LoadAssignedByCombo()
         {
-            DataTable dt = VolunteerTaskBL.GetHeadLeadList();
+            DataTable dt = VolunteerTaskDL.GetHeadLeadList();
             AssignedByCombo.Items.Clear();
             foreach (DataRow row in dt.Rows)
             {
@@ -44,8 +44,6 @@ namespace DBFinalProject
             string title = TaskTitle.Text.Trim();
             string description = TaskDescription.Text.Trim();
             string deadlineStr = Deadline.Text.Trim();
-
-            // Basic validation
             if (string.IsNullOrEmpty(volunteerStr) || string.IsNullOrEmpty(assignedByStr) ||
                 string.IsNullOrEmpty(title) || string.IsNullOrEmpty(description))
             {

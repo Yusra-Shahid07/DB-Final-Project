@@ -28,8 +28,6 @@ namespace DBFinalProject
         {
             string yearStr = Year.Text.Trim();
             string description = Description.Text.Trim();
-
-            // Validation
             if (string.IsNullOrEmpty(yearStr) || string.IsNullOrEmpty(description))
             {
                 MessageBox.Show("Please fill in both Year and Description.");

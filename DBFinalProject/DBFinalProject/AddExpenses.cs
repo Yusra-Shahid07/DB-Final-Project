@@ -21,5 +21,17 @@ namespace DBFinalProject
         {
 
         }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ExpenseForm expense=new ExpenseForm();
+            expense.ShowDialog();
+        }
+
+        private void AddExpenses_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

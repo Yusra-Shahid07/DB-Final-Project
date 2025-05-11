@@ -20,11 +20,11 @@ namespace DBFinalProject
 
         private void button8_Click(object sender, EventArgs e)
         {
-            string donorName = DonarID.Text.Trim(); // Donor name from combo box
-            string amountStr = Donationamount.Text.Trim(); // Amount textbox
+            string donorName = DonarID.Text.Trim();
+            string amountStr = Donationamount.Text.Trim(); 
             DateTime donationDate = dateTimePicker1.Value;
 
-            // --- Validations ---
+            
             if (string.IsNullOrEmpty(donorName) || string.IsNullOrEmpty(amountStr) || CampaignCycle.SelectedItem == null)
             {
                 MessageBox.Show("Please fill all fields.");
@@ -37,16 +37,16 @@ namespace DBFinalProject
                 return;
             }
 
-            int campaigncycleId = Convert.ToInt32(CampaignCycle.SelectedItem.ToString()); // direct combo value
+            int campaigncycleId = Convert.ToInt32(CampaignCycle.SelectedItem.ToString()); 
 
-            int donorId = DonorDL.GetDonorIdByName(donorName); // Get donor ID
+            int donorId = DonorDL.GetDonorIDByName(donorName);
             if (donorId == -1)
             {
                 MessageBox.Show("Donor not found.");
                 return;
             }
 
-            // --- Create and send to BL ---
+           
             DonationBL donation = new DonationBL(donorId, amount, donationDate, campaigncycleId);
             DonationDL.AddDonation(donation);
             MessageBox.Show("Donation recorded successfully!");

@@ -45,7 +45,7 @@ namespace DBFinalProject
         private void button3_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Donations d=new Donations();
+            VerifyDonations d=new VerifyDonations();
             d.Show();
         }
 
@@ -72,7 +72,9 @@ namespace DBFinalProject
 
         private void button5_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            signin s=new signin();
+            s.Show();
         }
     }
 }

@@ -40,11 +40,10 @@ namespace DBFinalProject
 
         private void button8_Click(object sender, EventArgs e)
         {
-            string aidType = AidType.Text.Trim(); // Combo: "Medical", "Food", etc.
-            string amountStr = Amount.Text.Trim(); // TextBox
+            string aidType = AidType.Text.Trim(); 
+            string amountStr = Amount.Text.Trim(); 
             DateTime distributionDate = date.Value;
 
-            // Validation: Ensure combo is selected
             if (string.IsNullOrEmpty(aidType) || string.IsNullOrEmpty(amountStr) || CampaignCycleID.SelectedItem == null)
             {
                 MessageBox.Show("Please fill all fields.");
@@ -57,10 +56,9 @@ namespace DBFinalProject
                 return;
             }
 
-            // CampaignCycleID is numeric value stored directly in combo
+         
             int campaignCycleId = Convert.ToInt32(CampaignCycleID.SelectedItem.ToString());
 
-            // --- Create and Send to BL ---
             AidDistributionBL aid = new AidDistributionBL(campaignCycleId, aidType, amount, distributionDate);
             AidDistributionDL.AddAidDistribution(aid);
             MessageBox.Show("Aid distribution recorded successfully!");

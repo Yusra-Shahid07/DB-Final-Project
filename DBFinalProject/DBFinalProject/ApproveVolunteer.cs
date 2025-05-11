@@ -60,5 +60,12 @@ namespace DBFinalProject
         {
 
         }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            HeadDashboard h=new HeadDashboard();
+            h.Show();
+        }
     }
 }

@@ -10,12 +10,18 @@ namespace DBFinalProject.DL
 {
     public class EditionsDL
     {
-        public static void AddEdition(EditionsBL edition)
+        public static bool AddEdition(EditionsBL edition)
         {
             string query = $"Insert into Edition (Year, Description) Values ('{edition.Year}','{edition.Description}') ;";
-            SQL_Helper.ExecuteQuery(query);
+            int rowsAffected = SQL_Helper.ExecuteNonQuery(query);
+            return rowsAffected > 0;
         }
-
+        public static DataTable GetAllEditionIDs()
+        {
+            string query = "SELECT EditionID FROM Edition;";
+            DataTable dt = SQL_Helper.view(query);
+            return dt;
+        }
         public static DataTable ShowAllEditions()
         {
             string query = "Select * from Edition";

@@ -32,7 +32,7 @@ namespace DBFinalProject
                 if (updated)
                 {
                     MessageBox.Show("Password successfully updated!");
-                    this.Close(); // or go to login form
+                    this.Close(); 
                 }
                 else
                 {
@@ -43,6 +43,11 @@ namespace DBFinalProject
             {
                 MessageBox.Show("Passwords do not match.");
             }
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

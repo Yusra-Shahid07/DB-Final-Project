@@ -30,8 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(signup));
             this.button1 = new System.Windows.Forms.Button();
-            this.FullName = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -44,8 +42,6 @@
             this.Username = new System.Windows.Forms.TextBox();
             this.Password = new System.Windows.Forms.TextBox();
             this.Role = new System.Windows.Forms.ComboBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -62,28 +58,6 @@
             this.button1.Text = "SIGN UP";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // FullName
-            // 
-            this.FullName.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.FullName.Location = new System.Drawing.Point(163, 388);
-            this.FullName.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.FullName.Multiline = true;
-            this.FullName.Name = "FullName";
-            this.FullName.Size = new System.Drawing.Size(345, 28);
-            this.FullName.TabIndex = 18;
-            // 
-            // label4
-            // 
-            this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label4.Location = new System.Drawing.Point(161, 362);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(108, 21);
-            this.label4.TabIndex = 17;
-            this.label4.Text = "👤Full Name";
             // 
             // label2
             // 
@@ -222,34 +196,12 @@
             this.Role.Size = new System.Drawing.Size(344, 28);
             this.Role.TabIndex = 41;
             // 
-            // label5
-            // 
-            this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label5.Location = new System.Drawing.Point(160, 709);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(107, 21);
-            this.label5.TabIndex = 42;
-            this.label5.Text = "📅Join Date";
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(162, 734);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(346, 26);
-            this.dateTimePicker1.TabIndex = 43;
-            // 
             // signup
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(660, 976);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.label5);
             this.Controls.Add(this.Role);
             this.Controls.Add(this.Password);
             this.Controls.Add(this.Username);
@@ -259,8 +211,6 @@
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.FullName);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
@@ -276,8 +226,6 @@
 
         #endregion
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox FullName;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
@@ -290,7 +238,5 @@
         private System.Windows.Forms.TextBox Username;
         private System.Windows.Forms.TextBox Password;
         private System.Windows.Forms.ComboBox Role;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }

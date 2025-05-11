@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using DBFinalProject.DL;
 namespace DBFinalProject
 {
     public partial class VerifyDonations : Form
@@ -74,6 +74,13 @@ namespace DBFinalProject
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            HeadDashboard h = new HeadDashboard();
+            h.Show();
         }
     }
 }

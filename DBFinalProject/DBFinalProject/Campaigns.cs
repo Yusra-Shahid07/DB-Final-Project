@@ -16,5 +16,10 @@ namespace DBFinalProject
         {
             InitializeComponent();
         }
+
+        private void Campaigns_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

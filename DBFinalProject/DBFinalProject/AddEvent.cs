@@ -23,11 +23,11 @@ namespace DBFinalProject
         }
         private void LoadEditionIds()
         {
-            DataTable sellers = EditionsDL.GetAllSellerIds();
+            DataTable edition = EditionsDL.GetAllEditionIDs();
             EditionId.Items.Clear();
-            foreach (DataRow row in sellers.Rows)
+            foreach (DataRow row in edition.Rows)
             {
-                EditionId.Items.Add(row["SellerId"].ToString());
+                EditionId.Items.Add(row["EditionID"].ToString());
             }
         }
         private void LoadCategories()
@@ -69,7 +69,7 @@ namespace DBFinalProject
                 MessageBox.Show("Invalid Edition ID.");
                 return;
             }
-            int categoryId = EventCategoryDL.GetCategoryIdByName(categoryName); // You’ll define this function
+            int categoryId = EventCategoryDL.GetCategoryIdByName(categoryName);
             if (categoryId == -1)
             {
                 MessageBox.Show("Category not found.");
@@ -86,6 +86,11 @@ namespace DBFinalProject
         }
 
         private void AddEvent_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }

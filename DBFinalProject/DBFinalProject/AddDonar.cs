@@ -52,5 +52,10 @@ namespace DBFinalProject
                 MessageBox.Show("Failed to add donor.");
             }
         }
+
+        private void AddDonar_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

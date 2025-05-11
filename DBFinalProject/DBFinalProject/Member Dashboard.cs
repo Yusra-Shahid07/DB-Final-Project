@@ -21,5 +21,17 @@ namespace DBFinalProject
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            RegisterMember member = new RegisterMember();
+            member.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

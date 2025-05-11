@@ -45,5 +45,12 @@ namespace DBFinalProject
         {
 
         }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ManageEventCategories manageEventCategories = new ManageEventCategories();
+            manageEventCategories.Show();
+        }
     }
 }

@@ -35,7 +35,7 @@ namespace DBFinalProject
 
         private void LoadBeneficiaryIDs()
         {
-            DataTable table = BeneficiaryDL.GetAllBeneficiaryIDs(); // This method should fetch IDs from DB
+            DataTable table = BeneficiaryDL.GetAllBeneficiaryIDs();
             beneficiaryid.Items.Clear();
 
             foreach (DataRow row in table.Rows)

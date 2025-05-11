@@ -9,10 +9,18 @@ namespace DBFinalProject.DL
 {
     public class VolunteerTaskDL
     {
-        public static void AddVolunteerTask(VolunteerTaskBL volunteerTask)
+        public static bool AddVolunteerTask(VolunteerTaskBL task)
         {
-            string query = $"Insert into VolunteerTask(VolunteerID, AssignedBy, TaskTitle, TaskDescription, Status, StartDate, Deadline) Values('{volunteerTask.VolunteerID}','{volunteerTask.AssignedBy}','{volunteerTask.TaskTitle}','{volunteerTask.TaskDescription}','{volunteerTask.Status}','{volunteerTask.StartDate}','{volunteerTask.Deadline}') ;";
-            SQL_Helper.ExecuteQuery(query);
+            string query = $@"INSERT INTO VolunteerTask (VolunteerID, AssignedBy, TaskTitle, TaskDescription, Deadline) VALUES ({task.VolunteerID}, {task.AssignedBy}, '{task.TaskTitle}', '{task.TaskDescription}', '{task.Deadline:yyyy-MM-dd}');";
+            int rowsAffected = SQL_Helper.ExecuteNonQuery(query);
+            return rowsAffected > 0;
+        }
+
+        public static DataTable GetHeadLeadList()
+        {
+            string query = @"SELECT U.UserID, U.Username FROM Users U WHERE U.Role = 'Head' OR (U.Role = 'Lead' AND EXISTS ( SELECT 1 FROM Volunteer V WHERE V.UserID = U.UserID AND V.Status = 'Accepted'));";
+            DataTable dt = SQL_Helper.view(query);
+            return dt;
         }
 
         public static DataTable ShowAllVolunteerTasks()
