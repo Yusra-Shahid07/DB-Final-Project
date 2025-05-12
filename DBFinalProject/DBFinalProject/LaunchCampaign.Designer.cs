@@ -32,10 +32,6 @@
             this.Launch = new System.Windows.Forms.Button();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label5 = new System.Windows.Forms.Label();
-            this.description = new System.Windows.Forms.TextBox();
-            this.amount = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.button7 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -44,7 +40,6 @@
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.label7 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.campaignMonth = new System.Windows.Forms.TextBox();
             this.button8 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
@@ -54,6 +49,9 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.CampaignMonth = new System.Windows.Forms.ComboBox();
+            this.CampaignYear = new System.Windows.Forms.ComboBox();
+            this.CampaignName = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -69,10 +67,11 @@
             this.Launch.TabIndex = 176;
             this.Launch.Text = "Launch";
             this.Launch.UseVisualStyleBackColor = true;
+            this.Launch.Click += new System.EventHandler(this.Launch_Click);
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(580, 558);
+            this.dateTimePicker1.Location = new System.Drawing.Point(581, 612);
             this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(346, 26);
@@ -84,55 +83,11 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label5.Location = new System.Drawing.Point(577, 532);
+            this.label5.Location = new System.Drawing.Point(578, 586);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(114, 21);
             this.label5.TabIndex = 174;
             this.label5.Text = "📅Start Date";
-            // 
-            // description
-            // 
-            this.description.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.description.Location = new System.Drawing.Point(583, 730);
-            this.description.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.description.Multiline = true;
-            this.description.Name = "description";
-            this.description.Size = new System.Drawing.Size(346, 28);
-            this.description.TabIndex = 173;
-            // 
-            // amount
-            // 
-            this.amount.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.amount.Location = new System.Drawing.Point(582, 670);
-            this.amount.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.amount.Multiline = true;
-            this.amount.Name = "amount";
-            this.amount.Size = new System.Drawing.Size(346, 28);
-            this.amount.TabIndex = 172;
-            // 
-            // label8
-            // 
-            this.label8.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label8.Location = new System.Drawing.Point(579, 645);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(157, 21);
-            this.label8.TabIndex = 171;
-            this.label8.Text = "💸Target Amount ";
-            // 
-            // label6
-            // 
-            this.label6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label6.Location = new System.Drawing.Point(579, 705);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(119, 21);
-            this.label6.TabIndex = 170;
-            this.label6.Text = "📝Description";
             // 
             // button7
             // 
@@ -154,7 +109,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label4.Location = new System.Drawing.Point(579, 366);
+            this.label4.Location = new System.Drawing.Point(580, 420);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(169, 21);
             this.label4.TabIndex = 167;
@@ -190,7 +145,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(578, 589);
+            this.label2.Location = new System.Drawing.Point(579, 643);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(106, 21);
             this.label2.TabIndex = 177;
@@ -198,7 +153,7 @@
             // 
             // dateTimePicker2
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(580, 614);
+            this.dateTimePicker2.Location = new System.Drawing.Point(581, 668);
             this.dateTimePicker2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.Size = new System.Drawing.Size(346, 26);
@@ -210,7 +165,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label7.Location = new System.Drawing.Point(576, 481);
+            this.label7.Location = new System.Drawing.Point(577, 535);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(158, 21);
             this.label7.TabIndex = 179;
@@ -222,21 +177,11 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label9.Location = new System.Drawing.Point(576, 424);
+            this.label9.Location = new System.Drawing.Point(577, 478);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(173, 21);
             this.label9.TabIndex = 180;
             this.label9.Text = "📢Campaign Month";
-            // 
-            // campaignMonth
-            // 
-            this.campaignMonth.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.campaignMonth.Location = new System.Drawing.Point(579, 449);
-            this.campaignMonth.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.campaignMonth.Multiline = true;
-            this.campaignMonth.Name = "campaignMonth";
-            this.campaignMonth.Size = new System.Drawing.Size(345, 28);
-            this.campaignMonth.TabIndex = 181;
             // 
             // button8
             // 
@@ -360,12 +305,55 @@
             this.pictureBox1.TabIndex = 183;
             this.pictureBox1.TabStop = false;
             // 
+            // CampaignMonth
+            // 
+            this.CampaignMonth.FormattingEnabled = true;
+            this.CampaignMonth.Items.AddRange(new object[] {
+            "January",
+            "February",
+            "March",
+            "April",
+            "May",
+            "June",
+            "July",
+            "August",
+            "September",
+            "October",
+            "November",
+            "December"});
+            this.CampaignMonth.Location = new System.Drawing.Point(580, 503);
+            this.CampaignMonth.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.CampaignMonth.Name = "CampaignMonth";
+            this.CampaignMonth.Size = new System.Drawing.Size(348, 28);
+            this.CampaignMonth.TabIndex = 265;
+            // 
+            // CampaignYear
+            // 
+            this.CampaignYear.FormattingEnabled = true;
+            this.CampaignYear.Location = new System.Drawing.Point(580, 554);
+            this.CampaignYear.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.CampaignYear.Name = "CampaignYear";
+            this.CampaignYear.Size = new System.Drawing.Size(348, 28);
+            this.CampaignYear.TabIndex = 266;
+            // 
+            // CampaignName
+            // 
+            this.CampaignName.FormattingEnabled = true;
+            this.CampaignName.Location = new System.Drawing.Point(579, 446);
+            this.CampaignName.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.CampaignName.Name = "CampaignName";
+            this.CampaignName.Size = new System.Drawing.Size(348, 28);
+            this.CampaignName.TabIndex = 267;
+            // 
             // LaunchCampaign
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(1203, 920);
+            this.Controls.Add(this.CampaignName);
+            this.Controls.Add(this.CampaignYear);
+            this.Controls.Add(this.CampaignMonth);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button6);
@@ -375,7 +363,6 @@
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.campaignMonth);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.dateTimePicker2);
@@ -383,10 +370,6 @@
             this.Controls.Add(this.Launch);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.description);
-            this.Controls.Add(this.amount);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label6);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -406,10 +389,6 @@
         private System.Windows.Forms.Button Launch;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox description;
-        private System.Windows.Forms.TextBox amount;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
@@ -418,7 +397,6 @@
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox campaignMonth;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button6;
@@ -428,5 +406,8 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.ComboBox CampaignMonth;
+        private System.Windows.Forms.ComboBox CampaignYear;
+        private System.Windows.Forms.ComboBox CampaignName;
     }
 }

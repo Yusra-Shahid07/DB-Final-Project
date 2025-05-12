@@ -15,7 +15,19 @@ namespace DBFinalProject.DL
             string query = $"Insert into Campaign (CampaignName, Description) Values('{campaign.compaignname}','{campaign.description}') ;";
             SQL_Helper.ExecuteQuery(query);
         }
+        public static int GetCampaignIdByName(string campaignName)
+        {
+            string query = $"SELECT CampaignID FROM campaign WHERE CampaignName = '{campaignName}'";
+            object result = SQL_Helper.ExecuteScalor(query);
 
+            if (result != null && int.TryParse(result.ToString(), out int id))
+            {
+                return id;
+            }
+
+            return -1; 
+        }
+      
         public static DataTable ShowAllCampaigns()
         {
             string query = "Select * from Campaign";

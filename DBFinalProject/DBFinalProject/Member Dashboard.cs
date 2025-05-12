@@ -31,7 +31,30 @@ namespace DBFinalProject
 
         private void button3_Click(object sender, EventArgs e)
         {
+            MemberTasks memberTasks = new MemberTasks();
+            memberTasks.Show();
+            this.Hide();
+        }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ViewEvents viewEvents = new ViewEvents();
+            viewEvents.Show();
+            this.Hide();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            JoinCampaign joinCampaign = new JoinCampaign();
+            joinCampaign.Show();
+            this.Hide();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            GiveFeedback giveFeedback = new GiveFeedback(); 
+            giveFeedback.Show();
+            this.Hide();
         }
     }
 }

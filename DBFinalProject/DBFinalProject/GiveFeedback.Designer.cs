@@ -40,20 +40,16 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label5 = new System.Windows.Forms.Label();
-            this.UserID = new System.Windows.Forms.ComboBox();
             this.FeedBack = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.Rating = new System.Windows.Forms.NumericUpDown();
             this.CampaignCycle = new System.Windows.Forms.ComboBox();
-            this.SubmittedRole = new System.Windows.Forms.ComboBox();
-            this.SubmittedID = new System.Windows.Forms.ComboBox();
             this.button8 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.SubmittedID = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Rating)).BeginInit();
             this.SuspendLayout();
@@ -69,6 +65,7 @@
             this.label3.Size = new System.Drawing.Size(193, 28);
             this.label3.TabIndex = 236;
             this.label3.Text = "Give FeedBack";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // button6
             // 
@@ -83,6 +80,7 @@
             this.button6.TabIndex = 235;
             this.button6.Text = "Join Campaigns";
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button5
             // 
@@ -96,6 +94,7 @@
             this.button5.TabIndex = 234;
             this.button5.Text = "Logout";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button3
             // 
@@ -109,6 +108,7 @@
             this.button3.TabIndex = 233;
             this.button3.Text = "Tasks";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -122,6 +122,7 @@
             this.button2.TabIndex = 232;
             this.button2.Text = "View Events";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button4
             // 
@@ -136,6 +137,7 @@
             this.button4.TabIndex = 231;
             this.button4.Text = "GIve FeedBack";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button1
             // 
@@ -150,6 +152,7 @@
             this.button1.TabIndex = 230;
             this.button1.Text = "My Profile";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -162,6 +165,7 @@
             this.label1.Size = new System.Drawing.Size(462, 53);
             this.label1.TabIndex = 229;
             this.label1.Text = "Member Dashboard";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // pictureBox1
             // 
@@ -178,14 +182,16 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 228;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(578, 716);
+            this.dateTimePicker1.Location = new System.Drawing.Point(576, 643);
             this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(342, 26);
             this.dateTimePicker1.TabIndex = 250;
+            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // label5
             // 
@@ -193,30 +199,23 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label5.Location = new System.Drawing.Point(575, 565);
+            this.label5.Location = new System.Drawing.Point(573, 492);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(76, 21);
             this.label5.TabIndex = 249;
             this.label5.Text = "⭐Rating";
-            // 
-            // UserID
-            // 
-            this.UserID.FormattingEnabled = true;
-            this.UserID.Location = new System.Drawing.Point(576, 532);
-            this.UserID.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.UserID.Name = "UserID";
-            this.UserID.Size = new System.Drawing.Size(344, 28);
-            this.UserID.TabIndex = 248;
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // FeedBack
             // 
             this.FeedBack.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.FeedBack.Location = new System.Drawing.Point(578, 646);
+            this.FeedBack.Location = new System.Drawing.Point(576, 573);
             this.FeedBack.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.FeedBack.Multiline = true;
             this.FeedBack.Name = "FeedBack";
             this.FeedBack.Size = new System.Drawing.Size(344, 45);
             this.FeedBack.TabIndex = 247;
+            this.FeedBack.TextChanged += new System.EventHandler(this.FeedBack_TextChanged);
             // 
             // label9
             // 
@@ -224,35 +223,12 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label9.Location = new System.Drawing.Point(574, 449);
+            this.label9.Location = new System.Drawing.Point(575, 427);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(169, 21);
             this.label9.TabIndex = 245;
             this.label9.Text = "📢Campaign Name";
-            // 
-            // label8
-            // 
-            this.label8.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label8.Location = new System.Drawing.Point(570, 332);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(172, 21);
-            this.label8.TabIndex = 242;
-            this.label8.Text = "⚙️Submitted By Role";
-            // 
-            // label6
-            // 
-            this.label6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label6.Location = new System.Drawing.Point(570, 391);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(135, 21);
-            this.label6.TabIndex = 241;
-            this.label6.Text = "🔗Submitted By";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // label4
             // 
@@ -260,23 +236,12 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label4.Location = new System.Drawing.Point(575, 691);
+            this.label4.Location = new System.Drawing.Point(573, 618);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(158, 21);
             this.label4.TabIndex = 239;
             this.label4.Text = "📅Submission Date";
-            // 
-            // label2
-            // 
-            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(573, 508);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(81, 21);
-            this.label2.TabIndex = 238;
-            this.label2.Text = "👤UserID";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label7
             // 
@@ -284,15 +249,16 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label7.Location = new System.Drawing.Point(575, 621);
+            this.label7.Location = new System.Drawing.Point(573, 548);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(113, 21);
             this.label7.TabIndex = 237;
             this.label7.Text = "📝FeedBack ";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // Rating
             // 
-            this.Rating.Location = new System.Drawing.Point(577, 590);
+            this.Rating.Location = new System.Drawing.Point(575, 517);
             this.Rating.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Rating.Maximum = new decimal(new int[] {
             5,
@@ -312,33 +278,17 @@
             0,
             0,
             0});
+            this.Rating.ValueChanged += new System.EventHandler(this.Rating_ValueChanged);
             // 
             // CampaignCycle
             // 
             this.CampaignCycle.FormattingEnabled = true;
-            this.CampaignCycle.Location = new System.Drawing.Point(576, 474);
+            this.CampaignCycle.Location = new System.Drawing.Point(577, 452);
             this.CampaignCycle.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.CampaignCycle.Name = "CampaignCycle";
             this.CampaignCycle.Size = new System.Drawing.Size(344, 28);
             this.CampaignCycle.TabIndex = 252;
-            // 
-            // SubmittedRole
-            // 
-            this.SubmittedRole.FormattingEnabled = true;
-            this.SubmittedRole.Location = new System.Drawing.Point(574, 358);
-            this.SubmittedRole.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.SubmittedRole.Name = "SubmittedRole";
-            this.SubmittedRole.Size = new System.Drawing.Size(343, 28);
-            this.SubmittedRole.TabIndex = 253;
-            // 
-            // SubmittedID
-            // 
-            this.SubmittedID.FormattingEnabled = true;
-            this.SubmittedID.Location = new System.Drawing.Point(574, 416);
-            this.SubmittedID.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.SubmittedID.Name = "SubmittedID";
-            this.SubmittedID.Size = new System.Drawing.Size(343, 28);
-            this.SubmittedID.TabIndex = 254;
+            this.CampaignCycle.SelectedIndexChanged += new System.EventHandler(this.CampaignCycle_SelectedIndexChanged);
             // 
             // button8
             // 
@@ -352,6 +302,7 @@
             this.button8.TabIndex = 272;
             this.button8.Text = "Submit";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button7
             // 
@@ -365,6 +316,30 @@
             this.button7.TabIndex = 271;
             this.button7.Text = "Cancel";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // label6
+            // 
+            this.label6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label6.Location = new System.Drawing.Point(571, 369);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(135, 21);
+            this.label6.TabIndex = 241;
+            this.label6.Text = "🔗Submitted By";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
+            // 
+            // SubmittedID
+            // 
+            this.SubmittedID.FormattingEnabled = true;
+            this.SubmittedID.Location = new System.Drawing.Point(575, 394);
+            this.SubmittedID.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.SubmittedID.Name = "SubmittedID";
+            this.SubmittedID.Size = new System.Drawing.Size(343, 28);
+            this.SubmittedID.TabIndex = 254;
+            this.SubmittedID.SelectedIndexChanged += new System.EventHandler(this.SubmittedID_SelectedIndexChanged);
             // 
             // GiveFeedback
             // 
@@ -375,18 +350,14 @@
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.SubmittedID);
-            this.Controls.Add(this.SubmittedRole);
             this.Controls.Add(this.CampaignCycle);
             this.Controls.Add(this.Rating);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.UserID);
             this.Controls.Add(this.FeedBack);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button6);
@@ -420,19 +391,15 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.ComboBox UserID;
         private System.Windows.Forms.TextBox FeedBack;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.NumericUpDown Rating;
         private System.Windows.Forms.ComboBox CampaignCycle;
-        private System.Windows.Forms.ComboBox SubmittedRole;
-        private System.Windows.Forms.ComboBox SubmittedID;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.ComboBox SubmittedID;
     }
 }

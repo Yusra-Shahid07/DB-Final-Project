@@ -57,6 +57,7 @@
             this.button8.TabIndex = 225;
             this.button8.Text = "Submit Request";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button7
             // 
@@ -70,6 +71,7 @@
             this.button7.TabIndex = 224;
             this.button7.Text = "Cancel";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // label3
             // 

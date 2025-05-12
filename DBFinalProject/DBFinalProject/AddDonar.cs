@@ -57,5 +57,19 @@ namespace DBFinalProject
         {
 
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            signin s=new signin();
+            s.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            addDonation addDonation = new addDonation();
+            addDonation.Show();
+        }
     }
 }

@@ -22,11 +22,31 @@ namespace DBFinalProject.DL
             DataTable dt = SQL_Helper.view(query);
             return dt;
         }
+
+        public static DataTable GetAllEditionYears()
+        {
+            string query = "SELECT Year FROM Edition;";
+            DataTable dt = SQL_Helper.view(query);
+            return dt;
+        }
         public static DataTable ShowAllEditions()
         {
             string query = "Select * from Edition";
             DataTable dt = SQL_Helper.view(query);
             return dt;
+        }
+        public static int GetEditionIdByYear(string year)
+        {
+            int editionId = -1;
+            string query = $"SELECT EditionID FROM edition WHERE Year = '{year}'";
+
+            object result = SQL_Helper.ExecuteScalor(query);
+            if (result != null && int.TryParse(result.ToString(), out int id))
+            {
+                editionId = id;
+            }
+
+            return editionId;
         }
     }
 }

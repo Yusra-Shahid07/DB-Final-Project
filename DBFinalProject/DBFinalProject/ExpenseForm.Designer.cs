@@ -236,6 +236,7 @@
             this.button11.TabIndex = 278;
             this.button11.Text = "Delete";
             this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // dataGridView1
             // 
@@ -260,6 +261,7 @@
             this.button12.TabIndex = 279;
             this.button12.Text = "Update";
             this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // ExpenseForm
             // 

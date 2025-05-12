@@ -16,11 +16,16 @@ namespace DBFinalProject.DL
             return rowsAffected > 0;
         }
 
+        //public static DataTable GetHeadLeadList()
+        //{
+        //    string query = @"SELECT U.UserID, U.Username FROM Users U WHERE U.Role = 'Head' OR (U.Role = 'Lead' AND EXISTS ( SELECT 1 FROM Volunteer V WHERE V.UserID = U.UserID AND V.Status = 'Accepted'));";
+        //    DataTable dt = SQL_Helper.view(query);
+        //    return dt;
+        //}
         public static DataTable GetHeadLeadList()
         {
-            string query = @"SELECT U.UserID, U.Username FROM Users U WHERE U.Role = 'Head' OR (U.Role = 'Lead' AND EXISTS ( SELECT 1 FROM Volunteer V WHERE V.UserID = U.UserID AND V.Status = 'Accepted'));";
-            DataTable dt = SQL_Helper.view(query);
-            return dt;
+            string query = "SELECT Username FROM Users WHERE Role = 'Head' OR Role = 'Lead'";
+            return SQL_Helper.view(query);
         }
 
         public static DataTable ShowAllVolunteerTasks()

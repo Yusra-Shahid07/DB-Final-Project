@@ -66,9 +66,16 @@ namespace DBFinalProject
 
         private void button6_Click(object sender, EventArgs e)
         {
-            //    this.Hide();
-            //    ViewFeedBack viewFeedBack = new ViewFeedBack();
-            //    viewFeedBack.Show();
+            this.Hide();
+            leadgivefeedback viewFeedBack = new leadgivefeedback();
+            viewFeedBack.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            signin signin = new signin();
+            signin.Show();
         }
     }
 }

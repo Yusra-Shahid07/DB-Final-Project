@@ -135,3 +135,4 @@ C:\Users\syusr\Downloads\DB\DB-Final\DBFinalProject\DBFinalProject\bin\Debug\Sys
 C:\Users\syusr\Downloads\DB\DB-Final\DBFinalProject\DBFinalProject\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\syusr\Downloads\DB\DB-Final\DBFinalProject\DBFinalProject\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\syusr\Downloads\DB\DB-Final\DBFinalProject\DBFinalProject\obj\Debug\DBFinalP.6EE16FC3.Up2Date
+C:\Users\syusr\Downloads\DB\DB-Final\DBFinalProject\DBFinalProject\obj\Debug\DBFinalProject.leadgivefeedback.resources

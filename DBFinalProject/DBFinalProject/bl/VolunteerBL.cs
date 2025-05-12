@@ -10,12 +10,12 @@ namespace DBFinalProject.bl
     {
         public int VolunteerID { get; set; }
         public string FullName { get; set; }
-        public DateTime JoinDate { get; set; }
+        public string JoinDate { get; set; }
         public int UserID { get; set; }
        
         public string RequestStatus { get; set; } 
 
-        public VolunteerBL(int volunteerID, string fullName, DateTime joinDate, int userID, string requestStatus)
+        public VolunteerBL(int volunteerID, string fullName, string joinDate, int userID, string requestStatus)
         {
             VolunteerID = volunteerID;
             FullName = fullName;
@@ -23,7 +23,7 @@ namespace DBFinalProject.bl
             UserID = userID;
             RequestStatus = requestStatus;
         }
-        public VolunteerBL(string fullName, DateTime joinDate, int userID)
+        public VolunteerBL(string fullName, string joinDate, int userID)
         {
             FullName = fullName;
             JoinDate = joinDate;

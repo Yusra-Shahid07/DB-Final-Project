@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DBFinalProject.DL;
 
 namespace DBFinalProject
 {
@@ -15,8 +16,12 @@ namespace DBFinalProject
         public Events()
         {
             InitializeComponent();
+            LoadGrid(); 
         }
-
+        public void LoadGrid()
+        {
+            dataGridView1.DataSource = EventDL.ShowAllEvents();
+        }
         private void Events_Load(object sender, EventArgs e)
         {
 
@@ -38,6 +43,14 @@ namespace DBFinalProject
         private void button9_Click(object sender, EventArgs e)
         {
             
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+
+            this.Hide();
+            LeadDashboard lead=new LeadDashboard();
+            lead.Show();
         }
     }
 }

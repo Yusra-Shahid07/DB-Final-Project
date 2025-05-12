@@ -42,19 +42,17 @@
             this.Amount = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
-            this.button21 = new System.Windows.Forms.Button();
-            this.button22 = new System.Windows.Forms.Button();
-            this.button23 = new System.Windows.Forms.Button();
-            this.button24 = new System.Windows.Forms.Button();
-            this.button25 = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
             this.beneficiaryid = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button25 = new System.Windows.Forms.Button();
+            this.button19 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -213,124 +211,7 @@
             this.button14.TabIndex = 206;
             this.button14.Text = "Cancel";
             this.button14.UseVisualStyleBackColor = true;
-            // 
-            // button15
-            // 
-            this.button15.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button15.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.button15.Location = new System.Drawing.Point(27, 400);
-            this.button15.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(224, 60);
-            this.button15.TabIndex = 302;
-            this.button15.Text = "Manage Campaigns";
-            this.button15.UseVisualStyleBackColor = true;
-            // 
-            // button16
-            // 
-            this.button16.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button16.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.button16.Location = new System.Drawing.Point(27, 329);
-            this.button16.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(224, 64);
-            this.button16.TabIndex = 301;
-            this.button16.Text = "Manage Donations";
-            this.button16.UseVisualStyleBackColor = true;
-            // 
-            // button17
-            // 
-            this.button17.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button17.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.button17.Location = new System.Drawing.Point(27, 256);
-            this.button17.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(224, 65);
-            this.button17.TabIndex = 300;
-            this.button17.Text = "Manage Donars";
-            this.button17.UseVisualStyleBackColor = true;
-            // 
-            // button20
-            // 
-            this.button20.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button20.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.button20.Location = new System.Drawing.Point(27, 730);
-            this.button20.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(224, 64);
-            this.button20.TabIndex = 299;
-            this.button20.Text = "Assign Tasks";
-            this.button20.UseVisualStyleBackColor = true;
-            // 
-            // button21
-            // 
-            this.button21.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button21.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.button21.Location = new System.Drawing.Point(27, 801);
-            this.button21.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(224, 61);
-            this.button21.TabIndex = 298;
-            this.button21.Text = "Aid Distribution";
-            this.button21.UseVisualStyleBackColor = true;
-            // 
-            // button22
-            // 
-            this.button22.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button22.BackColor = System.Drawing.Color.Transparent;
-            this.button22.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.button22.Location = new System.Drawing.Point(27, 540);
-            this.button22.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(224, 65);
-            this.button22.TabIndex = 297;
-            this.button22.Text = "Manage Beneficiaries";
-            this.button22.UseVisualStyleBackColor = false;
-            // 
-            // button23
-            // 
-            this.button23.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button23.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.button23.Location = new System.Drawing.Point(27, 870);
-            this.button23.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(224, 65);
-            this.button23.TabIndex = 296;
-            this.button23.Text = "Give Feedback";
-            this.button23.UseVisualStyleBackColor = true;
-            // 
-            // button24
-            // 
-            this.button24.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button24.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.button24.Location = new System.Drawing.Point(27, 942);
-            this.button24.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(224, 54);
-            this.button24.TabIndex = 295;
-            this.button24.Text = "Logout";
-            this.button24.UseVisualStyleBackColor = true;
-            // 
-            // button25
-            // 
-            this.button25.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button25.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.button25.Location = new System.Drawing.Point(27, 468);
-            this.button25.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(224, 65);
-            this.button25.TabIndex = 294;
-            this.button25.Text = "Manage Events";
-            this.button25.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
             // button18
             // 
@@ -338,26 +219,13 @@
             this.button18.BackColor = System.Drawing.Color.Thistle;
             this.button18.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.button18.Location = new System.Drawing.Point(79, 615);
+            this.button18.Location = new System.Drawing.Point(104, 561);
             this.button18.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(245, 51);
+            this.button18.Size = new System.Drawing.Size(291, 53);
             this.button18.TabIndex = 293;
             this.button18.Text = "Campaign Beneficiaries";
             this.button18.UseVisualStyleBackColor = false;
-            // 
-            // button19
-            // 
-            this.button19.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button19.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.button19.Location = new System.Drawing.Point(79, 670);
-            this.button19.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(245, 51);
-            this.button19.TabIndex = 292;
-            this.button19.Text = "Donation Beneficiaries";
-            this.button19.UseVisualStyleBackColor = true;
             // 
             // beneficiaryid
             // 
@@ -380,25 +248,130 @@
             this.label4.TabIndex = 303;
             this.label4.Text = "🔑Beneficiary ID";
             // 
+            // button6
+            // 
+            this.button6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button6.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.button6.Location = new System.Drawing.Point(51, 678);
+            this.button6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(224, 64);
+            this.button6.TabIndex = 351;
+            this.button6.Text = "Assign Tasks";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // button7
+            // 
+            this.button7.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button7.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.button7.Location = new System.Drawing.Point(51, 750);
+            this.button7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(224, 61);
+            this.button7.TabIndex = 350;
+            this.button7.Text = "Aid Distribution";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // button8
+            // 
+            this.button8.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button8.BackColor = System.Drawing.Color.Transparent;
+            this.button8.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.button8.Location = new System.Drawing.Point(51, 488);
+            this.button8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(224, 65);
+            this.button8.TabIndex = 349;
+            this.button8.Text = "Manage Beneficiaries";
+            this.button8.UseVisualStyleBackColor = false;
+            // 
+            // button9
+            // 
+            this.button9.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button9.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.button9.Location = new System.Drawing.Point(51, 818);
+            this.button9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(224, 65);
+            this.button9.TabIndex = 348;
+            this.button9.Text = "Give Feedback";
+            this.button9.UseVisualStyleBackColor = true;
+            // 
+            // button10
+            // 
+            this.button10.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button10.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.button10.Location = new System.Drawing.Point(51, 891);
+            this.button10.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(224, 54);
+            this.button10.TabIndex = 347;
+            this.button10.Text = "Logout";
+            this.button10.UseVisualStyleBackColor = true;
+            // 
+            // button11
+            // 
+            this.button11.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button11.BackColor = System.Drawing.Color.GhostWhite;
+            this.button11.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.button11.Location = new System.Drawing.Point(51, 329);
+            this.button11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(224, 71);
+            this.button11.TabIndex = 346;
+            this.button11.Text = "Manage Campaigns";
+            this.button11.UseVisualStyleBackColor = false;
+            // 
+            // button25
+            // 
+            this.button25.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button25.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.button25.Location = new System.Drawing.Point(51, 415);
+            this.button25.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button25.Name = "button25";
+            this.button25.Size = new System.Drawing.Size(224, 65);
+            this.button25.TabIndex = 345;
+            this.button25.Text = "Manage Events";
+            this.button25.UseVisualStyleBackColor = true;
+            // 
+            // button19
+            // 
+            this.button19.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button19.BackColor = System.Drawing.Color.Transparent;
+            this.button19.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.button19.Location = new System.Drawing.Point(104, 622);
+            this.button19.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(291, 51);
+            this.button19.TabIndex = 344;
+            this.button19.Text = " Beneficiaries";
+            this.button19.UseVisualStyleBackColor = false;
+            // 
             // AddCampaignBeneficiaries
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(1252, 1011);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.button7);
+            this.Controls.Add(this.button8);
+            this.Controls.Add(this.button9);
+            this.Controls.Add(this.button10);
+            this.Controls.Add(this.button11);
+            this.Controls.Add(this.button25);
+            this.Controls.Add(this.button19);
             this.Controls.Add(this.beneficiaryid);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.button15);
-            this.Controls.Add(this.button16);
-            this.Controls.Add(this.button17);
-            this.Controls.Add(this.button20);
-            this.Controls.Add(this.button21);
-            this.Controls.Add(this.button22);
-            this.Controls.Add(this.button23);
-            this.Controls.Add(this.button24);
-            this.Controls.Add(this.button25);
             this.Controls.Add(this.button18);
-            this.Controls.Add(this.button19);
             this.Controls.Add(this.BeneficiaryType);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.CampaignCycleID);
@@ -437,18 +410,16 @@
         private System.Windows.Forms.TextBox Amount;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.Button button20;
-        private System.Windows.Forms.Button button21;
-        private System.Windows.Forms.Button button22;
-        private System.Windows.Forms.Button button23;
-        private System.Windows.Forms.Button button24;
-        private System.Windows.Forms.Button button25;
         private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.Button button19;
         private System.Windows.Forms.ComboBox beneficiaryid;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button button25;
+        private System.Windows.Forms.Button button19;
     }
 }

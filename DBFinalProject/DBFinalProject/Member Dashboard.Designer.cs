@@ -54,6 +54,7 @@
             this.button6.TabIndex = 77;
             this.button6.Text = "Join Campaigns";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button5
             // 
@@ -94,6 +95,7 @@
             this.button2.TabIndex = 74;
             this.button2.Text = "View Events";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button4
             // 
@@ -107,6 +109,7 @@
             this.button4.TabIndex = 73;
             this.button4.Text = "GIve FeedBack";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // label3
             // 

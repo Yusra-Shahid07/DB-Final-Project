@@ -190,6 +190,10 @@
             // Role
             // 
             this.Role.FormattingEnabled = true;
+            this.Role.Items.AddRange(new object[] {
+            "Head",
+            "Lead",
+            "Member"});
             this.Role.Location = new System.Drawing.Point(164, 675);
             this.Role.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Role.Name = "Role";

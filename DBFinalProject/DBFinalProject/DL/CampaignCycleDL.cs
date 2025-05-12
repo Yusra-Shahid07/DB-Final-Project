@@ -12,7 +12,7 @@ namespace DBFinalProject.DL
     {
         public static void AddCampaignCycle(CampaignCycleBL campaignCycle)
         {
-            string query = $"Insert into CampaignCycle (CampaignMonth, StartDate, EndDate, EditionID, CampaignID, IsActive) Values('{campaignCycle.CampaignMonth}','{campaignCycle.StartDate}','{campaignCycle.EndDate}','{campaignCycle.EditionID}''{campaignCycle.CampaignID}','{campaignCycle.IsActive}') ;";
+            string query = $"Insert into CampaignCycle (CampaignMonth, StartDate, EndDate, EditionID, CampaignID, IsActive) Values('{campaignCycle.CampaignMonth}','{campaignCycle.StartDate}','{campaignCycle.EndDate}','{campaignCycle.EditionID}','{campaignCycle.CampaignID}','{campaignCycle.IsActive}') ;";
             SQL_Helper.ExecuteQuery(query);
         }
 

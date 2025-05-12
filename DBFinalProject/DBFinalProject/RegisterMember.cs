@@ -29,9 +29,9 @@ namespace DBFinalProject
         private void button8_Click(object sender, EventArgs e)
         {
             string fullName = Fullname.Text.Trim();
-            string joinDateStr = dateTimePicker1.Text.Trim();
+            DateTime joinDateStr = dateTimePicker1.Value.Date;
             string userIdStr = UserID.Text.Trim();
-
+            string dobFormatted = joinDateStr.ToString("yyyy-MM-dd");
             if (string.IsNullOrEmpty(fullName) || string.IsNullOrEmpty(userIdStr))
             {
                 MessageBox.Show("Please fill all fields.");
@@ -44,7 +44,7 @@ namespace DBFinalProject
                 return;
             }
 
-            if (!DateTime.TryParse(joinDateStr, out DateTime joinDate))
+            if (!DateTime.TryParse(dobFormatted, out DateTime joinDate))
             {
                 MessageBox.Show("Invalid join date.");
                 return;
@@ -56,9 +56,21 @@ namespace DBFinalProject
                 return;
             }
 
-            VolunteerBL volunteer = new VolunteerBL(fullName, joinDate, userId);
+            VolunteerBL volunteer = new VolunteerBL(fullName, dobFormatted, userId);
             VolunteerDL.AddVolunteer(volunteer);
-            MessageBox.Show("Volunteer registered successfully with status 'Pending'.");
+            MessageBox.Show("Volunteer registered successfully with status 'Pending'");
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Member_Dashboard member_Dashboard = new Member_Dashboard();
+            member_Dashboard.Show();
+            this.Hide();
+        }
+
+        private void RegisterMember_Load(object sender, EventArgs e)
+        {
+            LoadEligibleUserIds();
         }
     }
     

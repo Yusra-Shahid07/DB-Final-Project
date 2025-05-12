@@ -40,5 +40,12 @@ namespace DBFinalProject
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            signin s=new signin();
+            s.ShowDialog();
+        }
     }
 }

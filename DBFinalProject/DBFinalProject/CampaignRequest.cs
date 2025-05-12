@@ -41,7 +41,9 @@ namespace DBFinalProject
 
         private void button7_Click(object sender, EventArgs e)
         {
-
+            JoinCampaign joinCampaign = new JoinCampaign();
+            joinCampaign.Show();
+            this.Hide();
         }
 
         private void UserID_SelectedIndexChanged(object sender, EventArgs e)

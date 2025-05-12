@@ -20,11 +20,11 @@ namespace DBFinalProject
         }
         private void LoadVolunteerCombo()
         {
-            DataTable dt = VolunteerDL.GetAllVolunteerIDs();
+            DataTable dt = VolunteerDL.GetAllVolunteerNames();
             VolunteerID.Items.Clear();
             foreach (DataRow row in dt.Rows)
             {
-                VolunteerID.Items.Add($"{row["VolunteerID"]} - {row["FullName"]}");
+                VolunteerID.Items.Add(row["FullName"].ToString());
             }
         }
 
@@ -34,9 +34,10 @@ namespace DBFinalProject
             AssignedByCombo.Items.Clear();
             foreach (DataRow row in dt.Rows)
             {
-                AssignedByCombo.Items.Add($"{row["UserID"]} - {row["Username"]}");
+                AssignedByCombo.Items.Add(row["Username"].ToString());
             }
         }
+
         private void button8_Click(object sender, EventArgs e)
         {
             string volunteerStr = VolunteerID.Text.Trim();
@@ -44,8 +45,7 @@ namespace DBFinalProject
             string title = TaskTitle.Text.Trim();
             string description = TaskDescription.Text.Trim();
             string deadlineStr = Deadline.Text.Trim();
-            if (string.IsNullOrEmpty(volunteerStr) || string.IsNullOrEmpty(assignedByStr) ||
-                string.IsNullOrEmpty(title) || string.IsNullOrEmpty(description))
+            if (string.IsNullOrEmpty(volunteerStr) || string.IsNullOrEmpty(assignedByStr) ||string.IsNullOrEmpty(title) || string.IsNullOrEmpty(description))
             {
                 MessageBox.Show("Please fill all fields.");
                 return;
@@ -57,8 +57,8 @@ namespace DBFinalProject
                 return;
             }
 
-            int volunteerId = int.Parse(volunteerStr.Split('-')[0].Trim());
-            int assignedById = int.Parse(assignedByStr.Split('-')[0].Trim());
+            int volunteerId = VolunteerDL.GetVolunteerIdByName(VolunteerID.Text.Trim());
+            int assignedById = UserDL.GetUserIdByUsername(AssignedByCombo.Text.Trim());
             VolunteerTaskBL volunteer = new VolunteerTaskBL(volunteerId, assignedById, title, description, deadline);
             bool valid = VolunteerTaskDL.AddVolunteerTask(volunteer);
             if (valid)

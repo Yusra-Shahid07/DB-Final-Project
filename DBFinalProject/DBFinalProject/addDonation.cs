@@ -23,8 +23,8 @@ namespace DBFinalProject
             string donorName = DonarID.Text.Trim();
             string amountStr = Donationamount.Text.Trim(); 
             DateTime donationDate = dateTimePicker1.Value;
+            string dobFormatted = donationDate.ToString("yyyy-MM-dd");
 
-            
             if (string.IsNullOrEmpty(donorName) || string.IsNullOrEmpty(amountStr) || CampaignCycle.SelectedItem == null)
             {
                 MessageBox.Show("Please fill all fields.");
@@ -47,7 +47,7 @@ namespace DBFinalProject
             }
 
            
-            DonationBL donation = new DonationBL(donorId, amount, donationDate, campaigncycleId);
+            DonationBL donation = new DonationBL(donorId, amount, dobFormatted, campaigncycleId);
             DonationDL.AddDonation(donation);
             MessageBox.Show("Donation recorded successfully!");
 
@@ -79,7 +79,9 @@ namespace DBFinalProject
 
         private void button7_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            signin s = new signin();
+            s.Show();
         }
 
         private void CampaignCycle_SelectedIndexChanged(object sender, EventArgs e)

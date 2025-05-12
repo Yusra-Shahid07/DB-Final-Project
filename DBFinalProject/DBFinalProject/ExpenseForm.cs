@@ -30,5 +30,15 @@ namespace DBFinalProject
             HeadDashboard h = new HeadDashboard();
             h.Show();
         }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

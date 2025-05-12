@@ -291,6 +291,12 @@
     <Compile Include="LeadDashboard.Designer.cs">
       <DependentUpon>LeadDashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="leadgivefeedback.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="leadgivefeedback.Designer.cs">
+      <DependentUpon>leadgivefeedback.cs</DependentUpon>
+    </Compile>
     <Compile Include="ManageBeneficiaries.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -464,6 +470,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="LeadDashboard.resx">
       <DependentUpon>LeadDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="leadgivefeedback.resx">
+      <DependentUpon>leadgivefeedback.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ManageBeneficiaries.resx">
       <DependentUpon>ManageBeneficiaries.cs</DependentUpon>

@@ -54,5 +54,12 @@ namespace DBFinalProject
                 MessageBox.Show("Failed to add edition.");
             }
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            LeadDashboard leadDashboard = new LeadDashboard();
+            leadDashboard.Show();
+        }
     }
 }

@@ -10,7 +10,7 @@ namespace DBFinalProject
 {
     public class SQL_Helper
     {
-        private static string connectionString = "Server = localhost; Database = ppp; User ID = root; Password = aliza_Jaan5;";
+        private static string connectionString = "Server = localhost; Database = pp; User ID = root; Password = aliza_Jaan5;";
 
         public static void ExecuteQuery(string insertQuery)
         {

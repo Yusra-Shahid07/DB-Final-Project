@@ -55,8 +55,6 @@ namespace DBFinalProject
                 MessageBox.Show("Selected event not found.");
                 return;
             }
-
-            // Create and add expense
             ExpensesBL expense = new ExpensesBL(category, amount, paidTo, paymentDate, description, eventId);
             ExpensesDL.AddExpense(expense);
             MessageBox.Show("Expense added successfully.");
@@ -72,7 +70,7 @@ namespace DBFinalProject
 
         private void AddExpenses_Load(object sender, EventArgs e)
         {
-
+            LoadEvents();
         }
     }
 }

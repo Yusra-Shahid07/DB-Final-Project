@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DBFinalProject.DL;
 
 namespace DBFinalProject
 {
@@ -15,8 +16,12 @@ namespace DBFinalProject
         public Campaigns()
         {
             InitializeComponent();
+            LoadGrid();
         }
-
+        public void LoadGrid()
+        {
+            dataGridView1.DataSource =CampaignDL.ShowAllCampaigns();
+        }
         private void Campaigns_Load(object sender, EventArgs e)
         {
 

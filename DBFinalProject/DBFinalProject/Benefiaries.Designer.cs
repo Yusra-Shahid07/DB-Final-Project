@@ -105,6 +105,7 @@
             this.button14.TabIndex = 109;
             this.button14.Text = "Delete";
             this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
             // button15
             // 
@@ -118,6 +119,7 @@
             this.button15.TabIndex = 108;
             this.button15.Text = "Back";
             this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
             // button16
             // 
@@ -131,6 +133,7 @@
             this.button16.TabIndex = 107;
             this.button16.Text = "Add";
             this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
             // dataGridView1
             // 

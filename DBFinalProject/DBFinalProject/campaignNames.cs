@@ -31,7 +31,19 @@ namespace DBFinalProject
             if (check)
             {
                 CampaignDL.AddCampaign(newCampaign);
+                MessageBox.Show("Campaign added successfully!");
             }
+            else
+            {
+                MessageBox.Show("Campaign name must contain only alphabets and spaces.");
+            }
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            LeadDashboard leadDashboard = new LeadDashboard();
+            leadDashboard.Show();
         }
     }
 }

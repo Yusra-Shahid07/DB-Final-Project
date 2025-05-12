@@ -21,5 +21,31 @@ namespace DBFinalProject
         {
 
         }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            LeadDashboard lead=new LeadDashboard();
+            lead.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            AddCampaignBeneficiaries co=new AddCampaignBeneficiaries();
+            co.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Benefiaries benefiaries = new Benefiaries();
+            benefiaries.Show();
+        }
     }
 }

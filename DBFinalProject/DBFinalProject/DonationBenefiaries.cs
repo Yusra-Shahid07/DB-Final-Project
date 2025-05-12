@@ -16,5 +16,20 @@ namespace DBFinalProject
         {
             InitializeComponent();
         }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void DonationBenefiaries_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

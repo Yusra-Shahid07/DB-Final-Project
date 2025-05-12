@@ -16,6 +16,21 @@ namespace DBFinalProject.DL
             string query = $"Insert into Users(Username, Phone, Password,Email, Role) Values('{user.Username}','{user.Phone}','{user.Password}','{user.Email}','{user.Role}') ;";
             SQL_Helper.ExecuteQuery(query);
         }
+        public static DataTable GetAllUserIDs()
+        {
+            string query = "SELECT UserID, UserName FROM users;";
+            return SQL_Helper.view(query);
+        }
+        public static int GetUserIdByUsername(string username)
+        {
+            string query = $"SELECT UserID FROM users WHERE Username = '{username}'";
+            object result = SQL_Helper.ExecuteScalor(query);
+            if (result != null && int.TryParse(result.ToString(), out int id))
+            {
+                return id;
+            }
+            return -1;
+        }
         public static int GetUserIdByEmail(string email)
         {
             string query = $"SELECT UserID FROM users WHERE Email = '{email}'";
@@ -27,7 +42,7 @@ namespace DBFinalProject.DL
             }
             else
             {
-                return -1; // Not found
+                return -1; 
             }
         }
         public static bool UpdatePassword(int userId, string newPassword)
@@ -35,7 +50,7 @@ namespace DBFinalProject.DL
             string query = $"UPDATE users SET Password = '{newPassword}' WHERE UserID = {userId}";
             int rows = SQL_Helper.ExecuteNonQuery(query);
 
-            return rows > 0; // true if updated, false if not
+            return rows > 0; 
         }
         public static DataTable GetEligibleUserIds()
         {

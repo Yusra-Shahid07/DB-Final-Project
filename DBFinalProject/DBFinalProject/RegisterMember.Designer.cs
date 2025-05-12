@@ -257,6 +257,7 @@
             this.button7.TabIndex = 269;
             this.button7.Text = "Cancel";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // RegisterMember
             // 
@@ -284,6 +285,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "RegisterMember";
             this.Text = "RegisterMember";
+            this.Load += new System.EventHandler(this.RegisterMember_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -16,9 +16,9 @@ namespace DBFinalProject.DL
             SQL_Helper.ExecuteQuery(query);
         }
 
-        public static void DeleteBeneficiary(string fullName)
+        public static void DeleteBeneficiary(int id)
         {
-            string query = $"DELETE FROM Beneficiaries WHERE FullName = {fullName};";
+            string query = $"DELETE FROM Beneficiaries WHERE FullName = {id};";
             SQL_Helper.ExecuteQuery(query);
         }
 
@@ -27,7 +27,7 @@ namespace DBFinalProject.DL
             string query = $"UPDATE Beneficiaries SET DOB = '{beneficiary.DOB}', Gender = '{beneficiary.Gender}', Phone = '{beneficiary.Phone}', Address = '{beneficiary.Address}' WHERE FullName = '{beneficiary.FullName}';";
             SQL_Helper.ExecuteQuery(query);
         }
-        public static DataTable ShowAllEventBeneficiaries()
+        public static DataTable ShowAllBeneficiaries()
         {
             string query = "Select * from Beneficiaries";
             DataTable dt = SQL_Helper.view(query);

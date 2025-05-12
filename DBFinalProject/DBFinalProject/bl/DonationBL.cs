@@ -11,10 +11,10 @@ namespace DBFinalProject.bl
         public int DonationID { get; set; }
         public int DonorID { get; set; }
         public decimal Amount { get; set; }
-        public DateTime DonationDate { get; set; }
+        public string DonationDate { get; set; }
         public int CampaignCycleID { get; set; }
 
-        public DonationBL(int donationID, int donorID, decimal amount, DateTime donationDate, int campaignCycleID)
+        public DonationBL(int donationID, int donorID, decimal amount,string donationDate, int campaignCycleID)
         {
             DonationID = donationID;
             DonorID = donorID;
@@ -22,7 +22,7 @@ namespace DBFinalProject.bl
             DonationDate = donationDate;
             CampaignCycleID = campaignCycleID;
         }
-        public DonationBL(int donorID, decimal amount, DateTime donationDate, int campaignCycleID)
+        public DonationBL(int donorID, decimal amount,string donationDate, int campaignCycleID)
         {
             DonorID = donorID;
             Amount = amount;

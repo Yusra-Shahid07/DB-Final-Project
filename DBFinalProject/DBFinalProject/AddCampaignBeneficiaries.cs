@@ -72,5 +72,17 @@ namespace DBFinalProject
             DonationBeneficiariesDL.AddDonationBeneficiary(aid);
             MessageBox.Show("Aid distribution recorded successfully!");
         }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ManageBeneficiaries manageBeneficiaries = new ManageBeneficiaries();
+            manageBeneficiaries.Show();
+        }
     }
 }
