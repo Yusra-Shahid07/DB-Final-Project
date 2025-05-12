@@ -21,19 +21,33 @@ namespace DBFinalProject.DL
             }
             return -1;
         }
+        public static string GetEventNameById(int eventId)
+        {
+            string query = $"SELECT EventName FROM Event WHERE EventID = '{eventId}'";
+            object result = SQL_Helper.ExecuteScalor(query);
 
+            if (result != null)
+            {
+                return result.ToString();
+            }
+            return string.Empty;
+        }
         public static void AddEvent(EventBL events)
         {
             string query = $"Insert into Event (EventName, EventDate, EditionID, Location, CategoryID) Values('{events.EventName}','{events.EventDate}','{events.EditionID}','{events.Location}','{events.CategoryID}') ;";
             SQL_Helper.ExecuteQuery(query);
         }
 
-        public static void DeleteEvent(string eventName)
+        //public static void DeleteEvent(string eventName)
+        //{
+        //    string query = $"DELETE FROM Event WHERE EventName = {eventName};";
+        //    SQL_Helper.ExecuteQuery(query);
+        //}
+        public static void DeleteEvent(int eventid)
         {
-            string query = $"DELETE FROM Event WHERE EventName = {eventName};";
+            string query = $"DELETE FROM Event WHERE EventID = {eventid};";
             SQL_Helper.ExecuteQuery(query);
         }
-
         public static void UpdateEvent(EventBL events)
         {
             string query = $"UPDATE Event SET EventDate = '{events.EventDate}',EditionID = '{events.EditionID}',Location = '{events.Location}',CategoryID = '{events.CategoryID}' WHERE EventName = '{events.EventName}';";

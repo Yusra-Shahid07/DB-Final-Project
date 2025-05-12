@@ -12,7 +12,7 @@ namespace DBFinalProject.DL
     {
         public static void AddAidDistribution(AidDistributionBL aidDistribution)
         {
-            string query = $"Insert into AidDistribution (CampaignCycleID, AidType, AmountOfItems, DistributionDate) Values('{aidDistribution.CampaignCycleID}','{aidDistribution.AidType}','{aidDistribution.Amount}','{aidDistribution.DistributionDate}') ;";
+            string query = $"Insert into AidDistribution (CampaignCycleID, AidType, AmountDonated, DistributionDate) Values('{aidDistribution.CampaignCycleID}','{aidDistribution.AidType}','{aidDistribution.Amount}','{aidDistribution.DistributionDate}') ;";
             SQL_Helper.ExecuteQuery(query);
         }
 

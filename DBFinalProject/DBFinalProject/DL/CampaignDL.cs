@@ -15,6 +15,11 @@ namespace DBFinalProject.DL
             string query = $"Insert into Campaign (CampaignName, Description) Values('{campaign.compaignname}','{campaign.description}') ;";
             SQL_Helper.ExecuteQuery(query);
         }
+        public static void UpdateCampaign(int campaignId, CampaignBL updatedCampaign)
+        {
+            string query = $"UPDATE Campaign SET CampaignName = '{updatedCampaign.compaignname}', Description = '{updatedCampaign.description}' WHERE CampaignID = {campaignId};";
+            SQL_Helper.ExecuteQuery(query);
+        }
         public static int GetCampaignIdByName(string campaignName)
         {
             string query = $"SELECT CampaignID FROM campaign WHERE CampaignName = '{campaignName}'";
@@ -27,7 +32,11 @@ namespace DBFinalProject.DL
 
             return -1; 
         }
-      
+        public static void DeleteCampaign(int campaignId)
+        {
+            string query = $"DELETE FROM campaign WHERE CampaignID = {campaignId}";
+            SQL_Helper.ExecuteNonQuery(query);
+        }
         public static DataTable ShowAllCampaigns()
         {
             string query = "Select * from Campaign";

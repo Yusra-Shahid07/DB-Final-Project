@@ -44,8 +44,8 @@ namespace DBFinalProject
         {
             string aidType = AidType.Text.Trim(); 
             string amountStr = Amount.Text.Trim(); 
-            DateTime distributionDate = date.Value;
-
+            DateTime distributionDate = date.Value.Date; ;
+            string dobFormatted = distributionDate.ToString("yyyy-MM-dd");
             if (string.IsNullOrEmpty(aidType) || string.IsNullOrEmpty(amountStr) || CampaignCycleID.SelectedItem == null)
             {
                 MessageBox.Show("Please fill all fields.");
@@ -61,7 +61,7 @@ namespace DBFinalProject
          
             int campaignCycleId = Convert.ToInt32(CampaignCycleID.SelectedItem.ToString());
 
-            AidDistributionBL aid = new AidDistributionBL(campaignCycleId, aidType, amount, distributionDate);
+            AidDistributionBL aid = new AidDistributionBL(campaignCycleId, aidType, amount, dobFormatted);
             AidDistributionDL.AddAidDistribution(aid);
             MessageBox.Show("Aid distribution recorded successfully!");
         }

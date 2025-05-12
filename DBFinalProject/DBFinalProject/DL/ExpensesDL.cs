@@ -14,18 +14,32 @@ namespace DBFinalProject.DL
             string query = $"INSERT INTO Expense (ExpenseCategory, Amount, PaidTo, PaymentDate, Description, EventID) VALUES ('{expense.ExpenseCategory}', '{expense.Amount}', '{expense.PaidTo}', '{expense.PaymentDate:yyyy-MM-dd}', '{expense.Description}', '{expense.EventID}');";
             SQL_Helper.ExecuteQuery(query);
         }
-
+       
         public static void DeleteExpense(int eventID)
         {
             string query = $"DELETE FROM Expense WHERE EventID = {eventID};";
             SQL_Helper.ExecuteQuery(query);
         }
-
-        public static void UpdateExpense(ExpensesBL expense)
+        public static void UpdateExpense(int expenseId, ExpensesBL expense)
         {
-            string query = $"UPDATE Expense SET Amount = '{expense.Amount}',PaidTo = '{expense.PaidTo}',PaymentDate = '{expense.PaymentDate}',Description = '{expense.Description}' WHERE EventID = '{expense.EventID}';";
+            string query = $@"
+        UPDATE Expense
+        SET 
+            ExpenseCategory = '{expense.ExpenseCategory}',
+            Amount = '{expense.Amount}',
+            PaidTo = '{expense.PaidTo}',
+            PaymentDate = '{expense.PaymentDate:yyyy-MM-dd}',
+            Description = '{expense.Description}',
+            EventID = '{expense.EventID}'
+        WHERE ExpenseID = {expenseId};";
+
             SQL_Helper.ExecuteQuery(query);
         }
+        //public static void UpdateExpense(ExpensesBL expense)
+        //{
+        //    string query = $"UPDATE Expense SET Amount = '{expense.Amount}',PaidTo = '{expense.PaidTo}',PaymentDate = '{expense.PaymentDate}',Description = '{expense.Description}' WHERE EventID = '{expense.EventID}';";
+        //    SQL_Helper.ExecuteQuery(query);
+        //}
         public static DataTable ShowAllExpenses()
         {
             string query = "Select * from Expense";

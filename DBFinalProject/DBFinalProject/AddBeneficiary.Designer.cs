@@ -80,6 +80,7 @@
             this.button15.TabIndex = 220;
             this.button15.Text = "Cancel";
             this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
             // button16
             // 

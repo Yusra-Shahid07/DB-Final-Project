@@ -43,9 +43,37 @@ namespace DBFinalProject
 
         private void button9_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            UpdateCampaign updateCampaign = new UpdateCampaign();
-            updateCampaign.Show();
+            if (dataGridView1.SelectedRows.Count == 0)
+            {
+                MessageBox.Show("Please select a campaign.");
+                return;
+            }
+
+            DataGridViewRow row = dataGridView1.SelectedRows[0];
+            int id = Convert.ToInt32(row.Cells["CampaignID"].Value);
+            string name = row.Cells["CampaignName"].Value.ToString();
+            string desc = row.Cells["Description"].Value.ToString();
+            UpdateCampaign updateForm = new UpdateCampaign(id, name, desc);
+            updateForm.ShowDialog();
+            LoadGrid();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            if (dataGridView1.SelectedRows.Count == 0)
+            {
+                MessageBox.Show("Please select a campaign to delete.");
+                return;
+            }
+
+            DialogResult result = MessageBox.Show("Are you sure you want to delete this campaign?", "Confirm", MessageBoxButtons.YesNo);
+            if (result == DialogResult.No) return;
+
+            int campaignId = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells["CampaignId"].Value);
+            CampaignDL.DeleteCampaign(campaignId);
+            MessageBox.Show("Campaign deleted successfully.");
+            LoadGrid(); 
+
         }
     }
 }

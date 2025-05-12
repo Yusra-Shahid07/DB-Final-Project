@@ -43,10 +43,10 @@ namespace DBFinalProject
         {
             bool check1 = false;
             string name = EventName.Text.Trim();
-            string dateStr = dateTimePicker1.Text.Trim();
+            DateTime dob = dateTimePicker1.Value.Date;
             string location = Location.Text.Trim();
             string categoryName = CategoryID.Text.Trim();
-
+            string dobFormatted = dob.ToString("yyyy-MM-dd");
             string editionIdStr = EditionId.Text.Trim();
             if (string.IsNullOrEmpty(name) || string.IsNullOrEmpty(location) || string.IsNullOrEmpty(categoryName))
             {
@@ -59,7 +59,7 @@ namespace DBFinalProject
                 MessageBox.Show("Event name must contain only alphabets and spaces.");
                 return;
             }
-            if (!DateTime.TryParse(dateStr, out DateTime date))
+            if (!DateTime.TryParse(dobFormatted, out DateTime date))
             {
                 MessageBox.Show("Invalid date format.");
                 return;
@@ -80,7 +80,7 @@ namespace DBFinalProject
                 MessageBox.Show("Invalid Edition or Campaign ID.");
                 return;
             }
-            EventBL Event=new EventBL(name,date,editionId,location,categoryId);
+            EventBL Event=new EventBL(name, dobFormatted, editionId,location,categoryId);
             EventDL.AddEvent(Event);
             MessageBox.Show("Event added successfully!");
         }

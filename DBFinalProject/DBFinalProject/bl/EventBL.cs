@@ -9,12 +9,12 @@ namespace DBFinalProject.bl
     public class EventBL
     {
         public string EventName { get; set; }
-        public DateTime EventDate { get; set; }
+        public string EventDate { get; set; }
         public int EditionID { get; set; }
         public string Location { get; set; }
         public int CategoryID { get; set; }
         
-        public EventBL(string eventName, DateTime eventDate,int editionId, string location, int categoryID)
+        public EventBL(string eventName, string eventDate,int editionId, string location, int categoryID)
         {
             EventName = eventName;
             EventDate = eventDate;

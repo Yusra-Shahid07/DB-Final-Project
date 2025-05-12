@@ -18,15 +18,26 @@ namespace DBFinalProject.DL
 
         public static void DeleteBeneficiary(int id)
         {
-            string query = $"DELETE FROM Beneficiaries WHERE FullName = {id};";
+            string query = $"DELETE FROM Beneficiaries WHERE BeneficiaryID = {id};";
             SQL_Helper.ExecuteQuery(query);
         }
-
-        public static void UpdateBeneficiary(BeneficiaryBL beneficiary)
+        public static void UpdateBeneficiary(int id, BeneficiaryBL b)
         {
-            string query = $"UPDATE Beneficiaries SET DOB = '{beneficiary.DOB}', Gender = '{beneficiary.Gender}', Phone = '{beneficiary.Phone}', Address = '{beneficiary.Address}' WHERE FullName = '{beneficiary.FullName}';";
+            string query = $@"
+        UPDATE Beneficiaries
+        SET FullName = '{b.FullName}', 
+            DOB = '{b.DOB:yyyy-MM-dd}', 
+            Gender = '{b.Gender}', 
+            Phone = '{b.Phone}', 
+            Address = '{b.Address}' WHERE BeneficiaryID = {id};";
+
             SQL_Helper.ExecuteQuery(query);
         }
+        //public static void UpdateBeneficiary(BeneficiaryBL beneficiary)
+        //{
+        //    string query = $"UPDATE Beneficiaries SET DOB = '{beneficiary.DOB}', Gender = '{beneficiary.Gender}', Phone = '{beneficiary.Phone}', Address = '{beneficiary.Address}' WHERE FullName = '{beneficiary.FullName}';";
+        //    SQL_Helper.ExecuteQuery(query);
+        //}
         public static DataTable ShowAllBeneficiaries()
         {
             string query = "Select * from Beneficiaries";
@@ -35,7 +46,7 @@ namespace DBFinalProject.DL
         }
         public static DataTable GetAllBeneficiaryIDs()
         {
-            string query = "SELECT BeneficiaryID FROM Beneficiaries"; // adjust table name if needed
+            string query = "SELECT BeneficiaryID FROM Beneficiaries"; 
             return SQL_Helper.view(query);
         }
 

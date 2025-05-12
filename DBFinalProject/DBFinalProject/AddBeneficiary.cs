@@ -51,5 +51,12 @@ namespace DBFinalProject
         {
 
         }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Benefiaries benefiaries = new Benefiaries();
+            benefiaries.Show();
+        }
     }
 }

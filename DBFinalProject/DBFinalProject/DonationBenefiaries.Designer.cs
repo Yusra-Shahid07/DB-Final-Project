@@ -87,6 +87,7 @@
             this.button14.TabIndex = 201;
             this.button14.Text = "Delete";
             this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
             // button15
             // 
@@ -181,6 +182,7 @@
             this.button18.TabIndex = 288;
             this.button18.Text = "Campaign Beneficiaries";
             this.button18.UseVisualStyleBackColor = false;
+            this.button18.Click += new System.EventHandler(this.button18_Click);
             // 
             // button19
             // 

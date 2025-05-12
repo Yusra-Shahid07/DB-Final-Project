@@ -10,11 +10,11 @@ namespace DBFinalProject.bl
     {
         public int AidID { get; set; }
         public int CampaignCycleID { get; set; }
-        public string AidType { get; set; }  // Using string to map enum from DB
+        public string AidType { get; set; }  
         public int Amount { get; set; }
-        public DateTime DistributionDate { get; set; }
+        public string DistributionDate { get; set; }
 
-        public AidDistributionBL(int campaignCycleID, string aidType, int amount, DateTime distributionDate)
+        public AidDistributionBL(int campaignCycleID, string aidType, int amount, string distributionDate)
         {
             CampaignCycleID = campaignCycleID;
             AidType = aidType;

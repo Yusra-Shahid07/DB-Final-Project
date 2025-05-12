@@ -29,30 +29,20 @@ namespace DBFinalProject
 
         private void button14_Click(object sender, EventArgs e)
         {
-            try
+            if (dataGridView1.SelectedRows.Count == 0)
             {
-                if (dataGridView1.SelectedRows.Count > 0)
-                {
-                    int beneficiaryID = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells[0].Value);
-                    DialogResult result = MessageBox.Show("Are you sure you want to delete this row?", "Confirm Delete", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                MessageBox.Show("Select a row to delete.");
+                return;
+            }
 
-                    if (result == DialogResult.Yes)
-                    {
-                        BeneficiaryDL.DeleteBeneficiary(beneficiaryID);
-                        MessageBox.Show("Row deleted successfully.");
-                        dataGridView1.DataSource = null;
-                        dataGridView1.DataSource = BeneficiaryDL.ShowAllBeneficiaries();
-                    }
-                }
-                else
-                {
-                    MessageBox.Show("Please select the row to delete.");
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Error: " + ex.Message);
-            }
+            DialogResult result = MessageBox.Show("Are you sure you want to delete this beneficiary?", "Confirm Delete", MessageBoxButtons.YesNo);
+            if (result == DialogResult.No) return;
+
+            int id = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells["BeneficiaryID"].Value);
+            BeneficiaryDL.DeleteBeneficiary(id);
+            MessageBox.Show("Beneficiary deleted.");
+            LoadGrid();
+
         }
 
         private void button15_Click(object sender, EventArgs e)
@@ -67,6 +57,27 @@ namespace DBFinalProject
             this.Hide();
             AddBeneficiary addBeneficiary = new AddBeneficiary();
             addBeneficiary.Show();
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            if (dataGridView1.SelectedRows.Count == 0)
+            {
+                MessageBox.Show("Please select a beneficiary to update.");
+                return;
+            }
+
+            DataGridViewRow row = dataGridView1.SelectedRows[0];
+            int id = Convert.ToInt32(row.Cells["BeneficiaryID"].Value);
+            string name = row.Cells["FullName"].Value.ToString();
+            DateTime dob = Convert.ToDateTime(row.Cells["DOB"].Value);
+            string gender = row.Cells["Gender"].Value.ToString();
+            string phone = row.Cells["Phone"].Value.ToString();
+            string address = row.Cells["Address"].Value.ToString();
+            UpdateDonationBeneficiaries updateForm = new UpdateDonationBeneficiaries(id, name, dob, gender, phone, address);
+            updateForm.ShowDialog();
+            LoadGrid();
+
         }
     }
 }
