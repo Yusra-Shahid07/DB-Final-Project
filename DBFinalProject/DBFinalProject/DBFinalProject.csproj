@@ -51,6 +51,24 @@
     <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.5.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
     <Reference Include="MySql.Data, Version=9.3.0.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
       <HintPath>..\packages\MySql.Data.9.3.0\lib\net462\MySql.Data.dll</HintPath>
     </Reference>
@@ -327,6 +345,41 @@
     <Compile Include="RegisterMember.Designer.cs">
       <DependentUpon>RegisterMember.cs</DependentUpon>
     </Compile>
+    <Compile Include="Reports\Beneficiaries\ClassB.cs" />
+    <Compile Include="Reports\Beneficiaries\FormB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Beneficiaries\FormB.Designer.cs">
+      <DependentUpon>FormB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\CampaignCycles\ClassC.cs" />
+    <Compile Include="Reports\CampaignCycles\FormC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\CampaignCycles\FormC.Designer.cs">
+      <DependentUpon>FormC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Donor\ClassD.cs" />
+    <Compile Include="Reports\Donor\FormD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Donor\FormD.Designer.cs">
+      <DependentUpon>FormD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Events\ClassE.cs" />
+    <Compile Include="Reports\Events\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Events\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\VolunteerTask\ClassV.cs" />
+    <Compile Include="Reports\VolunteerTask\FormV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\VolunteerTask\FormV.Designer.cs">
+      <DependentUpon>FormV.cs</DependentUpon>
+    </Compile>
     <Compile Include="signin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -347,6 +400,7 @@
     <Compile Include="HeadDashboard.Designer.cs">
       <DependentUpon>HeadDashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="SqlServerTypes\Loader.cs" />
     <Compile Include="SQL_Helper.cs" />
     <Compile Include="UpdateCampaign.cs">
       <SubType>Form</SubType>
@@ -489,6 +543,26 @@
     <EmbeddedResource Include="RegisterMember.resx">
       <DependentUpon>RegisterMember.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Beneficiaries\FormB.resx">
+      <DependentUpon>FormB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Beneficiaries\ReportB.rdlc" />
+    <EmbeddedResource Include="Reports\CampaignCycles\FormC.resx">
+      <DependentUpon>FormC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CampaignCycles\ReportC.rdlc" />
+    <EmbeddedResource Include="Reports\Donor\FormD.resx">
+      <DependentUpon>FormD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Donor\ReportD.rdlc" />
+    <EmbeddedResource Include="Reports\Events\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Events\ReportE.rdlc" />
+    <EmbeddedResource Include="Reports\VolunteerTask\FormV.resx">
+      <DependentUpon>FormV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\VolunteerTask\ReportV.rdlc" />
     <EmbeddedResource Include="signin.resx">
       <DependentUpon>signin.cs</DependentUpon>
     </EmbeddedResource>
@@ -529,6 +603,12 @@
       <DependentUpon>ViewFeedBack.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\datasources\DBFinalProject.Reports.Beneficiaries.ClassB.datasource" />
+    <None Include="Properties\DataSources\DBFinalProject.Reports.Beneficiaries.ClassB.datasource" />
+    <None Include="Properties\DataSources\DBFinalProject.Reports.CampaignCycles.ClassC.datasource" />
+    <None Include="Properties\DataSources\DBFinalProject.Reports.Donor.ClassD.datasource" />
+    <None Include="Properties\DataSources\DBFinalProject.Reports.Events.ClassE.datasource" />
+    <None Include="Properties\DataSources\DBFinalProject.Reports.VolunteerTask.ClassV.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -541,6 +621,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

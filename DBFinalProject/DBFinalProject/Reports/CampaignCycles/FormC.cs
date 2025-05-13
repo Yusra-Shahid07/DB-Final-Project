@@ -1,0 +1,38 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using Microsoft.Reporting.WinForms;
+
+namespace DBFinalProject.Reports.CampaignCycles
+{
+    public partial class FormC : Form
+    {
+        public FormC()
+        {
+            InitializeComponent();
+        }
+
+        private void FormC_Load(object sender, EventArgs e)
+        {
+
+            this.reportViewer1.RefreshReport();
+        }
+
+        private void reportViewer1_Load(object sender, EventArgs e)
+        {
+            string query = $"CREATE VIEW View_CampaignCycleVolunteers AS SELECT c.CampaignName, cc.CampaignMonth, v.FullName, v.JoinDate FROM VolunteerCampaignCycle AS vcc JOIN Volunteer AS v ON vcc.VolunteerID = v.VolunteerID JOIN CampaignCycle AS cc ON vcc.CampaignCycleID = cc.CampaignCycleID JOIN Campaign AS c ON cc.CampaignID = c.CampaignID;";
+            DataTable dt = SQL_Helper.view(query);
+
+            ReportDataSource rds = new ReportDataSource("DataSet1", dt);
+            reportViewer1.LocalReport.DataSources.Clear();
+            reportViewer1.LocalReport.DataSources.Add(rds);
+            reportViewer1.LocalReport.Refresh();
+        }
+    }
+}

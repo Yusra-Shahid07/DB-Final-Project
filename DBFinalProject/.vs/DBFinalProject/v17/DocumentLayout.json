@@ -3,7 +3,119 @@
   "WorkspaceRootPath": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|c:\\users\\syusr\\downloads\\db\\db-final\\dbfinalproject\\dbfinalproject\\updatedonationbeneficiaries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\dbfinalproject\\reports\\volunteertask\\formv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\reports\\volunteertask\\formv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\dbfinalproject\\reports\\volunteertask\\formv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\reports\\volunteertask\\formv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\dbfinalproject\\dl\\volunteerdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\dl\\volunteerdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|c:\\users\\syusr\\downloads\\db\\db-final\\dbfinalproject\\dbfinalproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|c:\\users\\syusr\\downloads\\db\\db-final\\dbfinalproject\\dbfinalproject\\sql_helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\sql_helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\dbfinalproject\\addevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\addevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\dbfinalproject\\addevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\addevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\dbfinalproject\\reports\\events\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\reports\\events\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\dbfinalproject\\reports\\events\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\reports\\events\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\dbfinalproject\\reports\\events\\reporte.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
+      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\reports\\events\\reporte.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\dbfinalproject\\reports\\events\\classe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\reports\\events\\classe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\dbfinalproject\\reports\\campaigncycles\\formc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\reports\\campaigncycles\\formc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\dbfinalproject\\reports\\campaigncycles\\formc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\reports\\campaigncycles\\formc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\dbfinalproject\\reports\\campaigncycles\\classc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\reports\\campaigncycles\\classc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\dbfinalproject\\reports\\volunteertask\\reportv.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
+      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\reports\\volunteertask\\reportv.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\dbfinalproject\\reports\\volunteertask\\classv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\reports\\volunteertask\\classv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\dbfinalproject\\reports\\donor\\formd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\reports\\donor\\formd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\dbfinalproject\\reports\\donor\\formd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\reports\\donor\\formd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\dbfinalproject\\reports\\donor\\classd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\reports\\donor\\classd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\dbfinalproject\\reports\\donor\\reportd.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
+      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\reports\\donor\\reportd.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\dbfinalproject\\bl\\donorbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\bl\\donorbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\dbfinalproject\\reports\\beneficiaries\\formb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\reports\\beneficiaries\\formb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\dbfinalproject\\reports\\beneficiaries\\formb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\reports\\beneficiaries\\formb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\dbfinalproject\\reports\\campaigncycles\\formc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\reports\\campaigncycles\\formc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\dbfinalproject\\reports\\campaigncycles\\reportc.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
+      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\reports\\campaigncycles\\reportc.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\dbfinalproject\\reports\\beneficiaries\\reportb.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
+      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\reports\\beneficiaries\\reportb.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\dbfinalproject\\reports\\beneficiaries\\classb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\reports\\beneficiaries\\classb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\dbfinalproject\\bl\\beneficiarybl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\bl\\beneficiarybl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\dbfinalproject\\updatedonationbeneficiaries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\updatedonationbeneficiaries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -17,10 +129,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\dbfinalproject\\benefiaries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\benefiaries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\dbfinalproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\dbfinalproject\\dl\\beneficiarydl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -71,10 +179,6 @@
       "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\dbfinalproject\\addevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\addevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\dbfinalproject\\bl\\userbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\bl\\userbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -87,7 +191,7 @@
       "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\updateexpense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|c:\\users\\syusr\\downloads\\db\\db-final\\dbfinalproject\\dbfinalproject\\updateexpense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\dbfinalproject\\updateexpense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\updateexpense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -97,10 +201,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\dbfinalproject\\addexpenses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\addexpenses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\dbfinalproject\\sql_helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\sql_helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\dbfinalproject\\expenseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -123,7 +223,7 @@
       "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\dl\\expensesdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|c:\\users\\syusr\\downloads\\db\\db-final\\dbfinalproject\\dbfinalproject\\updateexpense.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\dbfinalproject\\updateexpense.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\updateexpense.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -195,12 +295,8 @@
       "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\assigntasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|c:\\users\\syusr\\downloads\\db\\db-final\\dbfinalproject\\dbfinalproject\\bl\\eventbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\dbfinalproject\\bl\\eventbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\bl\\eventbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\dbfinalproject\\addevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\addevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\dbfinalproject\\headdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -303,10 +399,6 @@
       "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\adddonar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\dbfinalproject\\dl\\volunteerdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\dl\\volunteerdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\dbfinalproject\\dl\\campaigncycledl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\dl\\campaigncycledl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -349,10 +441,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\dbfinalproject\\headedition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\headedition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\dbfinalproject\\bl\\beneficiarybl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\bl\\beneficiarybl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\dbfinalproject\\campaignrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -487,10 +575,6 @@
       "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\bl\\compaignbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\dbfinalproject\\bl\\donorbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\bl\\donorbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\dbfinalproject\\dl\\donationdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82F1B839-30AD-44F1-B84A-ADCE94ABE596}|DBFinalProject\\DBFinalProject.csproj|solutionrelative:dbfinalproject\\dl\\donationdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -514,11 +598,41 @@
       "DocumentGroups": [
         {
           "DockedHeight": 954,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 9,
           "Children": [
             {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ClassB.cs",
+              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Reports\\Beneficiaries\\ClassB.cs",
+              "RelativeDocumentMoniker": "DBFinalProject\\Reports\\Beneficiaries\\ClassB.cs",
+              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Reports\\Beneficiaries\\ClassB.cs",
+              "RelativeToolTip": "DBFinalProject\\Reports\\Beneficiaries\\ClassB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T03:22:06.341Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormV.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Reports\\VolunteerTask\\FormV.cs",
+              "RelativeDocumentMoniker": "DBFinalProject\\Reports\\VolunteerTask\\FormV.cs",
+              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Reports\\VolunteerTask\\FormV.cs [Design]",
+              "RelativeToolTip": "DBFinalProject\\Reports\\VolunteerTask\\FormV.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T03:24:19.081Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
             },
             {
               "$type": "Bookmark",
@@ -526,11 +640,7 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
@@ -538,225 +648,63 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UpdateDonationBeneficiaries.cs",
-              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\UpdateDonationBeneficiaries.cs",
-              "RelativeDocumentMoniker": "DBFinalProject\\UpdateDonationBeneficiaries.cs",
-              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\UpdateDonationBeneficiaries.cs",
-              "RelativeToolTip": "DBFinalProject\\UpdateDonationBeneficiaries.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAvwC4AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T19:00:52.462Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UpdateDonationBeneficiaries.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\UpdateDonationBeneficiaries.cs",
-              "RelativeDocumentMoniker": "DBFinalProject\\UpdateDonationBeneficiaries.cs",
-              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\UpdateDonationBeneficiaries.cs [Design]",
-              "RelativeToolTip": "DBFinalProject\\UpdateDonationBeneficiaries.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T06:31:05.439Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Benefiaries.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Benefiaries.cs",
-              "RelativeDocumentMoniker": "DBFinalProject\\Benefiaries.cs",
-              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Benefiaries.cs [Design]",
-              "RelativeToolTip": "DBFinalProject\\Benefiaries.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T13:58:22.979Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Benefiaries.cs",
-              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Benefiaries.cs",
-              "RelativeDocumentMoniker": "DBFinalProject\\Benefiaries.cs",
-              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Benefiaries.cs",
-              "RelativeToolTip": "DBFinalProject\\Benefiaries.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T15:27:58.409Z",
-              "EditorCaption": ""
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "SQL_Helper.cs",
+              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\SQL_Helper.cs",
+              "RelativeDocumentMoniker": "DBFinalProject\\SQL_Helper.cs",
+              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\SQL_Helper.cs",
+              "RelativeToolTip": "DBFinalProject\\SQL_Helper.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAwEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T10:07:06.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormV.cs",
+              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Reports\\VolunteerTask\\FormV.cs",
+              "RelativeDocumentMoniker": "DBFinalProject\\Reports\\VolunteerTask\\FormV.cs",
+              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Reports\\VolunteerTask\\FormV.cs",
+              "RelativeToolTip": "DBFinalProject\\Reports\\VolunteerTask\\FormV.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAkwCYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T04:54:13.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VolunteerDL.cs",
+              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\DL\\VolunteerDL.cs",
+              "RelativeDocumentMoniker": "DBFinalProject\\DL\\VolunteerDL.cs",
+              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\DL\\VolunteerDL.cs",
+              "RelativeToolTip": "DBFinalProject\\DL\\VolunteerDL.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA1wBkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T08:52:20.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Program.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\Program.cs",
               "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Program.cs",
               "RelativeToolTip": "DBFinalProject\\Program.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAlwBIAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAlwBUAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-11T09:45:31.812Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BeneficiaryDL.cs",
-              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\DL\\BeneficiaryDL.cs",
-              "RelativeDocumentMoniker": "DBFinalProject\\DL\\BeneficiaryDL.cs",
-              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\DL\\BeneficiaryDL.cs",
-              "RelativeToolTip": "DBFinalProject\\DL\\BeneficiaryDL.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T08:45:44.051Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "AddBeneficiary.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\AddBeneficiary.cs",
-              "RelativeDocumentMoniker": "DBFinalProject\\AddBeneficiary.cs",
-              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\AddBeneficiary.cs [Design]",
-              "RelativeToolTip": "DBFinalProject\\AddBeneficiary.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T07:45:54.974Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AddBeneficiary.cs",
-              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\AddBeneficiary.cs",
-              "RelativeDocumentMoniker": "DBFinalProject\\AddBeneficiary.cs",
-              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\AddBeneficiary.cs",
-              "RelativeToolTip": "DBFinalProject\\AddBeneficiary.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAArwBwAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T07:45:57.495Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UpdateCampaign.cs",
-              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\UpdateCampaign.cs",
-              "RelativeDocumentMoniker": "DBFinalProject\\UpdateCampaign.cs",
-              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\UpdateCampaign.cs",
-              "RelativeToolTip": "DBFinalProject\\UpdateCampaign.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAvwDQAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T04:10:46.292Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UpdateCampaign.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\UpdateCampaign.cs",
-              "RelativeDocumentMoniker": "DBFinalProject\\UpdateCampaign.cs",
-              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\UpdateCampaign.cs [Design]",
-              "RelativeToolTip": "DBFinalProject\\UpdateCampaign.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T19:59:06.208Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Campaigns.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Campaigns.cs",
-              "RelativeDocumentMoniker": "DBFinalProject\\Campaigns.cs",
-              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Campaigns.cs [Design]",
-              "RelativeToolTip": "DBFinalProject\\Campaigns.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T14:06:01.526Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "campaignNames.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\campaignNames.cs",
-              "RelativeDocumentMoniker": "DBFinalProject\\campaignNames.cs",
-              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\campaignNames.cs [Design]",
-              "RelativeToolTip": "DBFinalProject\\campaignNames.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T07:53:42.918Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CampaignDL.cs",
-              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\DL\\CampaignDL.cs",
-              "RelativeDocumentMoniker": "DBFinalProject\\DL\\CampaignDL.cs",
-              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\DL\\CampaignDL.cs",
-              "RelativeToolTip": "DBFinalProject\\DL\\CampaignDL.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAiwBEAAABVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T08:46:43.205Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "campaignNames.cs",
-              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\campaignNames.cs",
-              "RelativeDocumentMoniker": "DBFinalProject\\campaignNames.cs",
-              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\campaignNames.cs",
-              "RelativeToolTip": "DBFinalProject\\campaignNames.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAEwCYAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T07:53:44.936Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Campaigns.cs",
-              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Campaigns.cs",
-              "RelativeDocumentMoniker": "DBFinalProject\\Campaigns.cs",
-              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Campaigns.cs",
-              "RelativeToolTip": "DBFinalProject\\Campaigns.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAvwDcAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T15:28:13.569Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Events.cs",
-              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Events.cs",
-              "RelativeDocumentMoniker": "DBFinalProject\\Events.cs",
-              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Events.cs",
-              "RelativeToolTip": "DBFinalProject\\Events.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAIwD4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T18:51:27.45Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Events.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Events.cs",
-              "RelativeDocumentMoniker": "DBFinalProject\\Events.cs",
-              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Events.cs [Design]",
-              "RelativeToolTip": "DBFinalProject\\Events.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T14:11:53.76Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
               "Title": "AddEvent.cs [Design]",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\AddEvent.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\AddEvent.cs",
@@ -768,7 +716,436 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Reports\\Events\\Form1.cs",
+              "RelativeDocumentMoniker": "DBFinalProject\\Reports\\Events\\Form1.cs",
+              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Reports\\Events\\Form1.cs",
+              "RelativeToolTip": "DBFinalProject\\Reports\\Events\\Form1.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwB0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T05:18:51.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddEvent.cs",
+              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\AddEvent.cs",
+              "RelativeDocumentMoniker": "DBFinalProject\\AddEvent.cs",
+              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\AddEvent.cs",
+              "RelativeToolTip": "DBFinalProject\\AddEvent.cs",
+              "ViewState": "AgIAABAAAADAqtLcN8EwwB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T06:51:21.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ClassE.cs",
+              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Reports\\Events\\ClassE.cs",
+              "RelativeDocumentMoniker": "DBFinalProject\\Reports\\Events\\ClassE.cs",
+              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Reports\\Events\\ClassE.cs",
+              "RelativeToolTip": "DBFinalProject\\Reports\\Events\\ClassE.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T05:22:32.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ReportE.rdlc [Design]",
+              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Reports\\Events\\ReportE.rdlc",
+              "RelativeDocumentMoniker": "DBFinalProject\\Reports\\Events\\ReportE.rdlc",
+              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Reports\\Events\\ReportE.rdlc [Design]",
+              "RelativeToolTip": "DBFinalProject\\Reports\\Events\\ReportE.rdlc [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
+              "WhenOpened": "2025-05-13T05:25:33.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Reports\\Events\\Form1.cs",
+              "RelativeDocumentMoniker": "DBFinalProject\\Reports\\Events\\Form1.cs",
+              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Reports\\Events\\Form1.cs [Design]",
+              "RelativeToolTip": "DBFinalProject\\Reports\\Events\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T05:18:24.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FormC.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Reports\\CampaignCycles\\FormC.cs",
+              "RelativeDocumentMoniker": "DBFinalProject\\Reports\\CampaignCycles\\FormC.cs",
+              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Reports\\CampaignCycles\\FormC.cs [Design]",
+              "RelativeToolTip": "DBFinalProject\\Reports\\CampaignCycles\\FormC.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T03:23:45.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FormC.cs",
+              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Reports\\CampaignCycles\\FormC.cs",
+              "RelativeDocumentMoniker": "DBFinalProject\\Reports\\CampaignCycles\\FormC.cs",
+              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Reports\\CampaignCycles\\FormC.cs",
+              "RelativeToolTip": "DBFinalProject\\Reports\\CampaignCycles\\FormC.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwBwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T04:19:19.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ReportV.rdlc [Design]",
+              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Reports\\VolunteerTask\\ReportV.rdlc",
+              "RelativeDocumentMoniker": "DBFinalProject\\Reports\\VolunteerTask\\ReportV.rdlc",
+              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Reports\\VolunteerTask\\ReportV.rdlc [Design]",
+              "RelativeToolTip": "DBFinalProject\\Reports\\VolunteerTask\\ReportV.rdlc [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
+              "WhenOpened": "2025-05-13T05:01:34.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FormD.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Reports\\Donor\\FormD.cs",
+              "RelativeDocumentMoniker": "DBFinalProject\\Reports\\Donor\\FormD.cs",
+              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Reports\\Donor\\FormD.cs [Design]",
+              "RelativeToolTip": "DBFinalProject\\Reports\\Donor\\FormD.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T03:23:57.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ClassC.cs",
+              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Reports\\CampaignCycles\\ClassC.cs",
+              "RelativeDocumentMoniker": "DBFinalProject\\Reports\\CampaignCycles\\ClassC.cs",
+              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Reports\\CampaignCycles\\ClassC.cs",
+              "RelativeToolTip": "DBFinalProject\\Reports\\CampaignCycles\\ClassC.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T03:22:19.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FormD.cs",
+              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Reports\\Donor\\FormD.cs",
+              "RelativeDocumentMoniker": "DBFinalProject\\Reports\\Donor\\FormD.cs",
+              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Reports\\Donor\\FormD.cs",
+              "RelativeToolTip": "DBFinalProject\\Reports\\Donor\\FormD.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAgwBwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T04:31:47.836Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 18,
+              "Title": "ClassD.cs",
+              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Reports\\Donor\\ClassD.cs",
+              "RelativeDocumentMoniker": "DBFinalProject\\Reports\\Donor\\ClassD.cs",
+              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Reports\\Donor\\ClassD.cs",
+              "RelativeToolTip": "DBFinalProject\\Reports\\Donor\\ClassD.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T03:22:30.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ClassV.cs",
+              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Reports\\VolunteerTask\\ClassV.cs",
+              "RelativeDocumentMoniker": "DBFinalProject\\Reports\\VolunteerTask\\ClassV.cs",
+              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Reports\\VolunteerTask\\ClassV.cs",
+              "RelativeToolTip": "DBFinalProject\\Reports\\VolunteerTask\\ClassV.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAuwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T03:22:54.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ReportD.rdlc [Design]",
+              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Reports\\Donor\\ReportD.rdlc",
+              "RelativeDocumentMoniker": "DBFinalProject\\Reports\\Donor\\ReportD.rdlc",
+              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Reports\\Donor\\ReportD.rdlc [Design]",
+              "RelativeToolTip": "DBFinalProject\\Reports\\Donor\\ReportD.rdlc [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
+              "WhenOpened": "2025-05-13T04:43:42.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DonorBL.cs",
+              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\bl\\DonorBL.cs",
+              "RelativeDocumentMoniker": "DBFinalProject\\bl\\DonorBL.cs",
+              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\bl\\DonorBL.cs",
+              "RelativeToolTip": "DBFinalProject\\bl\\DonorBL.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T08:39:10.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FormB.cs",
+              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Reports\\Beneficiaries\\FormB.cs",
+              "RelativeDocumentMoniker": "DBFinalProject\\Reports\\Beneficiaries\\FormB.cs",
+              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Reports\\Beneficiaries\\FormB.cs",
+              "RelativeToolTip": "DBFinalProject\\Reports\\Beneficiaries\\FormB.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAmwB0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T03:37:03.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "FormB.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Reports\\Beneficiaries\\FormB.cs",
+              "RelativeDocumentMoniker": "DBFinalProject\\Reports\\Beneficiaries\\FormB.cs",
+              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Reports\\Beneficiaries\\FormB.cs [Design]",
+              "RelativeToolTip": "DBFinalProject\\Reports\\Beneficiaries\\FormB.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T03:23:30.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ReportC.rdlc [Design]",
+              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Reports\\CampaignCycles\\ReportC.rdlc",
+              "RelativeDocumentMoniker": "DBFinalProject\\Reports\\CampaignCycles\\ReportC.rdlc",
+              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Reports\\CampaignCycles\\ReportC.rdlc [Design]",
+              "RelativeToolTip": "DBFinalProject\\Reports\\CampaignCycles\\ReportC.rdlc [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
+              "WhenOpened": "2025-05-13T04:26:40.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "FormC.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Reports\\CampaignCycles\\FormC.Designer.cs",
+              "RelativeDocumentMoniker": "DBFinalProject\\Reports\\CampaignCycles\\FormC.Designer.cs",
+              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Reports\\CampaignCycles\\FormC.Designer.cs",
+              "RelativeToolTip": "DBFinalProject\\Reports\\CampaignCycles\\FormC.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T04:29:05.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "BeneficiaryBL.cs",
+              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\bl\\BeneficiaryBL.cs",
+              "RelativeDocumentMoniker": "DBFinalProject\\bl\\BeneficiaryBL.cs",
+              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\bl\\BeneficiaryBL.cs",
+              "RelativeToolTip": "DBFinalProject\\bl\\BeneficiaryBL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T08:35:36.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ReportB.rdlc [Design]",
+              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Reports\\Beneficiaries\\ReportB.rdlc",
+              "RelativeDocumentMoniker": "DBFinalProject\\Reports\\Beneficiaries\\ReportB.rdlc",
+              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Reports\\Beneficiaries\\ReportB.rdlc [Design]",
+              "RelativeToolTip": "DBFinalProject\\Reports\\Beneficiaries\\ReportB.rdlc [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
+              "WhenOpened": "2025-05-13T03:56:52.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UpdateDonationBeneficiaries.cs",
+              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\UpdateDonationBeneficiaries.cs",
+              "RelativeDocumentMoniker": "DBFinalProject\\UpdateDonationBeneficiaries.cs",
+              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\UpdateDonationBeneficiaries.cs",
+              "RelativeToolTip": "DBFinalProject\\UpdateDonationBeneficiaries.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAIA6wCAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T19:00:52.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UpdateDonationBeneficiaries.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\UpdateDonationBeneficiaries.cs",
+              "RelativeDocumentMoniker": "DBFinalProject\\UpdateDonationBeneficiaries.cs",
+              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\UpdateDonationBeneficiaries.cs [Design]",
+              "RelativeToolTip": "DBFinalProject\\UpdateDonationBeneficiaries.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T06:31:05.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Benefiaries.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Benefiaries.cs",
+              "RelativeDocumentMoniker": "DBFinalProject\\Benefiaries.cs",
+              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Benefiaries.cs [Design]",
+              "RelativeToolTip": "DBFinalProject\\Benefiaries.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T13:58:22.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Benefiaries.cs",
+              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Benefiaries.cs",
+              "RelativeDocumentMoniker": "DBFinalProject\\Benefiaries.cs",
+              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Benefiaries.cs",
+              "RelativeToolTip": "DBFinalProject\\Benefiaries.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T15:27:58.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "BeneficiaryDL.cs",
+              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\DL\\BeneficiaryDL.cs",
+              "RelativeDocumentMoniker": "DBFinalProject\\DL\\BeneficiaryDL.cs",
+              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\DL\\BeneficiaryDL.cs",
+              "RelativeToolTip": "DBFinalProject\\DL\\BeneficiaryDL.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T08:45:44.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AddBeneficiary.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\AddBeneficiary.cs",
+              "RelativeDocumentMoniker": "DBFinalProject\\AddBeneficiary.cs",
+              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\AddBeneficiary.cs [Design]",
+              "RelativeToolTip": "DBFinalProject\\AddBeneficiary.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T07:45:54.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AddBeneficiary.cs",
+              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\AddBeneficiary.cs",
+              "RelativeDocumentMoniker": "DBFinalProject\\AddBeneficiary.cs",
+              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\AddBeneficiary.cs",
+              "RelativeToolTip": "DBFinalProject\\AddBeneficiary.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAArwBwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T07:45:57.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "UpdateCampaign.cs",
+              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\UpdateCampaign.cs",
+              "RelativeDocumentMoniker": "DBFinalProject\\UpdateCampaign.cs",
+              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\UpdateCampaign.cs",
+              "RelativeToolTip": "DBFinalProject\\UpdateCampaign.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAvwDQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T04:10:46.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "UpdateCampaign.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\UpdateCampaign.cs",
+              "RelativeDocumentMoniker": "DBFinalProject\\UpdateCampaign.cs",
+              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\UpdateCampaign.cs [Design]",
+              "RelativeToolTip": "DBFinalProject\\UpdateCampaign.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T19:59:06.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Campaigns.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Campaigns.cs",
+              "RelativeDocumentMoniker": "DBFinalProject\\Campaigns.cs",
+              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Campaigns.cs [Design]",
+              "RelativeToolTip": "DBFinalProject\\Campaigns.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T14:06:01.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "campaignNames.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\campaignNames.cs",
+              "RelativeDocumentMoniker": "DBFinalProject\\campaignNames.cs",
+              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\campaignNames.cs [Design]",
+              "RelativeToolTip": "DBFinalProject\\campaignNames.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T07:53:42.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CampaignDL.cs",
+              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\DL\\CampaignDL.cs",
+              "RelativeDocumentMoniker": "DBFinalProject\\DL\\CampaignDL.cs",
+              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\DL\\CampaignDL.cs",
+              "RelativeToolTip": "DBFinalProject\\DL\\CampaignDL.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAiwBEAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T08:46:43.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "campaignNames.cs",
+              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\campaignNames.cs",
+              "RelativeDocumentMoniker": "DBFinalProject\\campaignNames.cs",
+              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\campaignNames.cs",
+              "RelativeToolTip": "DBFinalProject\\campaignNames.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAEwCYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T07:53:44.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Campaigns.cs",
+              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Campaigns.cs",
+              "RelativeDocumentMoniker": "DBFinalProject\\Campaigns.cs",
+              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Campaigns.cs",
+              "RelativeToolTip": "DBFinalProject\\Campaigns.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAvwDcAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T15:28:13.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Events.cs",
+              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Events.cs",
+              "RelativeDocumentMoniker": "DBFinalProject\\Events.cs",
+              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Events.cs",
+              "RelativeToolTip": "DBFinalProject\\Events.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAIwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T18:51:27.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Events.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Events.cs",
+              "RelativeDocumentMoniker": "DBFinalProject\\Events.cs",
+              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Events.cs [Design]",
+              "RelativeToolTip": "DBFinalProject\\Events.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T14:11:53.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
               "Title": "UserBL.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\bl\\UserBL.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\bl\\UserBL.cs",
@@ -776,36 +1153,33 @@
               "RelativeToolTip": "DBFinalProject\\bl\\UserBL.cs",
               "ViewState": "AgIAAEgAAAAAAAAAAAAQwCIAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T08:42:41.254Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-11T08:42:41.254Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 45,
               "Title": "ExpenseForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\ExpenseForm.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\ExpenseForm.cs",
               "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\ExpenseForm.cs [Design]",
               "RelativeToolTip": "DBFinalProject\\ExpenseForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T14:11:52.004Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-10T14:11:52.004Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 46,
               "Title": "UpdateExpense.cs [Design]",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\UpdateExpense.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\UpdateExpense.cs",
               "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\UpdateExpense.cs [Design]",
               "RelativeToolTip": "DBFinalProject\\UpdateExpense.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T19:59:21.841Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-10T19:59:21.841Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 47,
               "Title": "UpdateExpense.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\UpdateExpense.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\UpdateExpense.cs",
@@ -813,12 +1187,11 @@
               "RelativeToolTip": "DBFinalProject\\UpdateExpense.cs",
               "ViewState": "AgIAAEQAAAAAAAAAAADgv10AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T17:18:34.959Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T17:18:34.959Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 48,
               "Title": "AddExpenses.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\AddExpenses.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\AddExpenses.cs",
@@ -826,37 +1199,22 @@
               "RelativeToolTip": "DBFinalProject\\AddExpenses.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAewB4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T08:00:36.342Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-11T08:00:36.342Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 49,
               "Title": "AddExpenses.cs [Design]",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\AddExpenses.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\AddExpenses.cs",
               "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\AddExpenses.cs [Design]",
               "RelativeToolTip": "DBFinalProject\\AddExpenses.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T07:52:13.584Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-10T07:52:13.584Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "SQL_Helper.cs",
-              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\SQL_Helper.cs",
-              "RelativeDocumentMoniker": "DBFinalProject\\SQL_Helper.cs",
-              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\SQL_Helper.cs",
-              "RelativeToolTip": "DBFinalProject\\SQL_Helper.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAcwBMAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T09:51:59.79Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 51,
               "Title": "EventDL.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\DL\\EventDL.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\DL\\EventDL.cs",
@@ -864,12 +1222,11 @@
               "RelativeToolTip": "DBFinalProject\\DL\\EventDL.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAuwBcAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T08:50:08.395Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-11T08:50:08.395Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 52,
               "Title": "ExpensesBL.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\bl\\ExpensesBL.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\bl\\ExpensesBL.cs",
@@ -877,12 +1234,11 @@
               "RelativeToolTip": "DBFinalProject\\bl\\ExpensesBL.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAA7wCMAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T08:41:28.225Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-11T08:41:28.225Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 53,
               "Title": "EventCategoryBL.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\bl\\EventCategoryBL.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\bl\\EventCategoryBL.cs",
@@ -890,12 +1246,11 @@
               "RelativeToolTip": "DBFinalProject\\bl\\EventCategoryBL.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAiwCMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T08:40:55.34Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-11T08:40:55.34Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 50,
               "Title": "ExpenseForm.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\ExpenseForm.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\ExpenseForm.cs",
@@ -903,12 +1258,11 @@
               "RelativeToolTip": "DBFinalProject\\ExpenseForm.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAwwDcAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T07:54:07.977Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-11T07:54:07.977Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 54,
               "Title": "ExpensesDL.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\DL\\ExpensesDL.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\DL\\ExpensesDL.cs",
@@ -916,12 +1270,11 @@
               "RelativeToolTip": "DBFinalProject\\DL\\ExpensesDL.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T08:50:48.062Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-11T08:50:48.062Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 55,
               "Title": "UpdateExpense.Designer.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\UpdateExpense.Designer.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\UpdateExpense.Designer.cs",
@@ -929,12 +1282,11 @@
               "RelativeToolTip": "DBFinalProject\\UpdateExpense.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T18:18:31.796Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T18:18:31.796Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 56,
               "Title": "ManageBeneficiaries.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\ManageBeneficiaries.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\ManageBeneficiaries.cs",
@@ -942,24 +1294,22 @@
               "RelativeToolTip": "DBFinalProject\\ManageBeneficiaries.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAArwC0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T18:55:29.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-11T18:55:29.453Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 57,
               "Title": "ManageBeneficiaries.cs [Design]",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\ManageBeneficiaries.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\ManageBeneficiaries.cs",
               "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\ManageBeneficiaries.cs [Design]",
               "RelativeToolTip": "DBFinalProject\\ManageBeneficiaries.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T19:45:46.144Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-10T19:45:46.144Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 58,
               "Title": "AddCampaignBeneficiaries.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\AddCampaignBeneficiaries.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\AddCampaignBeneficiaries.cs",
@@ -967,24 +1317,22 @@
               "RelativeToolTip": "DBFinalProject\\AddCampaignBeneficiaries.cs",
               "ViewState": "AgIAACoAAAAAAAAAAAAawC8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T07:27:34.241Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T07:27:34.241Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 59,
               "Title": "AddCampaignBeneficiaries.cs [Design]",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\AddCampaignBeneficiaries.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\AddCampaignBeneficiaries.cs",
               "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\AddCampaignBeneficiaries.cs [Design]",
               "RelativeToolTip": "DBFinalProject\\AddCampaignBeneficiaries.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T06:30:45.541Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-10T06:30:45.541Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 60,
               "Title": "DonationBenefiaries.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\DonationBenefiaries.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\DonationBenefiaries.cs",
@@ -992,36 +1340,33 @@
               "RelativeToolTip": "DBFinalProject\\DonationBenefiaries.cs",
               "ViewState": "AgIAACQAAAAAAAAAAADgvzgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T06:15:00.306Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T06:15:00.306Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 61,
               "Title": "DonationBenefiaries.cs [Design]",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\DonationBenefiaries.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\DonationBenefiaries.cs",
               "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\DonationBenefiaries.cs [Design]",
               "RelativeToolTip": "DBFinalProject\\DonationBenefiaries.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T14:06:08.173Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-10T14:06:08.173Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 62,
               "Title": "UpdateCampaignBeneficiaries.cs [Design]",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\UpdateCampaignBeneficiaries.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\UpdateCampaignBeneficiaries.cs",
               "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\UpdateCampaignBeneficiaries.cs [Design]",
               "RelativeToolTip": "DBFinalProject\\UpdateCampaignBeneficiaries.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T06:31:09.443Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-10T06:31:09.443Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 63,
               "Title": "VerifyDonations.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\VerifyDonations.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\VerifyDonations.cs",
@@ -1029,24 +1374,22 @@
               "RelativeToolTip": "DBFinalProject\\VerifyDonations.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T07:52:29.821Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-11T07:52:29.821Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 64,
               "Title": "VerifyDonations.cs [Design]",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\VerifyDonations.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\VerifyDonations.cs",
               "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\VerifyDonations.cs [Design]",
               "RelativeToolTip": "DBFinalProject\\VerifyDonations.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T19:59:23.557Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-10T19:59:23.557Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 65,
               "Title": "ApproveVolunteer.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\ApproveVolunteer.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\ApproveVolunteer.cs",
@@ -1054,24 +1397,22 @@
               "RelativeToolTip": "DBFinalProject\\ApproveVolunteer.cs",
               "ViewState": "AgIAABIAAAAAAAAAAIAwwCoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T07:40:35.769Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-11T07:40:35.769Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 66,
               "Title": "ApproveVolunteer.cs [Design]",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\ApproveVolunteer.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\ApproveVolunteer.cs",
               "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\ApproveVolunteer.cs [Design]",
               "RelativeToolTip": "DBFinalProject\\ApproveVolunteer.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T09:05:26.786Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-10T09:05:26.786Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 67,
               "Title": "AidDistribution.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\AidDistribution.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\AidDistribution.cs",
@@ -1079,24 +1420,22 @@
               "RelativeToolTip": "DBFinalProject\\AidDistribution.cs",
               "ViewState": "AgIAACwAAAAAAAAAAAAtwD8AAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T13:28:58.816Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T13:28:58.816Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 69,
               "Title": "AidDistribution.cs [Design]",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\AidDistribution.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\AidDistribution.cs",
               "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\AidDistribution.cs [Design]",
               "RelativeToolTip": "DBFinalProject\\AidDistribution.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T08:09:57.586Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-10T08:09:57.586Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 68,
               "Title": "AidDistributionBL.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\bl\\AidDistributionBL.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\bl\\AidDistributionBL.cs",
@@ -1104,12 +1443,11 @@
               "RelativeToolTip": "DBFinalProject\\bl\\AidDistributionBL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T08:34:57.88Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-11T08:34:57.88Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 72,
               "Title": "AssignTasks.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\AssignTasks.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\AssignTasks.cs",
@@ -1117,12 +1455,11 @@
               "RelativeToolTip": "DBFinalProject\\AssignTasks.cs",
               "ViewState": "AgIAACwAAAAAAAAAAAD4vy4AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T16:27:33.777Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T16:27:33.777Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 70,
               "Title": "AidDistributionDL.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\DL\\AidDistributionDL.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\DL\\AidDistributionDL.cs",
@@ -1130,24 +1467,22 @@
               "RelativeToolTip": "DBFinalProject\\DL\\AidDistributionDL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T08:45:00.612Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-11T08:45:00.612Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 71,
               "Title": "AssignTasks.cs [Design]",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\AssignTasks.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\AssignTasks.cs",
               "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\AssignTasks.cs [Design]",
               "RelativeToolTip": "DBFinalProject\\AssignTasks.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T09:05:35.52Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-10T09:05:35.52Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 73,
               "Title": "EventBL.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\bl\\EventBL.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\bl\\EventBL.cs",
@@ -1155,25 +1490,11 @@
               "RelativeToolTip": "DBFinalProject\\bl\\EventBL.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAqwBwAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T08:40:32.875Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-11T08:40:32.875Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "AddEvent.cs",
-              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\AddEvent.cs",
-              "RelativeDocumentMoniker": "DBFinalProject\\AddEvent.cs",
-              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\AddEvent.cs",
-              "RelativeToolTip": "DBFinalProject\\AddEvent.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAgwGEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T06:51:21.202Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 74,
               "Title": "HeadDashboard.cs [Design]",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\HeadDashboard.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\HeadDashboard.cs",
@@ -1184,7 +1505,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 76,
               "Title": "addDonation.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\addDonation.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\addDonation.cs",
@@ -1196,7 +1517,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 77,
               "Title": "addDonation.cs [Design]",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\addDonation.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\addDonation.cs",
@@ -1207,7 +1528,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 75,
               "Title": "DonationBL.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\bl\\DonationBL.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\bl\\DonationBL.cs",
@@ -1219,7 +1540,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 79,
               "Title": "GiveFeedback.cs [Design]",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\GiveFeedback.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\GiveFeedback.cs",
@@ -1230,7 +1551,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 78,
               "Title": "GiveFeedback.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\GiveFeedback.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\GiveFeedback.cs",
@@ -1242,7 +1563,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 81,
               "Title": "FeedbackBL.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\bl\\FeedbackBL.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\bl\\FeedbackBL.cs",
@@ -1254,7 +1575,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 82,
               "Title": "leadgivefeedback.cs [Design]",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\leadgivefeedback.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\leadgivefeedback.cs",
@@ -1265,7 +1586,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 80,
               "Title": "leadgivefeedback.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\leadgivefeedback.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\leadgivefeedback.cs",
@@ -1277,7 +1598,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 83,
               "Title": "JoinCampaign.cs [Design]",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\JoinCampaign.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\JoinCampaign.cs",
@@ -1288,7 +1609,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 84,
               "Title": "JoinCampaign.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\JoinCampaign.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\JoinCampaign.cs",
@@ -1300,7 +1621,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 85,
               "Title": "LaunchCampaign.cs [Design]",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\LaunchCampaign.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\LaunchCampaign.cs",
@@ -1311,7 +1632,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 86,
               "Title": "LeadDashboard.cs [Design]",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\LeadDashboard.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\LeadDashboard.cs",
@@ -1322,7 +1643,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 87,
               "Title": "ManageEventCategories.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\ManageEventCategories.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\ManageEventCategories.cs",
@@ -1334,7 +1655,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 88,
               "Title": "ManageEventCategories.cs [Design]",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\ManageEventCategories.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\ManageEventCategories.cs",
@@ -1345,7 +1666,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 89,
               "Title": "Member Dashboard.cs [Design]",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Member Dashboard.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\Member Dashboard.cs",
@@ -1356,7 +1677,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 90,
               "Title": "MemberTasks.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\MemberTasks.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\MemberTasks.cs",
@@ -1368,7 +1689,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 91,
               "Title": "MemberTasks.cs [Design]",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\MemberTasks.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\MemberTasks.cs",
@@ -1379,7 +1700,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 92,
               "Title": "RegisterMember.cs [Design]",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\RegisterMember.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\RegisterMember.cs",
@@ -1390,7 +1711,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 93,
               "Title": "ViewEvents.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\ViewEvents.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\ViewEvents.cs",
@@ -1402,7 +1723,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 95,
               "Title": "ViewFeedBack.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\ViewFeedBack.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\ViewFeedBack.cs",
@@ -1414,7 +1735,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 96,
               "Title": "ViewFeedBack.cs [Design]",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\ViewFeedBack.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\ViewFeedBack.cs",
@@ -1425,7 +1746,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 94,
               "Title": "ViewEvents.cs [Design]",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\ViewEvents.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\ViewEvents.cs",
@@ -1436,7 +1757,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 97,
               "Title": "RegisterMember.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\RegisterMember.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\RegisterMember.cs",
@@ -1448,7 +1769,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 98,
               "Title": "AddDonar.cs [Design]",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\AddDonar.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\AddDonar.cs",
@@ -1459,19 +1780,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
-              "Title": "VolunteerDL.cs",
-              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\DL\\VolunteerDL.cs",
-              "RelativeDocumentMoniker": "DBFinalProject\\DL\\VolunteerDL.cs",
-              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\DL\\VolunteerDL.cs",
-              "RelativeToolTip": "DBFinalProject\\DL\\VolunteerDL.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAACYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T08:52:20.885Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 99,
               "Title": "CampaignCycleDL.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\DL\\CampaignCycleDL.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\DL\\CampaignCycleDL.cs",
@@ -1483,7 +1792,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 101,
               "Title": "LaunchCampaign.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\LaunchCampaign.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\LaunchCampaign.cs",
@@ -1495,7 +1804,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 100,
               "Title": "CampaignCycleBL.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\bl\\CampaignCycleBL.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\bl\\CampaignCycleBL.cs",
@@ -1507,7 +1816,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 102,
               "Title": "EditionsDL.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\DL\\EditionsDL.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\DL\\EditionsDL.cs",
@@ -1519,7 +1828,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 103,
               "Title": "AddDonar.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\AddDonar.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\AddDonar.cs",
@@ -1531,7 +1840,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 104,
               "Title": "signup.cs [Design]",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\signup.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\signup.cs",
@@ -1542,7 +1851,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 105,
               "Title": "VolunteerBL.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\bl\\VolunteerBL.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\bl\\VolunteerBL.cs",
@@ -1554,7 +1863,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 106,
               "Title": "HeadEdition.cs [Design]",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\HeadEdition.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\HeadEdition.cs",
@@ -1565,7 +1874,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 107,
               "Title": "Edition.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Edition.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\Edition.cs",
@@ -1577,7 +1886,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 108,
               "Title": "Edition.cs [Design]",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Edition.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\Edition.cs",
@@ -1588,7 +1897,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 109,
               "Title": "HeadEdition.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\HeadEdition.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\HeadEdition.cs",
@@ -1600,19 +1909,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
-              "Title": "BeneficiaryBL.cs",
-              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\bl\\BeneficiaryBL.cs",
-              "RelativeDocumentMoniker": "DBFinalProject\\bl\\BeneficiaryBL.cs",
-              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\bl\\BeneficiaryBL.cs",
-              "RelativeToolTip": "DBFinalProject\\bl\\BeneficiaryBL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAgwBoAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T08:35:36.371Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 110,
               "Title": "CampaignRequest.cs [Design]",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\CampaignRequest.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\CampaignRequest.cs",
@@ -1623,7 +1920,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 111,
               "Title": "CampaignRequest.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\CampaignRequest.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\CampaignRequest.cs",
@@ -1635,7 +1932,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 112,
               "Title": "Member Dashboard.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Member Dashboard.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\Member Dashboard.cs",
@@ -1647,7 +1944,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 113,
               "Title": "VolunteerTaskDL.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\DL\\VolunteerTaskDL.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\DL\\VolunteerTaskDL.cs",
@@ -1659,7 +1956,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 114,
               "Title": "VolunteerTaskBL.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\bl\\VolunteerTaskBL.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\bl\\VolunteerTaskBL.cs",
@@ -1671,7 +1968,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 115,
               "Title": "UserDL.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\DL\\UserDL.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\DL\\UserDL.cs",
@@ -1683,7 +1980,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 116,
               "Title": "LeadDashboard.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\LeadDashboard.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\LeadDashboard.cs",
@@ -1695,7 +1992,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 117,
               "Title": "campaignNames.Designer.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\campaignNames.Designer.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\campaignNames.Designer.cs",
@@ -1703,12 +2000,11 @@
               "RelativeToolTip": "DBFinalProject\\campaignNames.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T06:41:24.891Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T06:41:24.891Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 96,
+              "DocumentIndex": 118,
               "Title": "UpdateCampaignBeneficiaries.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\UpdateCampaignBeneficiaries.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\UpdateCampaignBeneficiaries.cs",
@@ -1716,12 +2012,11 @@
               "RelativeToolTip": "DBFinalProject\\UpdateCampaignBeneficiaries.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAADgvxUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T06:14:32.089Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T06:14:32.089Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 119,
               "Title": "signin.cs [Design]",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\signin.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\signin.cs",
@@ -1732,7 +2027,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 98,
+              "DocumentIndex": 120,
               "Title": "signin.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\signin.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\signin.cs",
@@ -1744,7 +2039,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 121,
               "Title": "Donations.cs [Design]",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Donations.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\Donations.cs",
@@ -1755,7 +2050,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 100,
+              "DocumentIndex": 122,
               "Title": "ForogtPassword2.cs [Design]",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\ForogtPassword2.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\ForogtPassword2.cs",
@@ -1766,7 +2061,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 101,
+              "DocumentIndex": 123,
               "Title": "ForgotPassword.cs [Design]",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\ForgotPassword.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\ForgotPassword.cs",
@@ -1777,7 +2072,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 103,
+              "DocumentIndex": 125,
               "Title": "Donars.cs [Design]",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Donars.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\Donars.cs",
@@ -1788,7 +2083,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 102,
+              "DocumentIndex": 124,
               "Title": "ForgotPassword.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\ForgotPassword.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\ForgotPassword.cs",
@@ -1800,7 +2095,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 104,
+              "DocumentIndex": 126,
               "Title": "signin.Designer.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\signin.Designer.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\signin.Designer.cs",
@@ -1812,7 +2107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 105,
+              "DocumentIndex": 127,
               "Title": "signup.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\signup.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\signup.cs",
@@ -1824,7 +2119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 106,
+              "DocumentIndex": 128,
               "Title": "FeedbackDL.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\DL\\FeedbackDL.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\DL\\FeedbackDL.cs",
@@ -1836,7 +2131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 107,
+              "DocumentIndex": 129,
               "Title": "AddEventCategory.cs [Design]",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\AddEventCategory.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\AddEventCategory.cs",
@@ -1847,7 +2142,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 108,
+              "DocumentIndex": 130,
               "Title": "Donars.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Donars.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\Donars.cs",
@@ -1859,7 +2154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 109,
+              "DocumentIndex": 131,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\App.config",
               "RelativeDocumentMoniker": "DBFinalProject\\App.config",
@@ -1872,7 +2167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 110,
+              "DocumentIndex": 132,
               "Title": "EventCategoryDL.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\DL\\EventCategoryDL.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\DL\\EventCategoryDL.cs",
@@ -1884,7 +2179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 111,
+              "DocumentIndex": 133,
               "Title": "HeadDashboard.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\HeadDashboard.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\HeadDashboard.cs",
@@ -1896,7 +2191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 112,
+              "DocumentIndex": 134,
               "Title": "ForogtPassword2.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\ForogtPassword2.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\ForogtPassword2.cs",
@@ -1908,7 +2203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 113,
+              "DocumentIndex": 135,
               "Title": "AddEventCategory.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\AddEventCategory.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\AddEventCategory.cs",
@@ -1920,7 +2215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 114,
+              "DocumentIndex": 136,
               "Title": "HeadDashboard.Designer.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\HeadDashboard.Designer.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\HeadDashboard.Designer.cs",
@@ -1932,7 +2227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 115,
+              "DocumentIndex": 137,
               "Title": "MemberTasks.Designer.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\MemberTasks.Designer.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\MemberTasks.Designer.cs",
@@ -1944,7 +2239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 116,
+              "DocumentIndex": 138,
               "Title": "Donations.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\Donations.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\Donations.cs",
@@ -1956,7 +2251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 117,
+              "DocumentIndex": 139,
               "Title": "DonorDL.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\DL\\DonorDL.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\DL\\DonorDL.cs",
@@ -1968,7 +2263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 118,
+              "DocumentIndex": 140,
               "Title": "CampaignRequestDL.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\DL\\CampaignRequestDL.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\DL\\CampaignRequestDL.cs",
@@ -1980,7 +2275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 119,
+              "DocumentIndex": 141,
               "Title": "EditionBL.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\bl\\EditionBL.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\bl\\EditionBL.cs",
@@ -1992,7 +2287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 120,
+              "DocumentIndex": 142,
               "Title": "CompaignBL.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\bl\\CompaignBL.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\bl\\CompaignBL.cs",
@@ -2004,19 +2299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 121,
-              "Title": "DonorBL.cs",
-              "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\bl\\DonorBL.cs",
-              "RelativeDocumentMoniker": "DBFinalProject\\bl\\DonorBL.cs",
-              "ToolTip": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\bl\\DonorBL.cs",
-              "RelativeToolTip": "DBFinalProject\\bl\\DonorBL.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T08:39:10.784Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 122,
+              "DocumentIndex": 143,
               "Title": "DonationDL.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\DL\\DonationDL.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\DL\\DonationDL.cs",
@@ -2028,7 +2311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 123,
+              "DocumentIndex": 144,
               "Title": "DonationBeneficiariesDL.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\DL\\DonationBeneficiariesDL.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\DL\\DonationBeneficiariesDL.cs",
@@ -2040,7 +2323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 124,
+              "DocumentIndex": 145,
               "Title": "DonationBeneficiariesBL.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\bl\\DonationBeneficiariesBL.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\bl\\DonationBeneficiariesBL.cs",
@@ -2052,7 +2335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 125,
+              "DocumentIndex": 146,
               "Title": "AddCampaignBeneficiaries.Designer.cs",
               "DocumentMoniker": "C:\\Users\\syusr\\Downloads\\DB\\DB-Final\\DBFinalProject\\DBFinalProject\\AddCampaignBeneficiaries.Designer.cs",
               "RelativeDocumentMoniker": "DBFinalProject\\AddCampaignBeneficiaries.Designer.cs",
@@ -2060,8 +2343,7 @@
               "RelativeToolTip": "DBFinalProject\\AddCampaignBeneficiaries.Designer.cs",
               "ViewState": "AgIAAK0BAAAAAAAAAAAwwMIBAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T13:39:28.583Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T13:39:28.583Z"
             }
           ]
         }
