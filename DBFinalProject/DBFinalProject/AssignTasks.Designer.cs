@@ -110,6 +110,7 @@
             // 
             // VolunteerID
             // 
+            this.VolunteerID.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.VolunteerID.FormattingEnabled = true;
             this.VolunteerID.Location = new System.Drawing.Point(584, 429);
             this.VolunteerID.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -215,6 +216,7 @@
             // 
             // Deadline
             // 
+            this.Deadline.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Deadline.Location = new System.Drawing.Point(587, 674);
             this.Deadline.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Deadline.Name = "Deadline";
@@ -235,6 +237,7 @@
             // 
             // AssignedByCombo
             // 
+            this.AssignedByCombo.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.AssignedByCombo.FormattingEnabled = true;
             this.AssignedByCombo.Location = new System.Drawing.Point(584, 489);
             this.AssignedByCombo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -353,6 +356,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "AssignTasks";
             this.Text = "AssignTasks";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.AssignTasks_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

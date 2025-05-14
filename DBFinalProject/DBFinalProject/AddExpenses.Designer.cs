@@ -206,6 +206,7 @@
             // 
             // dateTimePicker2
             // 
+            this.dateTimePicker2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dateTimePicker2.Location = new System.Drawing.Point(583, 589);
             this.dateTimePicker2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dateTimePicker2.Name = "dateTimePicker2";
@@ -332,6 +333,7 @@
             // 
             // ExpenseCategory
             // 
+            this.ExpenseCategory.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.ExpenseCategory.FormattingEnabled = true;
             this.ExpenseCategory.Items.AddRange(new object[] {
             "Transport",
@@ -347,6 +349,7 @@
             // 
             // EventName
             // 
+            this.EventName.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.EventName.FormattingEnabled = true;
             this.EventName.Location = new System.Drawing.Point(583, 358);
             this.EventName.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -400,6 +403,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "AddExpenses";
             this.Text = "AuthorizeExpenses";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.AddExpenses_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

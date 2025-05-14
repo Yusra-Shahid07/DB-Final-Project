@@ -345,6 +345,12 @@
     <Compile Include="RegisterMember.Designer.cs">
       <DependentUpon>RegisterMember.cs</DependentUpon>
     </Compile>
+    <Compile Include="ReportMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportMenu.Designer.cs">
+      <DependentUpon>ReportMenu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Reports\Beneficiaries\ClassB.cs" />
     <Compile Include="Reports\Beneficiaries\FormB.cs">
       <SubType>Form</SubType>
@@ -374,6 +380,12 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Reports\VolunteerTask\ClassV.cs" />
+    <Compile Include="Reports\VolunteerTask\ComboVolunteerName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\VolunteerTask\ComboVolunteerName.Designer.cs">
+      <DependentUpon>ComboVolunteerName.cs</DependentUpon>
+    </Compile>
     <Compile Include="Reports\VolunteerTask\FormV.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -543,6 +555,9 @@
     <EmbeddedResource Include="RegisterMember.resx">
       <DependentUpon>RegisterMember.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ReportMenu.resx">
+      <DependentUpon>ReportMenu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Reports\Beneficiaries\FormB.resx">
       <DependentUpon>FormB.cs</DependentUpon>
     </EmbeddedResource>
@@ -559,6 +574,9 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\Events\ReportE.rdlc" />
+    <EmbeddedResource Include="Reports\VolunteerTask\ComboVolunteerName.resx">
+      <DependentUpon>ComboVolunteerName.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Reports\VolunteerTask\FormV.resx">
       <DependentUpon>FormV.cs</DependentUpon>
     </EmbeddedResource>

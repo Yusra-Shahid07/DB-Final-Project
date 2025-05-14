@@ -58,6 +58,7 @@
             // 
             // Beneficiarytype
             // 
+            this.Beneficiarytype.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Beneficiarytype.FormattingEnabled = true;
             this.Beneficiarytype.Location = new System.Drawing.Point(622, 659);
             this.Beneficiarytype.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -79,6 +80,7 @@
             // 
             // CampaignName
             // 
+            this.CampaignName.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.CampaignName.FormattingEnabled = true;
             this.CampaignName.Location = new System.Drawing.Point(622, 602);
             this.CampaignName.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -113,6 +115,7 @@
             // 
             // dateTimePicker1
             // 
+            this.dateTimePicker1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dateTimePicker1.Location = new System.Drawing.Point(622, 489);
             this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dateTimePicker1.Name = "dateTimePicker1";
@@ -385,6 +388,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "UpdateCampaignBeneficiaries";
             this.Text = "UpdateCampaignBeneficiaries";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

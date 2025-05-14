@@ -54,6 +54,7 @@
             // 
             // date
             // 
+            this.date.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.date.Location = new System.Drawing.Point(588, 644);
             this.date.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.date.Name = "date";
@@ -74,6 +75,7 @@
             // 
             // AidType
             // 
+            this.AidType.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.AidType.FormattingEnabled = true;
             this.AidType.Items.AddRange(new object[] {
             "Medical",
@@ -100,6 +102,7 @@
             // 
             // CampaignCycleID
             // 
+            this.CampaignCycleID.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.CampaignCycleID.FormattingEnabled = true;
             this.CampaignCycleID.Location = new System.Drawing.Point(586, 459);
             this.CampaignCycleID.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -333,6 +336,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "AidDistribution";
             this.Text = "AidDistribution";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.AidDistribution_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

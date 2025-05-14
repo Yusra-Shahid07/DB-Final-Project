@@ -63,6 +63,7 @@
             // 
             // dateTimePicker1
             // 
+            this.dateTimePicker1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dateTimePicker1.Location = new System.Drawing.Point(588, 567);
             this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dateTimePicker1.Name = "dateTimePicker1";
@@ -186,6 +187,7 @@
             // 
             // CampaignCycle
             // 
+            this.CampaignCycle.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.CampaignCycle.FormattingEnabled = true;
             this.CampaignCycle.Location = new System.Drawing.Point(590, 622);
             this.CampaignCycle.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -196,6 +198,7 @@
             // 
             // DonarID
             // 
+            this.DonarID.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.DonarID.FormattingEnabled = true;
             this.DonarID.Location = new System.Drawing.Point(590, 446);
             this.DonarID.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -251,6 +254,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "addDonation";
             this.Text = "addDonation";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.addDonation_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

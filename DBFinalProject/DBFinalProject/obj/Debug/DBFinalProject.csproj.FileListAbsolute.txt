@@ -193,3 +193,5 @@ C:\Users\syusr\Downloads\DB\DB-Final\DBFinalProject\DBFinalProject\obj\Debug\DBF
 C:\Users\syusr\Downloads\DB\DB-Final\DBFinalProject\DBFinalProject\obj\Debug\DBFinalProject.Reports.Donor.FormD.resources
 C:\Users\syusr\Downloads\DB\DB-Final\DBFinalProject\DBFinalProject\obj\Debug\DBFinalProject.Reports.VolunteerTask.FormV.resources
 C:\Users\syusr\Downloads\DB\DB-Final\DBFinalProject\DBFinalProject\obj\Debug\DBFinalProject.Reports.Events.Form1.resources
+C:\Users\syusr\Downloads\DB\DB-Final\DBFinalProject\DBFinalProject\obj\Debug\DBFinalProject.Reports.VolunteerTask.ComboVolunteerName.resources
+C:\Users\syusr\Downloads\DB\DB-Final\DBFinalProject\DBFinalProject\obj\Debug\DBFinalProject.ReportMenu.resources

@@ -85,6 +85,7 @@
             // 
             // SubmittedID
             // 
+            this.SubmittedID.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.SubmittedID.FormattingEnabled = true;
             this.SubmittedID.Location = new System.Drawing.Point(579, 356);
             this.SubmittedID.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -94,6 +95,7 @@
             // 
             // CampaignCycle
             // 
+            this.CampaignCycle.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.CampaignCycle.FormattingEnabled = true;
             this.CampaignCycle.Location = new System.Drawing.Point(581, 414);
             this.CampaignCycle.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -103,6 +105,7 @@
             // 
             // Rating
             // 
+            this.Rating.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Rating.Location = new System.Drawing.Point(579, 479);
             this.Rating.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Rating.Maximum = new decimal(new int[] {
@@ -126,6 +129,7 @@
             // 
             // dateTimePicker1
             // 
+            this.dateTimePicker1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dateTimePicker1.Location = new System.Drawing.Point(580, 605);
             this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dateTimePicker1.Name = "dateTimePicker1";
@@ -367,6 +371,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "leadgivefeedback";
             this.Text = "leadgivefeedback";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.leadgivefeedback_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Rating)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

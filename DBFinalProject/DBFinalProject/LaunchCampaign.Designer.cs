@@ -71,6 +71,7 @@
             // 
             // dateTimePicker1
             // 
+            this.dateTimePicker1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dateTimePicker1.Location = new System.Drawing.Point(581, 612);
             this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dateTimePicker1.Name = "dateTimePicker1";
@@ -153,6 +154,7 @@
             // 
             // dateTimePicker2
             // 
+            this.dateTimePicker2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dateTimePicker2.Location = new System.Drawing.Point(581, 668);
             this.dateTimePicker2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dateTimePicker2.Name = "dateTimePicker2";
@@ -307,6 +309,7 @@
             // 
             // CampaignMonth
             // 
+            this.CampaignMonth.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.CampaignMonth.FormattingEnabled = true;
             this.CampaignMonth.Items.AddRange(new object[] {
             "January",
@@ -329,6 +332,7 @@
             // 
             // CampaignYear
             // 
+            this.CampaignYear.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.CampaignYear.FormattingEnabled = true;
             this.CampaignYear.Location = new System.Drawing.Point(580, 554);
             this.CampaignYear.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -338,6 +342,7 @@
             // 
             // CampaignName
             // 
+            this.CampaignName.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.CampaignName.FormattingEnabled = true;
             this.CampaignName.Location = new System.Drawing.Point(579, 446);
             this.CampaignName.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -377,6 +382,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "LaunchCampaign";
             this.Text = "Addcampaign";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Addcampaign_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

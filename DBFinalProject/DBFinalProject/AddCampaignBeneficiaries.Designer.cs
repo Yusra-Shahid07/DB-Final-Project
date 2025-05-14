@@ -98,6 +98,7 @@
             // 
             // BeneficiaryType
             // 
+            this.BeneficiaryType.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.BeneficiaryType.FormattingEnabled = true;
             this.BeneficiaryType.Items.AddRange(new object[] {
             "Orphan",
@@ -124,6 +125,7 @@
             // 
             // CampaignCycleID
             // 
+            this.CampaignCycleID.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.CampaignCycleID.FormattingEnabled = true;
             this.CampaignCycleID.Location = new System.Drawing.Point(594, 636);
             this.CampaignCycleID.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -159,6 +161,7 @@
             // 
             // dateTimePicker1
             // 
+            this.dateTimePicker1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dateTimePicker1.Location = new System.Drawing.Point(594, 529);
             this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dateTimePicker1.Name = "dateTimePicker1";
@@ -229,6 +232,7 @@
             // 
             // beneficiaryid
             // 
+            this.beneficiaryid.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.beneficiaryid.FormattingEnabled = true;
             this.beneficiaryid.Location = new System.Drawing.Point(594, 473);
             this.beneficiaryid.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -388,6 +392,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "AddCampaignBeneficiaries";
             this.Text = "Form1";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.AddCampaignBeneficiaries_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

@@ -117,6 +117,7 @@
             // 
             // CampaignCycle
             // 
+            this.CampaignCycle.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.CampaignCycle.FormattingEnabled = true;
             this.CampaignCycle.Location = new System.Drawing.Point(593, 471);
             this.CampaignCycle.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -127,6 +128,7 @@
             // 
             // VolunteerID
             // 
+            this.VolunteerID.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.VolunteerID.FormattingEnabled = true;
             this.VolunteerID.Location = new System.Drawing.Point(592, 530);
             this.VolunteerID.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -265,6 +267,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "CampaignRequest";
             this.Text = "CampaignRequest";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.CampaignRequest_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

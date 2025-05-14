@@ -252,6 +252,7 @@
             // 
             // CategoryName
             // 
+            this.CategoryName.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.CategoryName.Location = new System.Drawing.Point(634, 442);
             this.CategoryName.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.CategoryName.Name = "CategoryName";
@@ -260,6 +261,7 @@
             // 
             // Description
             // 
+            this.Description.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Description.Location = new System.Drawing.Point(634, 499);
             this.Description.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Description.Multiline = true;
@@ -293,6 +295,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "AddEventCategory";
             this.Text = "AddEventCategory";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.AddEventCategory_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

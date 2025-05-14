@@ -170,6 +170,7 @@
             // 
             // dateTimePicker1
             // 
+            this.dateTimePicker1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dateTimePicker1.Location = new System.Drawing.Point(603, 484);
             this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dateTimePicker1.Name = "dateTimePicker1";
@@ -178,6 +179,7 @@
             // 
             // UserID
             // 
+            this.UserID.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.UserID.FormattingEnabled = true;
             this.UserID.Location = new System.Drawing.Point(601, 540);
             this.UserID.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -285,6 +287,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "RegisterMember";
             this.Text = "RegisterMember";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.RegisterMember_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

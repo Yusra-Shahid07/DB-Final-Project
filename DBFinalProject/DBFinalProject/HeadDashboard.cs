@@ -76,5 +76,12 @@ namespace DBFinalProject
             signin s=new signin();
             s.Show();
         }
+
+        private void button6_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            ReportMenu reportMenu = new ReportMenu();
+            reportMenu.Show();
+        }
     }
 }

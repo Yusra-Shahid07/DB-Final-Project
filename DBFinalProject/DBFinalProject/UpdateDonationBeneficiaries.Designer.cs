@@ -72,6 +72,7 @@
             // 
             // dateTimePicker1
             // 
+            this.dateTimePicker1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dateTimePicker1.Location = new System.Drawing.Point(638, 531);
             this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dateTimePicker1.Name = "dateTimePicker1";
@@ -361,6 +362,7 @@
             // 
             // Gender
             // 
+            this.Gender.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Gender.FormattingEnabled = true;
             this.Gender.Items.AddRange(new object[] {
             "Male",
@@ -416,6 +418,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "UpdateDonationBeneficiaries";
             this.Text = "UpdateDonationBeneficiaries";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.UpdateDonationBeneficiaries_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

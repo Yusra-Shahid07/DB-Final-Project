@@ -13,21 +13,13 @@ namespace DBFinalProject.Reports.VolunteerTask
 {
     public partial class FormV : Form
     {
-        public FormV()
+        string fullName;
+        public FormV(string fullName)
         {
             InitializeComponent();
-            LoadVolunteerNames();
+            this.fullName = fullName;
         }
-        private void LoadVolunteerNames()
-        {
-            DataTable volunteers = VolunteerDL.GetAllVolunteerNames();
-            comboBox1.Items.Clear();
-            foreach (DataRow row in volunteers.Rows)
-            {
-                comboBox1.Items.Add(row["FullName"].ToString());
-            }
-        }
-
+       
         private void FormV_Load(object sender, EventArgs e)
         {
 
@@ -36,7 +28,7 @@ namespace DBFinalProject.Reports.VolunteerTask
 
         private void reportViewer1_Load(object sender, EventArgs e)
         {
-            string fullName = comboBox1.SelectedItem.ToString();
+            
 
             string query = $"CALL GetVolunteerTasksByName('{fullName}');";
             DataTable dt = SQL_Helper.view(query);
@@ -50,6 +42,13 @@ namespace DBFinalProject.Reports.VolunteerTask
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ComboVolunteerName comboVolunteerName = new ComboVolunteerName();
+            comboVolunteerName.Show();
         }
     }
 }

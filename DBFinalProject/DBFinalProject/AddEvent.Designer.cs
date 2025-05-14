@@ -70,6 +70,7 @@
             // 
             // dateTimePicker1
             // 
+            this.dateTimePicker1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dateTimePicker1.Location = new System.Drawing.Point(608, 601);
             this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dateTimePicker1.Name = "dateTimePicker1";
@@ -200,6 +201,7 @@
             // 
             // CategoryID
             // 
+            this.CategoryID.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.CategoryID.FormattingEnabled = true;
             this.CategoryID.Location = new System.Drawing.Point(605, 419);
             this.CategoryID.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -221,6 +223,7 @@
             // 
             // EditionId
             // 
+            this.EditionId.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.EditionId.FormattingEnabled = true;
             this.EditionId.Location = new System.Drawing.Point(608, 536);
             this.EditionId.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -354,6 +357,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "AddEvent";
             this.Text = "AddEvent";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.AddEvent_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
