@@ -21,7 +21,7 @@ namespace DBFinalProject
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ReportMenu());
+            Application.Run(new FormD());
         }
     }
 }

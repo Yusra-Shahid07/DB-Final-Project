@@ -70,5 +70,12 @@ namespace DBFinalProject
                 MessageBox.Show("Database error: " + ex.Message);
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            signin signin=new signin();
+            this.Hide();
+            signin.Show();
+        }
     }
 }

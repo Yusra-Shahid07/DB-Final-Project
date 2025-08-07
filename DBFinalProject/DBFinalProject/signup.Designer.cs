@@ -42,6 +42,7 @@
             this.Username = new System.Windows.Forms.TextBox();
             this.Password = new System.Windows.Forms.TextBox();
             this.Role = new System.Windows.Forms.ComboBox();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -50,7 +51,7 @@
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.button1.Location = new System.Drawing.Point(261, 795);
+            this.button1.Location = new System.Drawing.Point(206, 754);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(134, 50);
@@ -201,12 +202,27 @@
             this.Role.Size = new System.Drawing.Size(344, 28);
             this.Role.TabIndex = 41;
             // 
+            // button2
+            // 
+            this.button2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.button2.Location = new System.Drawing.Point(346, 754);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(134, 50);
+            this.button2.TabIndex = 42;
+            this.button2.Text = "Back";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // signup
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(660, 976);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.Role);
             this.Controls.Add(this.Password);
             this.Controls.Add(this.Username);
@@ -244,5 +260,6 @@
         private System.Windows.Forms.TextBox Username;
         private System.Windows.Forms.TextBox Password;
         private System.Windows.Forms.ComboBox Role;
+        private System.Windows.Forms.Button button2;
     }
 }
